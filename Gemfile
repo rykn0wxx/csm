@@ -19,6 +19,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'bourbon', '~> 4.3', '>= 4.3.4'
 
 gem 'angularjs-rails', '~> 1.5', '>= 1.5.8'
+gem 'angular-ui-router-rails', '~> 0.2.15'
+gem 'rails-angular-material', '~> 1.0', '>= 1.0.5'
+gem 'angular-rails-templates', '~> 1.0', '>= 1.0.2'
 
 
 group :development, :test do

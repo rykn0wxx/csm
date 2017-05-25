@@ -67,6 +67,11 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    angular-rails-templates (1.0.2)
+      railties (>= 4.2, < 6)
+      sprockets (>= 3.0, < 5)
+      tilt
+    angular-ui-router-rails (0.2.15)
     angularjs-rails (1.6.2)
     annotate (2.7.1)
       activerecord (>= 3.2, < 6.0)
@@ -179,6 +184,7 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 5.0.3)
       sprockets-rails (>= 2.0.0)
+    rails-angular-material (1.0.5)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -252,6 +258,8 @@ DEPENDENCIES
   active_admin_flat_skin (~> 0.1.2)
   active_admin_import (~> 3.0)
   activeadmin!
+  angular-rails-templates (~> 1.0, >= 1.0.2)
+  angular-ui-router-rails (~> 0.2.15)
   angularjs-rails (~> 1.5, >= 1.5.8)
   annotate (~> 2.7, >= 2.7.1)
   bootstrap-sass (~> 3.3, >= 3.3.6)
@@ -265,6 +273,7 @@ DEPENDENCIES
   jsonapi-resources
   puma (~> 3.0)
   rails (~> 5.0.3)
+  rails-angular-material (~> 1.0, >= 1.0.5)
   sass-rails (~> 5.0)
   selenium-webdriver (~> 3.4)
   spring
