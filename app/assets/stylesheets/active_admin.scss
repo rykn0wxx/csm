@@ -1,0 +1,14 @@
+$skinActiveColor: #F44336;
+$skinBlack: rgb(41, 61, 69);
+$textGray: rgb(176, 190, 197);
+$skinTextColor: #212B30;
+$skinHeaderBck: #212B30;
+$skinTextActiveColor: #EDEDED;
+$skinTextTable: #5B6667;
+
+@import "font-awesome";
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+
+@import "active_admin_flat_skin";

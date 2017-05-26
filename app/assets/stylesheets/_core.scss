@@ -31,9 +31,12 @@ body, body.rykn0wxx {
   height: auto;
 	font-size: 1.4rem;
   line-height: 1.4;
-  background-color: #ecf0f1;
-  color: rgb(5,7,9);
-  @include linear-gradient(#ecf0f1, tint(#ecf0f1, 50%));
+  // background-color: #ecf0f1;
+  // color: rgb(5,7,9);
+  background-color: #272B30;
+  @include linear-gradient(#272B30, tint(#272B30, 10%));
+  color: #ecf0f1;
+  // @include linear-gradient(#ecf0f1, tint(#ecf0f1, 50%));
   h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 		font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		margin: 0;
@@ -48,5 +51,27 @@ body, body.rykn0wxx {
     min-height: 100%;
     position: relative;
   	@include clearfix;
+  }
+  .content-wrapper {
+    min-height: 100%;
+    z-index: 801;
+    @include transition(all 0.3s ease-in-out);
+    .content {
+      z-index: 880;
+      min-height: 250px;
+      padding: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      position: relative
+    }
+  }
+  .navi-link {
+    text-decoration: none;
+    color: #0069d6;
+    @include transition(all 0.3s ease-in-out);
+    &:hover, &:focus {
+      text-decoration: none;
+      color: lighten(#0069d6, 15%);
+    }
   }
 }

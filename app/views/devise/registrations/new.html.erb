@@ -1,0 +1,84 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "session.css" %>
+<% end %>
+<section class="register-page">
+
+	<div class="container">
+
+		<div class="register-form-section">
+			<div class="register-content animated bounceIn">
+				<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :class => 'custom-form' }) do |f| %>
+
+					<div class="section-title">
+						<h3>Register your Account here</h3>
+					</div>
+
+					<div class="textbox-wrap">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="material-icons">mail</i>
+							</span>
+
+							<%= f.email_field :email, :class => 'form-control', :placeholder => 'Email' %>
+						</div>
+					</div>
+
+					<div class="textbox-wrap">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="material-icons">face</i>
+							</span>
+
+							<%= f.text_field :username, :class => 'form-control', :placeholder => 'Username' %>
+						</div>
+					</div>
+
+					<div class="textbox-wrap">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="material-icons">vpn_key</i>
+							</span>
+
+							<%= f.password_field :password, :class => 'form-control', :placeholder => 'Password' %>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="material-icons">vpn_key</i>
+							</span>
+
+							<%= f.password_field :password_confirmation, :class => 'form-control', :placeholder => 'Retype password' %>
+						</div>
+					</div>
+
+					<div class="register-form-action clearfix">
+						<%= f.submit 'Register Now', :class => 'md-button md-accent pull-right' %>
+					</div>
+
+				<% end %>
+			</div>
+			<div class="register-form-links animated fadeInRightBig">
+				<h4 class="text-blue">Already have an Account</h4>
+				<%= link_to 'Click here', new_user_session_path, :class => 'navi-link' %>
+				<span> to Login</span>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+
+<%= javascript_tag do %>
+
+	jQuery(function () {
+
+		var elForm = $('.custom-form .form-control');
+
+		elForm.focus(function () {
+			$(this).closest('.textbox-wrap').addClass('focused');
+		}).blur(function () {
+			$(this).closest('.textbox-wrap').removeClass('focused');
+		});
+
+	});
+
+<% end %>

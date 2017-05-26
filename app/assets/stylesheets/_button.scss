@@ -1,0 +1,10 @@
+.green-btn {
+	background-color: #2ecc71;
+	color: #C8C8C8;
+	border: none;
+	@include transition(all 0.3s ease-in-out);
+	&:hover {
+		background-color: darken(#2ecc71, 10%);
+		color: lighten(#c8c8c8, 20%);
+	}
+}

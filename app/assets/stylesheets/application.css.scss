@@ -8,4 +8,8 @@ $output-bourbon-deprecation-warnings: false;
 @import "slate";
 @import "angular-material";
 
+@import "animate";
+
 @import "core";
+@import "button";
+@import "misc";

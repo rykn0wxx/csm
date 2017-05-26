@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="mud" ng-cloak="true">
+<html lang="en" ng-app="mud" controller="MudCtrl as vm" ng-cloak="true">
   <head>
   	<meta charset="UTF-8"/>
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,11 +9,32 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
-    
+
+    <%= javascript_include_tag 'application' %>
+
+    <%= yield :head %>
+
   </head>
 
-  <body>
-    <%= yield %>
-    <%= javascript_include_tag 'application' %>
+  <body class="rykn0wxx">
+
+    <div id="wrapper">
+
+      <!-- header -->
+      <!-- header -->
+
+      <!-- sidebar -->
+      <!-- sidebar -->
+
+      <div class="content-wrapper">
+
+        <div class="content">
+          <%= yield %>
+        </div>
+
+      </div>
+
+    </div>
+
   </body>
 </html>

@@ -22,3 +22,4 @@
 //= require angular-rails-templates
 
 //= require app/app
+//= require app/controllers/MudCtrl
