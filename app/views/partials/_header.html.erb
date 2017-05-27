@@ -6,7 +6,8 @@
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 			</button>
-			<a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+			<%= link_to 'Start Admin', admin_root_path, :class => 'navbar-brand page-scroll' %>
+			
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -15,12 +16,24 @@
 				<li class="hidden">
 					<a href="#page-top"></a>
 				</li>
-				<li>
-					<%= link_to 'Home', root_path, :class => 'page-scroll' %>
-				</li>
-				<li>
-					<%= link_to 'Portals', portals_index_path, :class => 'page-scroll' %>
-				</li>
+				<%- if controller_name != 'home' %>
+					<li>
+						<%= link_to 'Home', root_path, :class => 'page-scroll' %>
+					</li>
+				<% else %>
+					<li class="active">
+						<%= link_to 'Home', root_path, :class => 'page-scroll' %>
+					</li>
+				<% end %>
+				<%- if controller_name != 'portals' %>
+					<li>
+						<%= link_to 'Portals', portals_index_path, :class => 'page-scroll' %>
+					</li>
+				<% else %>
+					<li class="active">
+						<%= link_to 'Portals', portals_index_path, :class => 'page-scroll' %>
+					</li>
+				<% end %>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

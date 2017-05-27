@@ -1,16 +1,14 @@
-(function () {
+'use strict';
 
-	'use strict';
-
-	
-	angular
+angular
 	.module('mud', [
 		'ngAnimate',
 		'ngAria',
 		'ngMessages',
 		'ngMaterial',
 		'ui.router',
-		'templates'
+		'templates',
+
 	])
 	.config(['$mdThemingProvider', '$sceDelegateProvider', function (mdTheme, scDel) {
 		mdTheme.theme('default')
@@ -22,6 +20,5 @@
 		scDel.resourceUrlWhitelist([
 			'self', '**'
 		]);
-	}]);
 
-})();
+	}]);

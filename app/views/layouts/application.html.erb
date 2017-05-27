@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="mud" controller="MudCtrl as vm" ng-cloak="true">
+<html lang="en" ng-app="mud" ng-controller="MudCtrl as vm" ng-cloak="true">
   <head>
   	<meta charset="UTF-8"/>
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,13 +10,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
 
-    <%= javascript_include_tag 'application' %>
-
     <%= yield :head %>
 
   </head>
 
   <body class="rykn0wxx">
+
+    <%= content_tag(:input, nil, :type => 'hidden', :value => controller_name, :id => 'ctrlname') %>
 
     <div id="wrapper">
 
@@ -27,15 +27,21 @@
       <!-- sidebar -->
       <!-- sidebar -->
 
+
       <div class="content-wrapper">
 
         <div class="content">
           <%= yield %>
+          <p>
+            {{vm.$scope.ctrlname}}
+          </p>
         </div>
 
       </div>
 
     </div>
+
+    <%= javascript_include_tag 'application' %>
 
   </body>
 </html>

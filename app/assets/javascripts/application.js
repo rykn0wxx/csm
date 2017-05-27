@@ -18,8 +18,10 @@
 //= require angular-aria
 //= require angular-messages
 //= require angular-material
-//= require angular-ui-router
 //= require angular-rails-templates
+//= require angular-ui-router
+//= require_tree ./templates
+
 
 //= require app/app
 //= require app/controllers/MudCtrl
