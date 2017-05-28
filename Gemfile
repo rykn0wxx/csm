@@ -56,7 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jsonapi-resources'
 gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'activeadmin', github: 'activeadmin'
-gem 'wdm', '~> 0.1.1'
 gem 'active_admin_flat_skin', '~> 0.1.2'
 gem 'active_admin_import', '~> 3.0'
 gem 'therubyracer', :platforms => :ruby
