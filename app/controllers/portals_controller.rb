@@ -6,5 +6,7 @@ class PortalsController < ApplicationController
   end
 
   def show
+		@portal = Portal.find(params[:id])
+		@containers = @portal.containers.order('position ASC')
   end
 end

@@ -53,3 +53,4 @@ gem 'active_admin_flat_skin', '~> 0.1.2'
 gem 'active_admin_import', '~> 3.0'
 gem 'therubyracer', :platforms => :ruby
 gem 'coffee-script-source', '1.8.0'
+gem 'acts_as_list', '~> 0.9.0'

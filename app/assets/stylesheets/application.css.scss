@@ -9,8 +9,11 @@ $output-bourbon-deprecation-warnings: false;
 @import "angular-material";
 
 @import "animate";
+@import "mixins/mixins";
 
 @import "core";
 @import "header";
+@import "portals";
+@import "session";
 @import "button";
 @import "misc";

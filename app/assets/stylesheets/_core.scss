@@ -62,7 +62,17 @@ body, body.rykn0wxx {
       padding: 15px;
       margin-right: auto;
       margin-left: auto;
-      position: relative
+      position: relative;
+			.content-sections {
+				z-index: 890;
+				padding: 54px 0;
+				@include transition(all 0.3s ease-in-out);
+			}
+			@media (min-width: $screen-sm-min) {
+				.content-sections {
+					padding-top: 100px;
+				}
+			}
     }
   }
   .navi-link {

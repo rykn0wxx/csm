@@ -1,7 +1,3 @@
-<% content_for :head do %>
-  <%= stylesheet_link_tag "portals.css" %>
-<% end %>
-
 <div class="img-blur"></div>
 <header class="header">
 	<div class="container">
@@ -12,3 +8,32 @@
 		</div>
 	</div>
 </header>
+
+<section class="services">
+
+  <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">Available Portals</h3>
+          <h4 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <% @portals.each do |portal| %>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <%= content_tag :i, nil, :class => "fa #{portal.containers.first.icon} fa-stack-1x fa-inverse" %>
+            </span>
+            <%= content_tag :h3, nil, :class => 'service-heading' do %>
+              <%= link_to(portal.title, portal_path(portal.id)) %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+
+  </div>
+
+</section>

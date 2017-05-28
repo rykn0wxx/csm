@@ -7,7 +7,7 @@
 				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 			</button>
 			<%= link_to 'Start Admin', admin_root_path, :class => 'navbar-brand page-scroll' %>
-			
+
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,11 +27,11 @@
 				<% end %>
 				<%- if controller_name != 'portals' %>
 					<li>
-						<%= link_to 'Portals', portals_index_path, :class => 'page-scroll' %>
+						<%= link_to 'Portals', portals_path, :class => 'page-scroll' %>
 					</li>
 				<% else %>
 					<li class="active">
-						<%= link_to 'Portals', portals_index_path, :class => 'page-scroll' %>
+						<%= link_to 'Portals', portals_path, :class => 'page-scroll' %>
 					</li>
 				<% end %>
 			</ul>

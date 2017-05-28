@@ -15,4 +15,13 @@ ActiveAdmin.register Portal do
 		actions
 	end
 
+	sidebar 'Portal Containers', :only => [:show, :edit] do
+		ul do
+			resource.containers.each do |c|
+				li link_to c.name, admin_portal_container_path(resource.id, c.id)
+			end
+		end
+		link_to 'View All', admin_portal_containers_path(resource)
+	end
+
 end

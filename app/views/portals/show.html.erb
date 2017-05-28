@@ -1,2 +1,11 @@
-<h1>Portals#show</h1>
-<p>Find me in app/views/portals/show.html.erb</p>
+<section class="content-sections">
+  <% @containers.each do |c| %>
+    <%= content_tag :div, nil, :class => "#{c.css_class}" do %>
+      <% c.rows.each do |r| %>
+        <%= content_tag :div, nil, :class => "#{r.row_class}" do %>
+          <%= r.name %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+</section>
