@@ -25,10 +25,15 @@
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <%= content_tag :i, nil, :class => "fa #{portal.containers.first.icon} fa-stack-1x fa-inverse" %>
+              <% if portal.containers.any? %>
+								<%= content_tag :i, nil, :class => "fa #{portal.containers.first.icon} fa-stack-1x fa-inverse" %>
+							<% end %>
             </span>
             <%= content_tag :h3, nil, :class => 'service-heading' do %>
               <%= link_to(portal.title, portal_path(portal.id)) %>
+            <% end %>
+						<%= content_tag :p, nil, :class => 'text-muted' do %>
+              <%= portal.short_description %>
             <% end %>
           </div>
         <% end %>

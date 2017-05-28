@@ -19,6 +19,8 @@ class Row < ApplicationRecord
   belongs_to :container
   acts_as_list scope: :container
 
+  has_many :columns
+
   validates :name, presence: true
   validates :position, numericality: { :greater_than_or_equal_to => 1 }
 end

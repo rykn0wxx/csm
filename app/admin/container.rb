@@ -25,8 +25,11 @@ ActiveAdmin.register Container do
 
 	sidebar 'Container Rows', :only => [:show, :edit] do
 		ul do
-      li link_to 'Rows', admin_container_rows_path(resource)
-    end
+			resource.rows.each do |r|
+				li link_to r.name, admin_container_row_path(resource.id, r.id)
+			end
+		end
+		link_to 'View All', admin_container_rows_path(resource)
 	end
 
 end

@@ -21,4 +21,13 @@ ActiveAdmin.register Row do
 		actions
 	end
 
+  sidebar 'Row Columns', :only => [:show, :edit] do
+		ul do
+			resource.columns.each do |c|
+				li link_to c.name, admin_row_column_path(resource.id, c.id)
+			end
+		end
+		link_to 'View All', admin_row_columns_path(resource)
+	end
+
 end

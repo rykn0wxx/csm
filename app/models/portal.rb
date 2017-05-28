@@ -16,5 +16,4 @@ class Portal < ApplicationRecord
 
 	validates :title, presence: true
 	validates :short_description, presence: true
-	validates :published, presence: true
 end

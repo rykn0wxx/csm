@@ -109,4 +109,10 @@ section.services {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  a {
+    text-decoration: none;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
 }
