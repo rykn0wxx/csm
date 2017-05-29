@@ -5,6 +5,9 @@ $skinTextColor: #212B30;
 $skinHeaderBck: #212B30;
 $skinTextActiveColor: #EDEDED;
 $skinTextTable: #5B6667;
+$output-bourbon-deprecation-warnings: false;
+@import "fonts";
+@import "bourbon/bourbon";
 
 @import "font-awesome";
 @import "active_admin/mixins";
@@ -12,3 +15,43 @@ $skinTextTable: #5B6667;
 
 
 @import "active_admin_flat_skin";
+
+
+body {
+  text-shadow: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: none !important;
+}
+.input-group .input-group-addon {
+  border-radius: 0;
+  border-color: $skinTextTable;
+	color: $textGray;
+	background-color: $skinBlack;
+}
+
+.breadcrumb {
+  border: 0 solid rgba(0,0,0,0);
+  background-image: none;
+  text-shadow: none;
+}
+
+.form-group {
+  label {
+    color: $skinTextColor;
+  }
+}
+input[type=text], input[type=email], input[type=password], textarea {
+  &.form-control {
+    transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    &:focus, &:focus {
+      // box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+      box-shadow: 0 0 5px rgba(231, 76, 60, 0.7);
+      // border: 1px solid rgba(81, 203, 238, 1);
+      border: 1px solid rgba(231, 76, 60, 0.9);
+    }
+  }
+}

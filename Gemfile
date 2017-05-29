@@ -18,8 +18,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'bourbon', '~> 4.2', '>= 4.2.6'
-gem 'neat', '~> 2.0'
+gem 'bourbon', '= 2.1.1'
+gem 'neat', '~> 1.5'
 gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
 
 gem 'angularjs-rails', '~> 1.5', '>= 1.5.8'
@@ -32,7 +32,7 @@ group :development do
 end
 
 group :production do
-  gem 'therubyracer'
+  # gem 'therubyracer'
   gem 'pg'
   gem 'rails_12factor'
 end
@@ -59,6 +59,9 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_admin_flat_skin', '~> 0.1.2'
 gem 'active_admin_import', '~> 3.0'
+gem 'active_admin_editor'
+gem 'activeadmin_tinymce'
 gem 'therubyracer', :platforms => :ruby
 gem 'coffee-script-source', '1.8.0'
 gem 'acts_as_list', '~> 0.9.0'
+gem 'jquery-ace-rails', '~> 1.0', '>= 1.0.1'

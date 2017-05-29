@@ -1,12 +1,14 @@
 $output-bourbon-deprecation-warnings: false;
 @import "fonts";
-@import "bourbon";
+@import "bourbon/bourbon";
 @import "bootstrap-sprockets";
 @import "font-awesome";
 @import "slatevar";
 @import "bootstrap";
 @import "slate";
 @import "angular-material";
+
+@import "active_admin/editor/wysiwyg";
 
 @import "animate";
 @import "mixins/mixins";

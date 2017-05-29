@@ -1,0 +1,53 @@
+<section class="content-sections">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-5">
+        <%= form_for @widget, :html => { :class => 'form-horizontal' } do |f| %>
+          <% if @widget.errors.any? %>
+            <div id="error_explanation">
+              <h2><%= pluralize(@widget.errors.count, "error") %> prohibited this widget from being saved:</h2>
+              <ul>
+              <% @widget.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+              <% end %>
+              </ul>
+            </div>
+          <% end %>
+
+          <div class="field">
+            <%= f.label :name %><br />
+            <%= f.text_field :name %>
+          </div>
+
+          <div class="field">
+            <%= f.label :description %><br />
+            <%= f.text_field :description %>
+          </div>
+
+          <div class="field">
+            <%= f.label :body %><br />
+            <%= f.text_field :body %>
+          </div>
+
+          <div class="field">
+            <%= f.label :css %><br />
+            <%= f.text_field :css %>
+          </div>
+
+          <%= f.fields_for :fields do |builder| %>
+            <%= render 'partials/field_fields', f: builder %>
+          <% end %>
+          <%= link_to_add_fields "Add Field", f, :fields %>
+
+          <div class="actions">
+            <%= f.submit %>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+  </div>
+
+</section>

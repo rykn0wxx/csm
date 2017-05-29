@@ -19,6 +19,23 @@
 							}
 						});
 					}
+					if ($j('form .remove_fields').length > 0) {
+						console.log('asd');
+						$j('form .remove_fields').on('click', function (ev) {
+							$j(this).prev('input[type=hidden]').val('1');
+							$j(this).closest('fieldset').hide();
+							ev.preventDefault();
+						});
+					}
+
+					if ($j('form .add_fields').length > 0) {
+						$j('form .add_fields').on('click', function (ev) {
+							var time = new Date().getTime();
+							var regexp = new RegExp($(this).data('id'), 'g');
+							$j(this).before($j(this).data('fields').replace(regexp, time));
+							ev.preventDefault();
+						});
+					}
 				};
 			}, true);
 		}]);

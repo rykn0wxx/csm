@@ -84,4 +84,17 @@ body, body.rykn0wxx {
       color: lighten(#0069d6, 15%);
     }
   }
+	input[type=text], input[type=email], input[type=password], textarea {
+    &.form-control {
+      transition: all 0.30s ease-in-out;
+      outline: none;
+      border: 1px solid #DDDDDD;
+      &:focus, &:focus {
+        // box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+        box-shadow: 0 0 5px rgba(231, 76, 60, 0.7);
+        // border: 1px solid rgba(81, 203, 238, 1);
+        border: 1px solid rgba(231, 76, 60, 0.9);
+      }
+    }
+  }
 }

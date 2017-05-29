@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
 	devise_for :admin_users, ActiveAdmin::Devise.config
+
 	ActiveAdmin.routes(self)
+	
 	devise_for :users
 
-  resources :portals do
-    resources :containers
-  end
+  resources :portals
+
 	get 'index' => 'home#index', :as => 'index'
 	root :to => 'home#index'
 
