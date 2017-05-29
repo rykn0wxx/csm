@@ -5,16 +5,16 @@ $(function () {
     $('#dynmic-pnl a').on('click', function () {
       setTimeout(function() {
         $('#dynmic-pnl .admin-ace').each(function () {
-          $(this).ace({theme: 'monokai', lang: 'ruby'});
+          $(this).ace({theme: 'monokai', lang: 'ruby', height: '50px'});
         });
-      }, 50);
+      }, 100);
     });
   }
 
   function initAce () {
     if ($('.admin-ace').length > 0) {
       $('.admin-ace').each(function () {
-        $(this).ace({theme: 'monokai', lang: 'ruby'});
+        $(this).ace({theme: 'monokai', lang: 'ruby', height: '50px'});
       });
     }
   }

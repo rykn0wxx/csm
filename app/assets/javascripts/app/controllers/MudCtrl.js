@@ -20,7 +20,6 @@
 						});
 					}
 					if ($j('form .remove_fields').length > 0) {
-						console.log('asd');
 						$j('form .remove_fields').on('click', function (ev) {
 							$j(this).prev('input[type=hidden]').val('1');
 							$j(this).closest('fieldset').hide();
