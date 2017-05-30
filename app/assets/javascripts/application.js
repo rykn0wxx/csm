@@ -14,14 +14,24 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require angular
+//= require angular-cookies
 //= require angular-animate
 //= require angular-aria
 //= require angular-messages
+//= require angular-resource
 //= require angular-material
 //= require angular-rails-templates
 //= require angular-ui-router
 //= require_tree ./templates
 
+//= require highstock.src
+//= require highcharts/highcharts-more
+//= require highcharts/modules/data
+//= require highcharts/modules/drilldown
+//= require highcharts/modules/exporting
+//= require highcharts/modules/offline-exporting
+//= require highcharts-ng
 
 //= require app/app
 //= require app/controllers/MudCtrl
+//= require app/controllers/HighCtrl

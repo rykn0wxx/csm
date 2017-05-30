@@ -1,29 +1,77 @@
-<div class="col-md-9 col-sm-12 span9">
+<% if block.fields.any? %>
+  <div class="col-md-3 col-sm-12 span3">
+    <% block.fields.each do |field| %>
 
-  <div class="row">
+      <div class="row-fluid">
 
-    <div class="chart-container">
-      <div class="hc-chart">
-        Chart Goes here
+        <%= content_tag :div, nil, :class => 'form-container' do %>
+          <%= render 'partials/' + field.field_type, field: field %>
+        <% end %>
+
       </div>
-    </div>
 
+    <% end %>
   </div>
+<% end %>
 
-</div>
+<div layout="column" style="height: 500px;">
 
-<div class="col-md-3 col-sm-12 span3">
-  <div class="row-fluid">
-    <div class="form-horizontal">
-      <div class="form-group">
-        <label for="inp1">Label for inp1</label>
-        <div class="input-group">
-          <div class="input-group-addon">
-            <i class="fa fa-cogs"></i>
-          </div>
-          <input type="text" class="form-control" />
+  <div layout="row" flex>
+
+    <md-sidenav md-is-open="true" class="md-sidenav-left" md-component-id="left" md-disable-backdrop="true" md-whiteframe="5">
+
+      <md-toolbar class="md-theme-indigo">
+        <h4 class="md-toolbar-tools">Header</h4>
+      </md-toolbar>
+
+      <md-content layout-margin>
+
+        <div class="chart-config">
+
+          <md-input-container>
+            <label for="testInput1">Test input</label>
+            <input id="testInput1" type="text" ng-model="data1">
+          </md-input-container>
+
+          <md-input-container>
+            <label for="testInput2">Test input</label>
+            <input id="testInput2" type="text" ng-model="data2">
+          </md-input-container>
+
+          <md-input-container>
+            <label for="testInput3">Test input</label>
+            <input id="testInput3" type="text" ng-model="data3">
+          </md-input-container>
+
         </div>
+
+
+        <md-button class="md-accent" ng-click="toggleLeft()">
+          Close Sidenav
+        </md-button>
+
+      </md-content>
+
+    </md-sidenav>
+
+    <md-content flex layout-padding>
+
+      <div layout="column" layout-align="top center">
+
+        <div class="chart-container">
+          <highchart id="chart1" config="chartConfig" class="span9" ></highchart>
+        </div>
+
+        <div>
+          <md-button ng-click="toggleLeft()" class="md-raised md-warn">
+            Toogle Sidenav
+          </md-button>
+        </div>
+
       </div>
-    </div>
+
+    </md-content>
+
   </div>
+
 </div>

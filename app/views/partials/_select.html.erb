@@ -1,0 +1,11 @@
+<% fldval = JSON.parse(json_escape(field.field_val)) %>
+<div class="form-group">
+  <md-input-container>
+    <label><%= field.name %></label>
+    <md-select ng-model="chartConfig.options.chart.type" md-selected-text="hcCtrl.getSelectedText()">
+      <% fldval.each do |fld| %>
+        <md-option ng-value="<%= fld['id'] %>"><%= fld['title'] %></md-option>
+      <% end %>
+    </md-select>
+  </md-input-container>
+</div>

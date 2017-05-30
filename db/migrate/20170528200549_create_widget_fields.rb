@@ -4,7 +4,7 @@ class CreateWidgetFields < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :field_type
       t.boolean :required
-      t.text :init_data
+      t.string :field_val
       t.references :widget_type, foreign_key: true
 
       t.timestamps

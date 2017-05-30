@@ -26,6 +26,7 @@ gem 'angularjs-rails', '~> 1.5', '>= 1.5.8'
 gem 'angular-ui-router-rails', '~> 0.2.15'
 gem 'rails-angular-material', '~> 1.0', '>= 1.0.5'
 gem 'angular-rails-templates', '~> 1.0', '>= 1.0.2'
+gem 'highcharts-rails', '= 5.0.0'
 
 group :development do
   gem 'sqlite3'
@@ -60,7 +61,6 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'active_admin_flat_skin', '~> 0.1.2'
 gem 'active_admin_import', '~> 3.0'
 gem 'active_admin_editor'
-gem 'activeadmin_tinymce'
 gem 'therubyracer', :platforms => :ruby
 gem 'coffee-script-source', '1.8.0'
 gem 'acts_as_list', '~> 0.9.0'

@@ -1,8 +1,9 @@
-ActiveAdmin.register Row
 ActiveAdmin.register Column do
   belongs_to :row
   navigation_menu :row
 
+  includes :widget_type
+  
   config.sort_order = 'updated_at_desc'
 	permit_params :name, :row_id, :position, :css_class, :size_xs, :size_sm, :size_md, :size_lg
 
@@ -24,5 +25,28 @@ ActiveAdmin.register Column do
 		end
 		actions
 	end
+
+  form do |f|
+
+    f.semantic_errors
+    f.inputs 'Columns' do
+      f.input :row, :input_html => {:class => 'form-control' }, :as => :hidden
+      f.input :name, :input_html => {:class => 'form-control' }
+      f.input :position, :input_html => {:class => 'form-control' }
+      f.input :css_class, :input_html => {:class => 'form-control' }
+      f.input :size_xs, :input_html => {:class => 'form-control' }
+      f.input :size_sm, :input_html => {:class => 'form-control' }
+      f.input :size_md, :input_html => {:class => 'form-control' }
+      f.input :size_lg, :input_html => {:class => 'form-control' }
+    end
+
+    f.inputs 'Widgets' do
+      f.object.widget_types.each do |wt|
+        li wt.to_json
+      end
+    end
+    f.actions
+
+  end
 
 end

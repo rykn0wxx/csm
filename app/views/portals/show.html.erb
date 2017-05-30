@@ -1,5 +1,5 @@
 <% present @portal do |portal_presenter| %>
-  <section class="content-sections">
+  <section class="content-sections" ng-controller="HighCtrl as hcCtrl">
     <% if @portal.containers.any? %>
       <% @portal.containers.order('position ASC').each do |c| %>
 
@@ -11,7 +11,21 @@
 
                   <% if r.columns.any? %>
                     <% r.columns.each do |col| %>
-                      <%= col.name %>
+
+                      <% if col.widget_types.any? %>
+
+                        <% col.widget_types.each do |cwt| %>
+
+                          <% if cwt.body.blank? %>
+                            <%= render cwt.partial_link, block: cwt %>
+                          <% else %>
+                            <%= raw cwt.body %>
+                          <% end %>
+
+                        <% end %>
+
+                      <% end %>
+
                     <% end %>
                   <% end %>
 

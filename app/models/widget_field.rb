@@ -6,7 +6,7 @@
 #  name           :string
 #  field_type     :string
 #  required       :boolean
-#  init_data      :text
+#  field_val      :string
 #  widget_type_id :integer
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
@@ -18,4 +18,5 @@
 
 class WidgetField < ApplicationRecord
   belongs_to :widget_type
+
 end

@@ -59,6 +59,9 @@ $theme-sub-primary: #F05F40;
 		color: white;
 		background-color: darken($theme-primary, 10%);
 	}
+	&.navbar-fixed-top {
+		z-index: 45;
+	}
 }
 
 @media(min-width:768px) {

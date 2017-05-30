@@ -11,6 +11,7 @@
 #
 
 class WidgetType < ApplicationRecord
+  has_and_belongs_to_many :columns, :autosave => true, :join_table => 'columns_widget_types'
   has_many :fields, :class_name => 'WidgetField'
   accepts_nested_attributes_for :fields, allow_destroy: true
 end

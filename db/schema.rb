@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170528200549) do
+ActiveRecord::Schema.define(version: 20170529110316) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -57,6 +57,13 @@ ActiveRecord::Schema.define(version: 20170528200549) do
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
     t.index ["row_id"], name: "index_columns_on_row_id"
+  end
+
+  create_table "columns_widget_types", id: false, force: :cascade do |t|
+    t.integer "column_id"
+    t.integer "widget_type_id"
+    t.index ["column_id"], name: "index_columns_widget_types_on_column_id"
+    t.index ["widget_type_id"], name: "index_columns_widget_types_on_widget_type_id"
   end
 
   create_table "containers", force: :cascade do |t|
@@ -111,7 +118,7 @@ ActiveRecord::Schema.define(version: 20170528200549) do
     t.string   "name"
     t.string   "field_type"
     t.boolean  "required"
-    t.text     "init_data"
+    t.string   "field_val"
     t.integer  "widget_type_id"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false

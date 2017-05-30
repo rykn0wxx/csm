@@ -8,8 +8,8 @@
     <title>Csm</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-
+    <%= stylesheet_link_tag    'application' %>
+    <%= javascript_include_tag 'application' %>
     <%= yield :head %>
 
   </head>
@@ -18,7 +18,7 @@
 
     <%= content_tag(:input, nil, :type => 'hidden', :value => controller_name, :id => 'ctrlname') %>
 
-    <div id="wrapper">
+    <div id="wrapper" ng-if="$pageFinishedLoading">
 
       <!-- header -->
       <%= render 'partials/header' %>
@@ -38,7 +38,11 @@
 
     </div>
 
-    <%= javascript_include_tag 'application' %>
+    <div id="preloader" ng-if="!$pageFinishedLoading">
+      <div layout="row" layout-sm="column" layout-align="space-around">
+        <md-progress-circular class="md-accent md-hue-1" md-diameter="96" md-mode="indeterminate"></md-progress-circular>
+      </div>
+    </div>
 
   </body>
 </html>

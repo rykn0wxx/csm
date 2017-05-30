@@ -2,6 +2,9 @@ $output-bourbon-deprecation-warnings: false;
 @import "fonts";
 @import "bourbon/bourbon";
 @import "bootstrap-sprockets";
+
+@import "mixins/mixins";
+
 @import "font-awesome";
 @import "slatevar";
 @import "bootstrap";
@@ -11,11 +14,14 @@ $output-bourbon-deprecation-warnings: false;
 @import "active_admin/editor/wysiwyg";
 
 @import "animate";
-@import "mixins/mixins";
 
 @import "core";
 @import "header";
+@import "preloader";
 @import "portals";
 @import "session";
 @import "button";
+@import "widget_styles";
+
+
 @import "misc";
