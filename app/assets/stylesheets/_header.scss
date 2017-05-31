@@ -33,10 +33,11 @@ $theme-sub-primary: #F05F40;
 				font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 				font-weight: 400;
 				letter-spacing: 1px;
-				color: white;
-				&:hover,
-				&:focus {
-					color: $theme-primary;
+				color: lighten($theme-primary, 20%);
+				&:hover, &:focus {
+					background-image: none;
+					background-color: rgba(0,0,0,0.4);
+					color: lighten($theme-primary, 30%);
 					outline: none;
 				}
 			}
@@ -46,6 +47,16 @@ $theme-sub-primary: #F05F40;
 		> li {
 			> a {
 				@include transition(all 0.3s ease-in-out);
+				&.active {
+					border-radius: 0;
+					color: lighten($theme-primary, 30%);
+					background-color: $theme-primary;
+					&:hover, &:focus {
+						color: white;
+						background-color: darken($theme-primary, 10%);
+						background-image: none;
+					}
+				}
 			}
 		}
 	}
@@ -70,8 +81,6 @@ $theme-sub-primary: #F05F40;
 		border: none;
 		.navbar-brand {
 			font-size: 2em;
-			-webkit-transition: all 0.3s;
-			-moz-transition: all 0.3s;
 			transition: all 0.3s;
 		}
 		.navbar-nav {

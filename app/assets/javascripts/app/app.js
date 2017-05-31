@@ -8,10 +8,11 @@ angular
 		'ngMaterial',
 		'ui.router',
 		'templates',
-		'highcharts-ng'
+		'highcharts-ng',
+		'restangular'
 
 	])
-	.config(['$mdThemingProvider', '$sceDelegateProvider', function (mdTheme, scDel) {
+	.config(['$mdThemingProvider', '$sceDelegateProvider', 'RestangularProvider', function (mdTheme, scDel, ngRest) {
 		mdTheme.theme('default')
 			.primaryPalette('indigo')
 			.accentPalette('teal')
@@ -21,6 +22,10 @@ angular
 		scDel.resourceUrlWhitelist([
 			'self', '**'
 		]);
+
+		ngRest.setBaseUrl('/');
+
+		console.log(ngRest);
 
 	}])
 	.run(['$timeout', '$rootScope', '$q', '$window', function ($time, $root, $q, $w) {

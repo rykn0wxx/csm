@@ -3,12 +3,17 @@
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
 				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 			</button>
 			<%= link_to 'Start Admin', admin_root_path, :class => 'navbar-brand page-scroll' %>
 
 		</div>
+
+		<!-- collection of navigational links  -->
+
+		<!-- collection of navigational links  -->
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -16,24 +21,27 @@
 				<li class="hidden">
 					<a href="#page-top"></a>
 				</li>
-				<%- if controller_name != 'home' %>
-					<li>
-						<%= link_to 'Home', root_path, :class => 'page-scroll' %>
-					</li>
-				<% else %>
-					<li class="active">
-						<%= link_to 'Home', root_path, :class => 'page-scroll' %>
-					</li>
-				<% end %>
-				<%- if controller_name != 'portals' %>
-					<li>
-						<%= link_to 'Portals', portals_path, :class => 'page-scroll' %>
-					</li>
-				<% else %>
-					<li class="active">
-						<%= link_to 'Portals', portals_path, :class => 'page-scroll' %>
-					</li>
-				<% end %>
+				<li>
+					<%=
+						link_to_unless_current 'Home', { :controller => 'home', :action => 'index' }, { :class => 'page-scroll' } do
+							link_to 'Home', nil, :class => 'active page-scroll'
+						end
+					 %>
+				</li>
+				<li>
+					<%=
+						link_to_unless_current 'Portals', { :controller => 'portals', :action => 'index' }, { :class => 'page-scroll' } do
+							link_to 'Portals', nil, :class => 'active page-scroll'
+						end
+					 %>
+				</li>
+				<li>
+					<%=
+						link_to_unless_current 'Widgets', { :controller => 'widgets', :action => 'index' }, { :class => 'page-scroll' } do
+							link_to 'Widgets', nil, :class => 'active page-scroll'
+						end
+					 %>
+				</li>
 
 			</ul>
 		</div>
