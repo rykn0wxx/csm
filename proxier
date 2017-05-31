@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export HTTP_PROXY=http://mnlapd-wcg1.techteam.com:8080
+
+export HTTPS_PROXY=http://mnlapd-wcg1.techteam.com:8080

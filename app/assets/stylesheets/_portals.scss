@@ -19,7 +19,7 @@ $blurimg: '132H.jpg';
   color: $theme-sub-primary;
 }
 
-.img-blur {
+.img-blur::after {
   position: absolute;;
   left: 0;
   top: 0;

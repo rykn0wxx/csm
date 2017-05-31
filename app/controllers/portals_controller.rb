@@ -1,6 +1,9 @@
 class PortalsController < ApplicationController
 	before_action :authenticate_user!
 
+	respond_to :html
+	layout 'rykn0wxx'
+
   def index
   	@portals = Portal.all.order('created_at ASC')
   end

@@ -1,27 +1,22 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" ng-app="mud" ng-controller="MudCtrl" ng-cloak="true">
   <head>
-  	<meta charset="UTF-8"/>
+    <meta charset="UTF-8"/>
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
   	<meta name="description" content="rykn0wxx" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
     <title>CSM</title>
-
-    <%= javascript_tag do %>
-      document.documentElement.className = 'js';
-    <% end %>
-
     <%= stylesheet_link_tag    'application' %>
-
+    <%= javascript_include_tag 'application' %>
 
     <%= csrf_meta_tags %>
     <%= yield :head %>
-
   </head>
-
   <body class="rykn0wxx">
+    <%= content_tag(:input, nil, :type => 'hidden', :value => controller_name, :id => 'ctrlname') %>
 
-    <div id="wrapper" class="wrapper">
+    <!-- wrapper -->
+    <div id="wrapper" class="wrapper" ng-if="$pageFinishedLoading">
 
       <!-- header -->
       <%= render 'partials/header' %>
@@ -30,10 +25,18 @@
       <!-- sidebar -->
       <!-- sidebar -->
 
-      <%= yield %>
+      <div class="content-wrapper">
+        <div class="content">
+          <%= yield %>
+        </div>
+      </div>
 
     </div>
+    <!-- wrapper -->
 
-    <%= javascript_include_tag 'segmenter' %>
+    <!-- preloader -->
+    <%= render 'partials/preloader' %>
+    <!-- preloader -->
+
   </body>
 </html>
