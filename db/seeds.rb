@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # AdminUser.create!(email: 'mudhdead@mudhdead.com', username: 'mudhdead', password: 'mudhdead', password_confirmation: 'mudhdead')
-# colz = :name, :code, :label, :svg_path, :is_active
-rd = JSON.parse(File.read('db/region.json'))
-Region.create!(rd)
+region_cols = ['name','code','label','svg_path','is_active']
+region_all = JSON.parse(File.read('db/region.json'))
+region_all.each do |r|
+  ndata = r.slice(*region_cols)
+  Region.create! ndata.to_hash
+end

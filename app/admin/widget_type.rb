@@ -2,6 +2,8 @@ ActiveAdmin.register WidgetType do
   config.sort_order = 'updated_at_desc'
 	permit_params :name, :body, :partial_link, :_wysihtml5_mode, :fields_attributes => [:_destroy, :id, :field_type, :name, :field_val, :required, :widget_type_id]
 
+  preserve_default_filters!
+  remove_filter :created_at, :updated_at
 
   form do |f|
     f.inputs 'Widgets' do

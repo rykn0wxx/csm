@@ -5,6 +5,9 @@ ActiveAdmin.register Container do
 	config.sort_order = 'updated_at_desc'
 	permit_params :name, :position, :portal_id, :css_class, :icon
 
+	preserve_default_filters!
+  remove_filter :created_at, :updated_at
+
 	index do
 		selectable_column
 		# id_column

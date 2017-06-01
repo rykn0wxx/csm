@@ -6,6 +6,9 @@ ActiveAdmin.register Row do
   config.sort_order = 'updated_at_desc'
 	permit_params :name, :position, :container_id, :row_class
 
+  preserve_default_filters!
+  remove_filter :created_at, :updated_at
+
   index do
 		selectable_column
 		# id_column

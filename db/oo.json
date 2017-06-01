@@ -1,0 +1,5 @@
+[
+{"name":"Alcoa","code":"Alcoa","dim_region_id":2,"is_active":true},
+{"name":"BCG","code":"BCG","dim_region_id":2,"is_active":true},
+{"name":"Bio-Rad","code":"Bio-Rad","dim_region_id":2,"is_active":true}
+]

@@ -13,4 +13,7 @@
 #
 
 class Region < ApplicationRecord
+  validates :name, presence: true
+  validates :code, presence: true
+  validates :label, presence: true
 end

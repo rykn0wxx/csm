@@ -3,9 +3,12 @@ ActiveAdmin.register Column do
   navigation_menu :row
 
   includes :widget_type
-  
+
   config.sort_order = 'updated_at_desc'
 	permit_params :name, :row_id, :position, :css_class, :size_xs, :size_sm, :size_md, :size_lg
+
+  preserve_default_filters!
+  remove_filter :created_at, :updated_at
 
   index do
 		selectable_column
