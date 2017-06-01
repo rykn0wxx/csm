@@ -1,0 +1,28 @@
+<% title 'Gauges' %>
+<section class="content-sections">
+
+  <% for gauge in @gauges %>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h3 class="md-headline"><%= gauge.name %></h3>
+        <p>
+          <%= link_to "View", gauge %> | 
+          <%= link_to "Edit", edit_gauge_path(gauge) %> |
+          <%= link_to "Destroy", gauge, :confirm => 'Are you sure?', :method => :delete %>
+        </p>
+      </div>
+    </div>
+    <blockquote>
+      <p><%= link_to "Create New Gauge", new_gauge_path %></p>
+    </blockquote>
+  <% end %>
+
+  <%- if @gauges.size == 0 %>
+    <div class="well">
+      <blockquote>
+        <p>Cuurently there's no gauge that has been created.</p>
+        <footer><%= link_to "Create New Gauge", new_gauge_path %></footer>
+      </blockquote>
+    </div>
+  <% end -%>
+</section>

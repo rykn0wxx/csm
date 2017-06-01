@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
   	<meta charset="UTF-8"/>
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,12 +7,8 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
     <title><%= yield(:title) || 'CSM' %></title>
 
-    <%= javascript_tag do %>
-      document.documentElement.className = 'js';
-    <% end %>
-
     <%= stylesheet_link_tag    'application' %>
-
+    <%= javascript_include_tag 'application' %>
 
     <%= csrf_meta_tags %>
     <%= yield :head %>
@@ -30,11 +26,16 @@
       <!-- sidebar -->
       <!-- sidebar -->
 
-      <%= yield %>
+      <div class="content-wrapper">
+        <div class="content">
+          <% flash.each do |name, msg| %>
+            <%= content_tag :div, msg, :id => "flash_#{name}" %>
+          <% end %>
+          <%= yield %>
+        </div>
+      </div>
 
     </div>
-
-    <%= javascript_include_tag 'segmenter' %>
 
   </body>
 </html>
