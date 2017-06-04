@@ -5,6 +5,8 @@ ActiveAdmin.register WidgetType do
   preserve_default_filters!
   remove_filter :created_at, :updated_at
 
+  menu parent: 'Portals'
+
   form do |f|
     f.inputs 'Widgets' do
       f.input :name, :input_html => {:class => 'form-control' }

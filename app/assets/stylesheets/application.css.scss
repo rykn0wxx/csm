@@ -7,6 +7,7 @@ $output-bourbon-deprecation-warnings: false;
 
 @import "font-awesome";
 @import "slatevar";
+@import "vars";
 @import "bootstrap";
 @import "slate";
 @import "angular-material";
@@ -14,6 +15,8 @@ $output-bourbon-deprecation-warnings: false;
 @import "active_admin/editor/wysiwyg";
 
 @import "animate";
+
+@import "overrides/overrides";
 
 @import "core";
 @import "header";

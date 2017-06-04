@@ -1,0 +1,23 @@
+.block {
+  .list-group-item {
+    border: 0 solid rgba(0,0,0,0);
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+  }
+  .item {
+    margin-left: 30px;
+  }
+}
+
+.box {
+  border-top: 2px solid darken($gray-dark, 10%);
+  position: relative;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: lighten(#272B30, 10%);
+  @include boxshadow-4();
+  .box-body, .box-header {
+    padding: 10px;
+  }
+
+}

@@ -42,6 +42,15 @@ body, body.rykn0wxx {
   p {
 		margin: 0 0 10px;
 	}
+	a {
+		text-decoration: none;
+		color: #448aff;
+		@include transition(all 0.3s ease-in-out);
+		&:hover, &:focus {
+			color: #00b0ff;
+			text-decoration: none;
+		}
+	}
   #wrapper,
   .wrapper {
   	overflow: hidden;

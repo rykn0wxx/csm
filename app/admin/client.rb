@@ -7,4 +7,5 @@ ActiveAdmin.register Client do
 
   active_admin_import validate: true
 
+  menu parent: 'Dimensions'
 end

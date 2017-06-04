@@ -5,7 +5,7 @@ ActiveAdmin.register WidgetField do
   preserve_default_filters!
   remove_filter :created_at, :updated_at
 
-  # menu false
+  menu parent: 'Portals'
 
 
 end

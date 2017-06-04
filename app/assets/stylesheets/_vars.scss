@@ -1,0 +1,7 @@
+@function rem($multiplier) {
+  @return $multiplier * $font-size;
+}
+
+$font-size:   10px !default;
+
+$body-font-size-base:      rem(1.400) !default;

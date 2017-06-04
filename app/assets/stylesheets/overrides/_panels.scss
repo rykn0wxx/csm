@@ -1,0 +1,35 @@
+// @import "mixins/mixins"; 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.18), 0 10px 15px -15px rgba(0,0,0,0.3)
+
+.panel {
+  //box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.18), 0 10px 15px -15px rgba(0,0,0,0.3);
+  min-width: 500px;
+  @include boxshadow-4();
+  border-radius: 0;
+  background-color: lighten(#272B30, 10%);
+  .panel-heading {
+    border-radius: 0;
+    @include frameshadow-1();
+  }
+  .panel-footer {
+    border-radius: 0;
+  }
+}
+
+.panel-default {
+  @include pnl-variant();
+}
+.panel-primary {
+  @include pnl-variant();
+}
+.panel-success {
+  @include pnl-variant();
+}
+.panel-info {
+  @include pnl-variant();
+}
+.panel-warning {
+  @include pnl-variant();
+}
+.panel-danger {
+  @include pnl-variant();
+}

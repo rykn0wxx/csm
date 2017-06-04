@@ -5,6 +5,8 @@ ActiveAdmin.register Portal do
 	preserve_default_filters!
   remove_filter :created_at, :updated_at
 
+	menu parent: 'Portals'
+
 	index do
 		selectable_column
 		# id_column

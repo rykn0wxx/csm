@@ -1,7 +1,7 @@
 // sass-lint:disable-all
-$mdb-shadow-key-umbra-opacity: 0.2;
-$mdb-shadow-key-penumbra-opacity: 0.14;
-$mdb-shadow-ambient-shadow-opacity: 0.12;
+$umbra-opacity: 0.3;
+$penumbra-opacity: 0.19;
+$ambient-opacity: 0.12;
 
 @mixin shadow-l1() {
   box-shadow: 0px 25px 15px -15px rgba(0, 0, 0, 0.3);
@@ -44,4 +44,17 @@ $mdb-shadow-ambient-shadow-opacity: 0.12;
   box-shadow:
     0 27px 24px 0 rgba(0, 0, 0, 0.2),
     0 40px 77px 0 rgba(0, 0, 0, 0.22);
+}
+
+
+@mixin frameshadow-1 {
+  box-shadow: 0px 1px 3px -2px rgba(0, 0, 0, $umbra-opacity),
+    0px 1px 2px -1px rgba(0, 0, 0, $penumbra-opacity),
+    0px 2px 1px -1px rgba(0, 0, 0, $ambient-opacity);
+}
+@mixin boxshadow-4 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, $umbra-opacity),
+    0px 4px 5px 0px rgba(0, 0, 0, $penumbra-opacity),
+    //0px 1px 10px 0px rgba(0, 0, 0, $ambient-opacity);
+    0px 15px 10px -10px rgba(0, 0, 0, 0.3);
 }

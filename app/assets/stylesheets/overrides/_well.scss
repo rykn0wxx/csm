@@ -1,0 +1,7 @@
+.well {
+  background-color: lighten($well-bg, 13%);
+  border: 1px solid lighten($well-border, 10%);
+  blockquote {
+    margin-bottom: 0;
+  }
+}

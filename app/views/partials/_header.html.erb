@@ -23,18 +23,16 @@
 				</li>
 
 				<li>
-					<%=
-						link_to_unless(controller_name == "home", "Home", '/', :class => 'page-scroll') do
-							link_to(root_path, nil, :class => 'active page-scroll')
-						end
-					 %>
+					<%= link_to_unless_current('Home', {:controller => "home"}, :class => 'page-scroll') do |ctrlname| %>
+						<%= link_to "Home", index_path, :class => 'active page-scroll' %>
+					<% end %>
 				</li>
 
 				<!-- dynamic navigational links -->
 				<% %w(portals widgets gauges).each do |part| %>
 					<li>
-						<%= link_to_unless(controller_name == part, part.capitalize, "/" + part, :class => 'page-scroll') do |ctrlname| %>
-							<%= link_to ctrlname, nil, :class => 'active page-scroll' %>
+						<%= link_to_unless_current(part.capitalize, {:controller => part, :action => action_name}, :class => 'page-scroll') do |ctrlname| %>
+							<%= link_to part.capitalize, "/" + part, :class => 'active page-scroll' %>
 						<% end %>
 					</li>
 				<% end %>
