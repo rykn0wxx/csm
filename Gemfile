@@ -64,5 +64,4 @@ gem 'active_admin_editor'
 gem 'therubyracer', :platforms => :ruby
 gem 'coffee-script-source', '1.8.0'
 gem 'acts_as_list', '~> 0.9.0'
-gem 'jquery-ace-rails', '~> 1.0', '>= 1.0.1'
 gem 'chartkick'
