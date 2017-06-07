@@ -13,6 +13,8 @@
 #
 
 class Region < ApplicationRecord
+  has_many :projects
+  
   validates :name, presence: true
   validates :code, presence: true
   validates :label, presence: true

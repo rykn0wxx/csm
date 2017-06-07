@@ -8,7 +8,6 @@
 				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 			</button>
 			<%= link_to 'Start Admin', admin_root_path, :class => 'navbar-brand page-scroll' %>
-
 		</div>
 
 		<!-- collection of navigational links  -->
@@ -22,21 +21,15 @@
 					<a href="#page-top"></a>
 				</li>
 
-				<li>
-					<%= link_to_unless_current('Home', {:controller => "home"}, :class => 'page-scroll') do |ctrlname| %>
-						<%= link_to "Home", index_path, :class => 'active page-scroll' %>
-					<% end %>
-				</li>
-
-				<!-- dynamic navigational links -->
-				<% %w(portals widgets gauges).each do |part| %>
+				<% %w(home portals).each do |nav| %>
 					<li>
-						<%= link_to_unless_current(part.capitalize, {:controller => part, :action => action_name}, :class => 'page-scroll') do |ctrlname| %>
-							<%= link_to part.capitalize, "/" + part, :class => 'active page-scroll' %>
-						<% end %>
+						<%=
+							link_to_if(controller_name === nav, nav.capitalize, nil, :class => "active page-scroll" ) do
+								link_to(nav.capitalize, {controller: nav, action: "index"}, :class => "page-scroll")
+							end
+						%>
 					</li>
 				<% end %>
-				<!-- dynamic navigational links -->
 
 			</ul>
 		</div>

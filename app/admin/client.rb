@@ -5,7 +5,8 @@ ActiveAdmin.register Client do
   preserve_default_filters!
   remove_filter :created_at, :updated_at
 
-  active_admin_import validate: true
+  active_admin_import validate: true,
+    back: proc { config.namespace.resource_for(Client).route_collection_path }
 
   menu parent: 'Dimensions'
 end

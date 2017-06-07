@@ -15,5 +15,12 @@ module ApplicationHelper
     link_to(name, '#', class: "add_fields", data: {id: id, fields: fields.gsub("\n", "")})
   end
 
+  def is_to_link(ctrlname)
+    itl = false;
+    if controller_name == ctrlname
+      itl = true
+    end
+    itl
+  end
 
 end

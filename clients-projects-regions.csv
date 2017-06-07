@@ -1,0 +1,139 @@
+region_parent,client_parent,name
+EMEA,Alcoa,Alcoa - EMEA
+EMEA,BCG,BCG - EMEA
+EMEA,Bio-Rad,Bio-Rad - EMEA
+EMEA,Clariant,Clariant - EMEA
+EMEA,CLS,CLS
+EMEA,Coca,Coca Cola
+EMEA,Covance,Covance - EMEA
+EMEA,Firmenich,Firmenich
+EMEA,John Deere,John Deere - EMEA
+EMEA,Kraft/Heinz,Kraft/Heinz - EMEA
+EMEA,Ledvance,Ledvance
+EMEA,Linde,Linde - EMEA
+EMEA,Merck-Serono,Merck-Serono
+EMEA,Novelis,Novelis - EMEA
+EMEA,Orbitz,Orbitz
+EMEA,OSRAM,OSRAM
+EMEA,PMI,PMI - EMEA
+EMEA,SAPA,SAPA - EMEA
+EMEA,Sulzer,Sulzer
+EMEA,TRW,TRW - EMEA
+LATAM,3M,3M
+LATAM,ABDI,ABDI
+LATAM,Adasa,Adasa
+LATAM,Aernnova,Aernnova
+LATAM,AGCO,AGCO
+LATAM,Alcoa,Alcoa - LATAM
+LATAM,AMBEV,AMBEV
+LATAM,Astrazeneca,Astrazeneca
+LATAM,Banco Fibra,Banco Fibra
+LATAM,Banco Pan,Banco Pan
+LATAM,BG Group,BG Group
+LATAM,BH,BH AIRPORT
+LATAM,BNB,BNB
+LATAM,BTG,BTG Pactual
+LATAM,Burger King,Burger King
+LATAM,Caixa,Caixa
+LATAM,CNH,CNH - LATAM
+LATAM,CNI,CNI
+LATAM,CPFL,CPFL
+LATAM,DETRAN-CE,DETRAN-CE
+LATAM,DIRECIONAL,DIRECIONAL
+LATAM,Elebat,Elebat
+LATAM,Embraer,Embraer (CA-Support) - LATAM
+LATAM,Embraer,Embraer (Datacenter) - LATAM
+LATAM,Embraer,Embraer (Gestao de Ativos) - LATAM
+LATAM,Embraer,Embraer (PC as a Service) - LATAM
+LATAM,Embraer,Embraer (Portais) - LATAM
+LATAM,Embraer,Embraer (Projetotres) - LATAM
+LATAM,Emprel,Emprel
+LATAM,FGV,FGV
+LATAM,Fiat,Fiat
+LATAM,FIES,FIES
+LATAM,FORD,FORD
+LATAM,FUNASA,FUNASA
+LATAM,Gerdau,Gerdau
+LATAM,GoodYear,GoodYear
+LATAM,HCL,HCL Brasil
+LATAM,IBM,IBM SP - Fleury
+LATAM,IBRAM,IBRAM
+LATAM,Incra,Incra
+LATAM,Intercement,Intercement
+LATAM,Intermedica,Intermedica
+LATAM,Kuehne,Kuehne Nagel
+LATAM,Linde,Linde - LATAM
+LATAM,M.T.E,M.T.E
+LATAM,Magneti,Magneti Marelli
+LATAM,MAPA,MAPA
+LATAM,MMA,MMA
+LATAM,Mongeral,Mongeral
+LATAM,MRS,MRS
+LATAM,Multiplus,Multiplus
+LATAM,Neoenergia,Neoenergia
+LATAM,Nestle,Nestle
+LATAM,Nidera,Nidera
+LATAM,Novelis,Novelis - LATAM
+LATAM,NOVO,NOVO NORDISK
+LATAM,Odontoprev,Odontoprev
+LATAM,Par Corretora,Par Corretora
+LATAM,Paranapanema,Paranapanema
+LATAM,Porto,Porto Seguro
+LATAM,PPG,PPG
+LATAM,RA,RA IMC
+LATAM,Samarco,Samarco
+LATAM,Sebrae,Sebrae
+LATAM,Sebrae,SEBRAE MG
+LATAM,SEE-SD,SEE-SD ATENDIMENTO
+LATAM,SERPRODF,SERPRODF
+LATAM,SFB,SFB
+LATAM,Sicredi,Sicredi
+LATAM,Software,Software One
+LATAM,Souza,Souza Cruz
+LATAM,TE/Tyco,TE/Tyco
+LATAM,Terra Networks,Terra Networks
+LATAM,ThyssenKrupp,ThyssenKrupp
+LATAM,TIM,TIM HDC&CCA
+LATAM,TIM,TIM Operacao
+LATAM,TJMG,TJMG
+LATAM,TJ-RJ,TJ-RJ
+LATAM,TJRN,TJRN
+LATAM,TRF,TRF - Secoes - Consolidado
+LATAM,TRT,TRT SUSTENTACAO
+LATAM,TST,TST
+LATAM,Unimed/RJ,Unimed/RJ
+LATAM,UNITEC,UNITEC
+LATAM,Valeo,Valeo
+LATAM,WestRock,WestRock Rigesa
+NA,Acosta,Acosta
+NA,Alcoa,Alcoa - NA
+NA,Alvarez and Marsal,Alvarez and Marsal
+NA,Amcor,Amcor
+NA,BCG,BCG - NA
+NA,Brown-Forman,Brown-Forman
+NA,CEC,CEC
+NA,CNH,CNH
+NA,Covance,Covance - NA
+NA,Duke,Duke
+NA,E&Y,E&Y - NA
+NA,Embraer,Embraer
+NA,Epsilon,Epsilon
+NA,Essilor,Essilor - NA
+NA,Evoqua,Evoqua
+NA,Ferro,Ferro
+NA,Hanon,Hanon
+NA,Honda,Honda
+NA,Huron,Huron
+NA,Infineum,Infineum
+NA,John Deere,John Deere - NA
+NA,Joy,Joy
+NA,Kraft/Heinz,Kraft/Heinz - NA
+NA,Louis,Louis Vuitton
+NA,MasterCard,MasterCard
+NA,NBA,NBA
+NA,Novelis,Novelis - NA
+NA,Route,Route One
+NA,Swagelok,Swagelok
+NA,TSI,TSI
+NA,Vallourec,Vallourec
+NA,Visteon,Visteon

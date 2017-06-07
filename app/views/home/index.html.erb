@@ -1,4 +1,6 @@
-<% content_for :head, stylesheet_link_tag('home') %>
+<% title 'Home' %>
+<% stylesheet('home')  %>
+<% jscript 'segmenter' %>
 
 <section class="content-sections demo-2">
 
@@ -13,3 +15,5 @@
   </h2>
 
 </section>
+
+<p><%= @all_ctrls %></p>

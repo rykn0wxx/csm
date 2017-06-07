@@ -22,6 +22,7 @@
 class Column < ApplicationRecord
   belongs_to :row
   has_and_belongs_to_many :widget_types, :autosave => true, :join_table => 'columns_widget_types'
+  accepts_nested_attributes_for :widget_types, allow_destroy: true
 
   acts_as_list scope: :row
 

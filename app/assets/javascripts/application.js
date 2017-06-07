@@ -34,6 +34,8 @@
 //= require highcharts/modules/offline-exporting
 //= require highcharts-ng
 
+//= require Chart.bundle
+//= require chartkick
+
 //= require app/app
 //= require app/controllers/MudCtrl
-//= require app/controllers/HighCtrl

@@ -4,6 +4,11 @@ module LayoutHelper
     @show_title = show_title
   end
 
+  def vis_header
+    ctrls = %w(sessions registratons)
+    @show_header = ctrls.include?(controller_name)
+  end
+
   def stylesheet(*args)
     content_for(:head) { stylesheet_link_tag(*args) }
   end
@@ -18,9 +23,9 @@ module LayoutHelper
     end
   end
 
-  def jscript(jsscript_file)
+  def jscript(*jsscript_file)
     if jsscript_file
-      content_for(:customjs) { javascript_include_tag(jsscript_file) }
+      content_for(:jsscripts) { javascript_include_tag(*jsscript_file) }
     end
   end
 end

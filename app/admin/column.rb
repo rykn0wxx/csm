@@ -2,10 +2,8 @@ ActiveAdmin.register Column do
   belongs_to :row
   navigation_menu :row
 
-  includes :widget_type
-
   config.sort_order = 'updated_at_desc'
-	permit_params :name, :row_id, :position, :css_class, :size_xs, :size_sm, :size_md, :size_lg
+	permit_params :name, :row_id, :position, :css_class, :size_xs, :size_sm, :size_md, :size_lg, widget_type_ids: []
 
   preserve_default_filters!
   remove_filter :created_at, :updated_at
@@ -44,12 +42,23 @@ ActiveAdmin.register Column do
     end
 
     f.inputs 'Widgets' do
-      f.object.widget_types.each do |wt|
-        li wt.to_json
+      f.has_many :widget_types, new_record: 'Leave Comment', allow_destroy: true do |b|
+        b.input :name
+        b.input :partial_link
+        b.input :body, :label => 'Body Template', :input_html => {:class => 'form-control' }, :as => :html_editor
       end
     end
     f.actions
 
+  end
+
+  sidebar 'Column Widgets', :only => [:show] do
+    ul do
+      resource.widget_types.each do |c|
+        li link_to c.name, admin_widget_type_path(c)
+      end
+    end
+    link_to 'View All', admin_widget_types_path
   end
 
 end
