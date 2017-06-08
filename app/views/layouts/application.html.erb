@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" ng-app="mud" ng-controller="MudCtrl" ng-cloak="true">
   <head>
   	<meta charset="UTF-8"/>
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,38 +13,35 @@
 
     <%= tag :meta, name: :kohana, action: action_name, controller: controller_name %>
 
-    <%= stylesheet_link_tag    'application' %>
-    <%= yield :jsscripts %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
     <%= yield :head %>
 
   </head>
 
-  <body class="rykn0wxx">
+  <body class="rykn0wxx <%= controller_name %>">
 
     <div id="wrapper" class="wrapper">
 
       <!-- header -->
-      <% @not_to_show = ['sessions', 'registrations'].include?(controller_name) %>
-      <%= render 'partials/header' if !@not_to_show %>
+      <%= render 'partials/header' %>
       <!-- header -->
 
       <!-- sidebar -->
       <!-- sidebar -->
+      <div class="content-wrapper">
 
-      <% if controller_name === 'home' %>
-        <%= yield %>
-      <% else %>
-        <div class="content-wrapper">
-
-          <div class="content" style="width:85%;">
-            <% flash.each do |name, msg| %>
-              <%= content_tag :div, msg, :id => "flash_#{name}" %>
-            <% end %>
-            <%= yield %>
-          </div>
+        <div class="content">
+          <% flash.each do |name, msg| %>
+            <div class="alert alert-info alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <%= content_tag :span, msg, :id => "flash_#{name}" %>
+            </div>
+          <% end %>
+          <%= yield %>
         </div>
-      <% end  %>
+      </div>
 
     </div>
 

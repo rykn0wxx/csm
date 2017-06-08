@@ -2,17 +2,11 @@
 
 angular
 	.module('mud', [
-		'ngAnimate',
-		'ngAria',
-		'ngMessages',
-		'ngMaterial',
-		'ui.router',
-		'templates',
-		'highcharts-ng',
-		'restangular'
+
+		'ngMaterial'
 
 	])
-	.config(['$mdThemingProvider', '$sceDelegateProvider', 'RestangularProvider', function (mdTheme, scDel, ngRest) {
+	.config(['$mdThemingProvider', '$sceDelegateProvider', function (mdTheme, scDel,) {
 		mdTheme.theme('default')
 			.primaryPalette('indigo')
 			.accentPalette('teal')
@@ -23,9 +17,6 @@ angular
 			'self', '**'
 		]);
 
-		ngRest.setBaseUrl('/');
-
-		console.log(ngRest);
 
 	}])
 	.run(['$timeout', '$rootScope', '$q', '$window', function ($time, $root, $q, $w) {
@@ -245,5 +236,24 @@ angular
 				$root.$pageFinishedLoading = true;
 			}
 		}, 2000);
+
+		var appListeners = function () {
+			document.addEventListener('turbolinks:load', function () {
+				$('form.custom-form').on('focus', '.form-control', function (ev) {
+					$(this).parents('.textbox-wrap').addClass('focused');
+				});
+				$('form.custom-form').on('blur', '.form-control', function (ev) {
+					$(this).parents('.textbox-wrap').removeClass('focused');
+				});
+			});
+		};
+
+		if (document.readyState === 'complete' || (document.readyState !== 'loading' && !document.documentElement.doScroll)) {
+			appListeners();
+		} else {
+			document.addEventListener('turbolinks:load', appListeners);
+		}
+
+
 
 	}]);

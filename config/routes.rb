@@ -6,10 +6,7 @@ Rails.application.routes.draw do
 
 	devise_for :users
 
-  resources :portals
-	resources :widgets
-
-	get 'home' => 'home#index', :as => 'index'
+	get 'home' => 'home#index', :as => 'home'
 	root :to => 'home#index'
 
 end

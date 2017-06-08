@@ -21,15 +21,9 @@
 					<a href="#page-top"></a>
 				</li>
 
-				<% %w(home portals).each do |nav| %>
-					<li>
-						<%=
-							link_to_if(controller_name === nav, nav.capitalize, nil, :class => "active page-scroll" ) do
-								link_to(nav.capitalize, {controller: nav, action: "index"}, :class => "page-scroll")
-							end
-						%>
-					</li>
-				<% end %>
+				<li>
+					<%= link_to "Home", root_path, :class => "page-scroll" %>
+				</li>
 
 			</ul>
 		</div>

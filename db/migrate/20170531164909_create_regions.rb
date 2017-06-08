@@ -4,7 +4,6 @@ class CreateRegions < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :code
       t.string :label
-      t.text :svg_path
       t.boolean :is_active
 
       t.timestamps

@@ -112,12 +112,6 @@ body, body.rykn0wxx {
 	.content-wrapper {
 		z-index: 800;
 	}
-	// .content {
-	// 	z-index: 40;
-	// }
-	// .content-sections {
-	// 	z-index: 50;
-	// }
 	.navbar-custom {
 		&.navbar-fixed-top {
 			z-index: 1030;
@@ -128,5 +122,21 @@ body, body.rykn0wxx {
 	}
 	.main-footer {
 		z-index: 820;
+	}
+	&.sessions, &.registrations {
+		#mainNav {
+			display: none;
+		}
+		.content-wrapper {
+			padding-top: 0;
+		}
+	}
+	&.home {
+		.content-wrapper {
+			.content {
+				padding: 0;
+				min-height: 100%;
+			}
+		}
 	}
 }

@@ -8,4 +8,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-Rails.application.config.assets.precompile += %w( portals.js app_devise.js home.css segmenter.css segmenter.js )
+Rails.application.config.assets.precompile += %w( home.js home.css )

@@ -52,46 +52,6 @@ ActiveRecord::Schema.define(version: 20170604081348) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "columns", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "row_id"
-    t.integer  "position"
-    t.string   "css_class"
-    t.integer  "size_xs",    default: 12, null: false
-    t.integer  "size_sm",    default: 12, null: false
-    t.integer  "size_md",    default: 12, null: false
-    t.integer  "size_lg",    default: 12, null: false
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
-    t.index ["row_id"], name: "index_columns_on_row_id"
-  end
-
-  create_table "columns_widget_types", id: false, force: :cascade do |t|
-    t.integer "column_id"
-    t.integer "widget_type_id"
-    t.index ["column_id"], name: "index_columns_widget_types_on_column_id"
-    t.index ["widget_type_id"], name: "index_columns_widget_types_on_widget_type_id"
-  end
-
-  create_table "containers", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "position"
-    t.integer  "portal_id"
-    t.string   "css_class"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "icon"
-    t.index ["portal_id"], name: "index_containers_on_portal_id"
-  end
-
-  create_table "portals", force: :cascade do |t|
-    t.string   "title"
-    t.string   "short_description"
-    t.boolean  "published",         default: false
-    t.datetime "created_at",                        null: false
-    t.datetime "updated_at",                        null: false
-  end
-
   create_table "projects", force: :cascade do |t|
     t.string   "name"
     t.integer  "client_id"
@@ -106,20 +66,9 @@ ActiveRecord::Schema.define(version: 20170604081348) do
     t.string   "name"
     t.string   "code"
     t.string   "label"
-    t.text     "svg_path"
     t.boolean  "is_active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "rows", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "container_id"
-    t.integer  "position"
-    t.string   "row_class"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-    t.index ["container_id"], name: "index_rows_on_container_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -139,25 +88,6 @@ ActiveRecord::Schema.define(version: 20170604081348) do
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
     t.index ["username"], name: "index_users_on_username", unique: true
-  end
-
-  create_table "widget_fields", force: :cascade do |t|
-    t.string   "name"
-    t.string   "field_type"
-    t.boolean  "required"
-    t.string   "field_val"
-    t.integer  "widget_type_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
-    t.index ["widget_type_id"], name: "index_widget_fields_on_widget_type_id"
-  end
-
-  create_table "widget_types", force: :cascade do |t|
-    t.string   "name"
-    t.text     "body"
-    t.string   "partial_link"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
   end
 
 end

@@ -1,0 +1,9 @@
+[
+  {"is_active":true,"name":"Anonymous","code":"AA","label":"Anon"},
+  {"is_active":true,"name":"Africa","code":"AF","label":"Africa"},
+  {"is_active":true,"name":"Asia","code":"AS","label":"APAC"},
+  {"is_active":true,"name":"Europe","code":"EU","label":"EMEA"},
+  {"is_active":true,"name":"North America","code":"NA","label":"NAM"},
+  {"is_active":true,"name":"Oceania","code":"OC","label":"Oceania"},
+  {"is_active":true,"name":"South America","code":"SA","label":"LATAM"}
+]

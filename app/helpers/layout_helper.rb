@@ -23,9 +23,4 @@ module LayoutHelper
     end
   end
 
-  def jscript(*jsscript_file)
-    if jsscript_file
-      content_for(:jsscripts) { javascript_include_tag(*jsscript_file) }
-    end
-  end
 end
