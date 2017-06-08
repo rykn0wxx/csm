@@ -5,3 +5,8 @@
 $font-size:   10px !default;
 
 $body-font-size-base:      rem(1.400) !default;
+
+$inv-b: #272B30;
+$bg-inv-base: lighten(tint($inv-b,2%),12%);
+$bg-inv-light: lighten(tint($inv-b,3%),26%);
+$bg-inv-dark: darken(mix(#d2d6de, $inv-b, 1%),2%);

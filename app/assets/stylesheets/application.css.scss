@@ -1,6 +1,6 @@
 $output-bourbon-deprecation-warnings: false;
 @import "fonts";
-@import "bourbon/bourbon";
+@import "bourbon";
 @import "bootstrap-sprockets";
 @import "bootswatch/slate/variables";
 @import "mixins/mixins";
@@ -19,10 +19,12 @@ $output-bourbon-deprecation-warnings: false;
 
 @import "core";
 @import "header";
+@import "card";
 @import "preloader";
 @import "portals";
 @import "session";
 @import "button";
+@import "form";
 @import "widget_styles";
 
 

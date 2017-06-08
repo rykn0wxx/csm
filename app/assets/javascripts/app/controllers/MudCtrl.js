@@ -54,7 +54,37 @@
 	      };
 	    }
 
+		}])
+		.directive('flash', ['$timeout', function($t) {
+			return {
+				restrict: 'E',
+				scope: {
+					flashMsg: '@'
+				},
+				replace: true,
+				link: function ($scope, $elem, $attr) {
+					$scope.btnId = Date.now();
+					$scope.isRunning = false;
+					$scope.$watch('flashMsg', function (obj) {
+						if (obj && !$scope.isRunning) {
+							$scope.flashingMsg = obj;
+							$scope.isRunning = true;
+							$elem.addClass('fadeOut');
+							var el = $elem.find('#' + $scope.btnId);
+							$t(function () {
+								$scope.isRunning = false;
+								el.trigger('click');
+							}, 5000);
+						}
+					});
+				},
+				template: '<div class="alert alert-info alert-dismissible" role="alert" style="animation-delay:2s;animation-duration:5s">' +
+										'<button id="{{btnId}}" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+											'<span>{{flashingMsg}}</span>' +
+									'</div>'
+			};
 		}]);
+
 })();
 
 /*

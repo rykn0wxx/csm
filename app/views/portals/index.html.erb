@@ -1,0 +1,32 @@
+<% title "All Portals" %>
+
+<section class="content-sections">
+
+  <section class="content-header">
+    <h1>
+      Portals
+    </h1>
+  </section>
+
+  <section class="content">
+    <div class="row">
+      <% @portals.each do |portal| %>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title"><%= portal.name %></h4>
+              <%= link_to 'Show', portal, :class => 'card-link' %>
+              <%= link_to 'Edit', edit_portal_path(portal), :class => 'card-link' %>
+              <%= link_to 'Destroy', portal, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'card-link' %>
+            </div>
+          </div>
+        </div>
+
+      <% end %>
+    </div>
+    <%= link_to 'New Portal', new_portal_path %>
+  </section>
+
+
+</section>

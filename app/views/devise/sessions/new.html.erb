@@ -5,7 +5,7 @@
 	<div class="container">
 
 		<div class="login-form-section">
-			<div class="login-content animated bounceIn">
+			<div class="login-content animated bounceIn form-container">
 				<%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :class => 'custom-form' }) do |f| %>
 
 					<div class="section-title">
@@ -33,16 +33,24 @@
 					</div>
 
 					<div class="login-form-action clearfix">
-						<%= f.submit 'Login', :class => 'md-button md-accent pull-right' %>
+						<%= f.submit 'Login', :class => 'md-button md-primary md-hue-3 pull-right' %>
 					</div>
 
 				<% end %>
 			</div>
-			<div class="login-form-links animated fadeInRightBig">
+			<div class="login-form-links animated fadeInRightBig form-links">
 				<h4 class="text-blue">Don't have an Account</h4>
 				<span>No worry</span>
 				<%= link_to 'Click here', new_registration_path(resource_name), :class => 'navi-link' %>
 				<span> to Register</span>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="inv-bg-{{b}}" ng-repeat="b in vm.bb">
+					{{b}}
+				</div>
 			</div>
 		</div>
 

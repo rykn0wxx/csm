@@ -8,8 +8,8 @@ angular
 	])
 	.config(['$mdThemingProvider', '$sceDelegateProvider', function (mdTheme, scDel,) {
 		mdTheme.theme('default')
-			.primaryPalette('indigo')
-			.accentPalette('teal')
+			.primaryPalette('teal')
+			.accentPalette('red')
 			.warnPalette('deep-orange')
 			.dark();
 

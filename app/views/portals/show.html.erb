@@ -1,0 +1,14 @@
+<% title @portal.name %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @portal.name %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @portal.published %>
+</p>
+
+<%= link_to 'Edit', edit_portal_path(@portal) %> |
+<%= link_to 'Back', portals_path %>

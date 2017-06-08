@@ -1,0 +1,14 @@
+<% title "New Portal" %>
+<section class="content-sections">
+
+  <md-content class="md-no-momentum" layout-padding>
+
+    <div>
+      <%= render 'form', portal: @portal, title: 'Create New Portal', subtitle: nil %>
+    </div>
+
+    <%= link_to 'Back', portals_path, :class => 'md-warn md-hue-3 md-button md-ink-ripple' %>
+
+  </md-content>
+
+</section>
