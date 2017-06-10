@@ -18,5 +18,11 @@
     .card-link+.card-link {
       margin-left: 1.25rem;
     }
+    .card-link {
+      color: rgba(250,250,250,0.7);
+      &:hover {
+        color: rgba(255,255,255,0.7);
+      }
+    }
   }
 }

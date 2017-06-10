@@ -71,6 +71,20 @@ body, body.rykn0wxx {
       position: relative;
 			.content-sections {
 				@include transition(all 0.3s ease-in-out);
+				.content-header {
+					position: relative;
+					padding: 15px 15px 0 15px;
+					> h1 {
+						margin: 0;
+						font-size: 24px;
+						> small {
+							font-size: 15px;
+							display: inline-block;
+							padding-left: 4px;
+							font-weight: 300;
+						}
+					}
+				}
 			}
     }
   }
@@ -137,6 +151,13 @@ body, body.rykn0wxx {
 				padding: 0;
 				min-height: 100%;
 			}
+		}
+	}
+	&.portals {
+		.content-sections {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 }

@@ -48,11 +48,13 @@ var activateSegmenter = function () {
   var headline = $('.trigger-headline');
   var kohana = document.getElementsByName('kohana')[0];
   var ctrl = kohana.getAttribute('controller');
-  segmenterInit('.segmenter', {ctrl: ctrl, headline: headline});
+  if (headline.length !== 0) {
+    segmenterInit('.segmenter', {ctrl: ctrl, headline: headline});
+  }
 };
 
 if (document.readyState === 'complete' || (document.readyState !== 'loading' && !document.documentElement.doScroll)) {
   activateSegmenter();
 } else {
-  document.addEventListener('turbolinks:load', activateSegmenter);
+  document.addEventListener('DOMContentLoaded', activateSegmenter);
 }

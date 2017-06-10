@@ -1,0 +1,31 @@
+<%= form_for todo_list, url: url, :html => {:class => 'form-horizontal'} do |f| %>
+<%= f.input :project_id, as: :hidden %>
+
+<% end %>
+<%= form_for(todo_list) do |f| %>
+  <% if todo_list.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(todo_list.errors.count, "error") %> prohibited this todo_list from being saved:</h2>
+
+      <ul>
+      <% todo_list.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :portal_id %>
+    <%= f.text_field :portal_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

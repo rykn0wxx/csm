@@ -15,21 +15,23 @@
 		<!-- collection of navigational links  -->
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="#page-top"></a>
-				</li>
+		<%- if show_header? %>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
 
-				<li>
-					<%= link_to "Home", root_path, :class => "page-scroll" %>
-				</li>
-				<li>
-					<%= link_to "Portals", portals_path, :class => "page-scroll" %>
-				</li>
+					<li>
+						<%= link_to "Home", root_path, :class => "page-scroll", :data => {'turbolinks':false} %>
+					</li>
+					<li>
+						<%= link_to "Portals", portals_path, :class => "page-scroll", :data => {'turbolinks':false} %>
+					</li>
 
-			</ul>
-		</div>
+				</ul>
+			</div>
+		<% end %>
 		<!-- /.navbar-collapse -->
 	</div>
 	<!-- /.container-fluid -->

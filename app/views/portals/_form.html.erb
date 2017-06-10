@@ -1,17 +1,20 @@
-<div class="slide">
-  <div class="blurb">
-    <%= content_tag :div, "Portal Form", :class => 'title' %>
-    <%= content_tag :div, portal.name, :class => 'sub' %>
-  </div>
-  <div class="slurp">
-    <div class="garl">
-      <%= form_for portal, html: { :class => 'form-horizontal', name: 'form_for_portal' } do |f| %>
+<%= form_for portal, :data => { 'app-form': action_name }, html: { :class => 'form-horizontal app-form', name: 'form_for_portal' } do |f| %>
+  <div class="slide">
+    <div class="blurb">
+      <%= content_tag :div, "Portal Form", :class => 'title' %>
+      <div class="sub">
+        {{ form_for_portal["portal[name]"].$viewValue }}
+      </div>
+    </div>
+    <div class="slurp">
+      <div class="garl">
+
         <div class="layout-gt-xs-column">
 
           <div class="form-group">
             <%= f.label :name, :class => 'col-sm-2 control-label' %>
             <div class="col-sm-10">
-              <%= f.text_field :name, :class => 'form-control' %>
+              <%= f.text_field :name, :class => 'form-control', :data => { 'ng-model': 'form_for_portal["portal[name]"].$viewValue'} %>
             </div>
           </div>
 
@@ -19,7 +22,7 @@
             <div class="col-sm-offset-2 col-sm-10">
               <div class="checkbox">
                 <label>
-                  <%= f.check_box :published %>
+                  <%= f.check_box :published, :data => { 'ng-model': 'form_for_portal["portal[published]"].$viewValue'} %>
                   Publised
                 </label>
               </div>
@@ -30,7 +33,8 @@
         <div class="form-actions">
           <%= f.submit "Submit", :class => 'md-button md-accent md-hue-1 md-raised pull-right' %>
         </div>
-      <% end %>
+
+      </div>
     </div>
   </div>
-</div>
+<% end %>

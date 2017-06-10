@@ -1,7 +1,8 @@
 $theme-primary:    #dd4b39;
 $theme-sub-primary: #F05F40;
 .navbar-custom {
-	background-color: $gray-darker;
+	@include linear-gradient(#4C5C6A, darken(#4C5C6A, 15%));
+	// background-color: $gray-darker;
 	border-color: transparent;
 	.navbar-brand {
 		color: $theme-primary;
@@ -28,6 +29,7 @@ $theme-sub-primary: #F05F40;
 		}
 	}
 	.nav {
+
 		li {
 			a {
 				font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -35,9 +37,8 @@ $theme-sub-primary: #F05F40;
 				letter-spacing: 1px;
 				color: lighten($theme-primary, 20%);
 				&:hover, &:focus {
-					background-image: none;
-					background-color: rgba(0,0,0,0.4);
-					color: lighten($theme-primary, 30%);
+					background: tint(#4C5C6A, 5%);
+					color: lighten($theme-primary, 50%);
 					outline: none;
 				}
 			}
@@ -74,9 +75,9 @@ $theme-sub-primary: #F05F40;
 
 @media(min-width:768px) {
 	.navbar-custom {
-		background-color: transparent;
+		background: rgba(#4C5C6A, 0.4);
 		background-image: none;
-		padding: 25px 0;
+		padding: 15px 0;
 		transition: padding 0.3s;
 		border: none;
 		.navbar-brand {
@@ -103,7 +104,7 @@ $theme-sub-primary: #F05F40;
 
 @media(min-width:768px) {
 	.navbar-custom.affix {
-		background-color: rgba($gray-darker, 0.7);
+		background: rgba(#4C5C6A, 0.7);
 		padding: 10px 0;
 		@include shadow-l1;
 		.navbar-brand {

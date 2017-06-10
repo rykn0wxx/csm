@@ -1,14 +1,60 @@
 <% title @portal.name %>
+<section class="content-sections">
 
-<p>
-  <strong>Name:</strong>
-  <%= @portal.name %>
-</p>
+  <section class="content-header">
+    <h1>
+      <%= @portal.name %>
+    </h1>
+  </section>
 
-<p>
-  <strong>Published:</strong>
-  <%= @portal.published %>
-</p>
+  <section class="content">
 
-<%= link_to 'Edit', edit_portal_path(@portal) %> |
-<%= link_to 'Back', portals_path %>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <% @portal.todo_lists.each do |tl| %>
+            <div class="box-wrapper">
+
+              <div class="box-wrapper-header">
+                <h3 class="box-wrapper-header-title"><%= tl.name %></h3>
+                <div class="box-wrapper-tool pull-right">
+                  <button class="btn btn-box-tool" data-widget="collapse">
+                    <i class="fa fa-minus"></i>
+                  </button>
+                  <%= link_to edit_portal_todo_list_path(@portal.id, tl), :class => 'btn btn-box-tool' do %>
+                    <i class="fa fa-edit"></i>
+                  <% end %>
+                  <%= link_to portal_todo_list_path(@portal.id, tl), :class => 'btn btn-box-tool', method: :delete, data: { confirm: 'Are you sure?' } do %>
+                    <i class="fa fa-trash-o"></i>
+                  <% end %>
+                </div>
+              </div>
+
+              <div class="box-wrapper-body">
+                <p>Tasks listed for <%= tl.name %></p>
+                <ul class="list-group">
+                  <% tl.tasks.each do |task| %>
+                    <li class="list-group-item">
+                      <span class="badge"><%= task.position %></span>
+                      <strong><%= task.name %></strong>
+                      <%= task.description %>
+                    </li>
+                  <% end %>
+                </ul>
+              </div>
+
+            </div>
+          <% end %>
+
+          <%= link_to 'New Todo List', new_portal_todo_list_path(@portal.id)  %>
+
+        </div>
+      </div>
+    </div>
+
+    <%= link_to 'Edit', edit_portal_path(@portal) %> |
+    <%= link_to 'Back', portals_path %>
+
+  </section>
+
+</section>

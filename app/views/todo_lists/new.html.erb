@@ -1,0 +1,58 @@
+<% title @portal.name %>
+<section class="content-sections">
+
+  <section class="content-header">
+    <h1>
+      Creating New List
+      <small><%= @portal.name %></small>
+    </h1>
+  </section>
+
+  <section class="content">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+
+          <%= form_for @todo_list, url: portal_todo_lists_path(@portal), :html => { :class => 'form-horizontal' } do |f| %>
+
+            <div class="form-group">
+              <%= f.label :name, :class => 'col-sm-2 control-label' %>
+              <div class="col-sm-10">
+                <%= f.text_field :name, :class => 'form-control input-sm' %>
+              </div>
+            </div>
+
+            <div class="box-wrapper">
+              <div class="box-wrapper-body">
+                <table class="table table-hover table-condensed table-striped">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Order</th>
+                      <th>Task Name</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="fields">
+                    <%= f.fields_for :tasks do |builder| %>
+                      <%= render 'task', f: builder %>
+                    <% end %>
+                  </tbody>
+                </table>
+              </div>
+              <div class="box-wrapper-footer">
+                <%= link_to 'Back', portal_path(@portal), :class => 'btn btn-default btn-sm back' %>
+                <%= f.submit 'Save', :class => 'btn btn-default btn-sm save'  %>
+                <%= link_to_add_fields "Add Field", f, :tasks %>
+              </div>
+            </div>
+
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</section>

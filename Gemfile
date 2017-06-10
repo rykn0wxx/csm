@@ -15,7 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.2', '>= 4.2.2'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'jbuilder', '~> 2.5'
-gem 'turbolinks', '~> 5'
+gem 'turbolinks', '= 5.0.0'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'

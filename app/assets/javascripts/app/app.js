@@ -2,7 +2,7 @@
 
 angular
 	.module('mud', [
-
+		'ngResource',
 		'ngMaterial'
 
 	])
@@ -16,7 +16,6 @@ angular
 		scDel.resourceUrlWhitelist([
 			'self', '**'
 		]);
-
 
 	}])
 	.run(['$timeout', '$rootScope', '$q', '$window', function ($time, $root, $q, $w) {
@@ -245,15 +244,33 @@ angular
 				$('form.custom-form').on('blur', '.form-control', function (ev) {
 					$(this).parents('.textbox-wrap').removeClass('focused');
 				});
+
+				$('form').on('click', '.remove_record', function (ev) {
+					$(this).prev('input[type=hidden]').val('1');
+					$(this).closest('tr.partial_row').hide();
+					ev.preventDefault();
+				});
+
+				$('form').on('click', '.add_fields', function (ev) {
+					var time = new Date().getTime();
+					var regexp = new RegExp($(this).data('id'), 'g');
+					$('form .fields').append($(this).data('fields').replace(regexp, time));
+					ev.preventDefault();
+				});
+
+				$('#mainNav').affix({
+					offset: {
+						top: 50
+					}
+				});
+
 			});
 		};
 
 		if (document.readyState === 'complete' || (document.readyState !== 'loading' && !document.documentElement.doScroll)) {
 			appListeners();
 		} else {
-			document.addEventListener('turbolinks:load', appListeners);
+			document.addEventListener('DOMContentLoaded', appListeners);
 		}
-
-
 
 	}]);

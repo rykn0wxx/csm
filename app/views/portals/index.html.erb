@@ -1,5 +1,4 @@
-<% title "All Portals" %>
-
+<% title 'All Portals' %>
 <section class="content-sections">
 
   <section class="content-header">
@@ -13,12 +12,14 @@
       <% @portals.each do |portal| %>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="card">
-            <div class="card-block">
-              <h4 class="card-title"><%= portal.name %></h4>
-              <%= link_to 'Show', portal, :class => 'card-link' %>
-              <%= link_to 'Edit', edit_portal_path(portal), :class => 'card-link' %>
-              <%= link_to 'Destroy', portal, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'card-link' %>
+          <div class="panel block panel-primary text-center">
+            <div class="panel-body asbestos">
+              <h4><%= portal.name %></h4>
+            </div>
+            <div class="panel-footer">
+              <%= link_to 'Show', portal, :class => 'card-links' %>
+              <%= link_to 'Edit', edit_portal_path(portal), :class => 'card-links' %>
+              <%= link_to 'Destroy', portal, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'card-links' %>
             </div>
           </div>
         </div>

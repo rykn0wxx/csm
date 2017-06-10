@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170608015645) do
+ActiveRecord::Schema.define(version: 20170608135721) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -76,6 +76,24 @@ ActiveRecord::Schema.define(version: 20170608015645) do
     t.boolean  "is_active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "tasks", force: :cascade do |t|
+    t.integer  "todo_list_id"
+    t.string   "name"
+    t.text     "description"
+    t.integer  "position"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["todo_list_id"], name: "index_tasks_on_todo_list_id"
+  end
+
+  create_table "todo_lists", force: :cascade do |t|
+    t.integer  "portal_id"
+    t.string   "name",       default: "", null: false
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+    t.index ["portal_id"], name: "index_todo_lists_on_portal_id"
   end
 
   create_table "users", force: :cascade do |t|

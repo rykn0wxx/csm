@@ -57,17 +57,6 @@
           border: 0 solid rgba(0,0,0,0);
           color: #ecf0f1;
         }
-        input[type=text], textarea {
-          outline: none;
-          border: 1px solid rgba(0,0,0,0);
-          @include transition(all 0.3s ease-in-out);
-          &:focus {
-            // box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-            // border: 1px solid rgba(81, 203, 238, 1);
-            box-shadow: 0 0 5px rgba(239,83,80, 1);
-            border: 1px solid rgba(239,83,80, 1);
-          }
-        }
       }
     }
   }
@@ -83,5 +72,31 @@
     position: relative;
     padding: 8px;
     overflow: auto;
+  }
+  input[type=text], textarea {
+    outline: none;
+    border: 1px solid rgba(0,0,0,0);
+    @include transition(all 0.3s ease-in-out);
+    &:focus {
+      // box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+      // border: 1px solid rgba(81, 203, 238, 1);
+      box-shadow: 0 0 5px rgba(239,83,80, 1);
+      border: 1px solid rgba(239,83,80, 1);
+    }
+  }
+  .form-horizontal {
+    textarea {
+      &.form-control {
+        height: 30px;
+      }
+    }
+    .back {
+      color: #c8c8c8;
+      @include linear-gradient(#f44336, tint(#f44336, 10%));
+    }
+    .save {
+      color: #c8c8c8;
+      @include linear-gradient(#ef5350, tint(#ef5350, 10%));
+    }
   }
 }

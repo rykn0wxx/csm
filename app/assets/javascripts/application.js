@@ -13,8 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
-//= require turbolinks
 //= require angular
+//= require angular-resource
 //= require angular-animate
 //= require angular-aria
 //= require angular-messages
@@ -32,3 +32,6 @@
 
 //= require app/app
 //= require app/controllers/MudCtrl
+//= require app/services/dataService
+//= require app/directives/aLink.directive
+//= require app/directives/appForm.directive

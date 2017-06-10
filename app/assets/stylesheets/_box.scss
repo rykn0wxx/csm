@@ -1,0 +1,71 @@
+$box-bg: #3e444c;
+$box-text: #c8c8c8;
+
+.rykn0wxx {
+  .box-wrapper {
+    position: relative;
+    @include border-radius(3px);
+    @include linear-gradient($box-bg, tint($box-bg, 5%));
+    border-top: 3px solid shade($box-bg, 60%);
+    margin-bottom: 15px;
+    width: 100%;
+    @include box-shadow(0 15px 20px -10px rgba(0,0,0,0.3));
+    &.collapsed-box {
+      .box-wrapper-body {
+        display: none;
+      }
+    }
+  }
+  .box-wrapper-header {
+    background: darken($box-bg, 3%);
+    color: $box-text;
+    display: block;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid darken($box-bg, 10%);
+    > .fa, .box-wrapper-header-title {
+      display: inline-block;
+      font-size: 18px;
+      margin: 0;
+      line-height: 1;
+    }
+    > .fa {
+      margin-right: 5px;
+    }
+    > .box-wrapper-tool {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+    }
+  }
+  .btn-box-tool {
+    text-shadow: none;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 18px;
+    background: transparent;
+    color: $box-text;
+    border: 1px solid rgba(0,0,0,0);
+    @include transition(all 0.3s cubic-bezier(0.46, 0.03, 0.52, 0.96));
+    .open &,
+    &:hover {
+      color: #fff;
+    }
+    &.btn:active {
+      box-shadow: none;
+    }
+  }
+  .box-wrapper-body {
+    @include border-top-radius(0);
+    @include border-bottom-radius(3px);
+    padding: 10px;
+    display: block;
+  }
+  .box-wrapper-footer {
+    @include border-top-radius(0);
+    @include border-bottom-radius(3px);
+  	border-top: 1px solid rgba(5,7,9,0.3);
+  	padding: 10px;
+  	background-color: rgba(5,7,9,0.2);
+  }
+}

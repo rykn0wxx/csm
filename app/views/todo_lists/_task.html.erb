@@ -1,0 +1,9 @@
+<tr class="partial_row">
+  <td class="col_link">
+    <%= f.hidden_field :_destroy %>
+    <%= link_to 'Delete', '#', :class => 'remove_record' %>
+  </td>
+  <td><%= f.number_field :position, :class => 'form-control input-sm', :min => 1 %></td>
+  <td><%= f.text_field :name, :class => 'form-control input-sm' %></td>
+  <td><%= f.text_area :description, :class => 'form-control input-sm' %></td>
+</tr>

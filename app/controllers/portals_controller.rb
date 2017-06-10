@@ -15,6 +15,10 @@ class PortalsController < ApplicationController
 
   def edit
     @portal = Portal.find(params[:id])
+    respond_to do |format|
+      format.html
+      format.json { render json: @portal }
+    end
   end
 
   def create

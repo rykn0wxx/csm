@@ -13,6 +13,9 @@
   .panel-footer {
     border-radius: 0;
   }
+  &.block {
+    min-width: 0;
+  }
 }
 
 .panel-default {
@@ -32,4 +35,31 @@
 }
 .panel-danger {
   @include pnl-variant();
+}
+
+.panel {
+  &.block {
+    .panel-body {
+      background: #576472;
+      padding: 30px 15px;
+      h4 {
+        white-space: nowrap;
+      	text-overflow: ellipsis;
+      	overflow: hidden;
+      }
+    }
+    .panel-footer {
+      background-color: #8996A7;
+      border-top: 1px solid rgba(0, 0, 0, 0.4);
+      .card-links {
+        min-width: 100px;
+        padding: 4px 8px;
+        color: #ecf0f5;
+        font-size: 14px;
+        &:hover {
+          background: rgba(0,0,0,0.1);
+        }
+      }
+    }
+  }
 }

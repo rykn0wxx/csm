@@ -1,12 +1,11 @@
 module LayoutHelper
-  def title(page_title, show_title = true)
+  def title(page_title, show_header = true)
     content_for(:title) { page_title.to_s }
-    @show_title = show_title
+    @show_header = show_header
   end
 
-  def vis_header
-    ctrls = %w(sessions registratons)
-    @show_header = ctrls.include?(controller_name)
+  def show_header?
+    @show_header
   end
 
   def stylesheet(*args)

@@ -1,18 +1,62 @@
-<% title 'Home' %>
+<% title 'Home', false %>
 <% stylesheet('home') %>
 <% javascript('home') %>
 
 <section class="content-sections demo-2">
 
   <div class="segmenter" style="background-image:url(assets/2.jpg)"></div>
-  <h2 class="trigger-headline trigger-headline--hidden">
-    <span>C</span>
-    <span>S</span>
-    <span>M</span>
-    <span>B</span>
-    <span>P</span>
-    <span>I</span>
-  </h2>
+  <div class="trigger-headline trigger-headline--hidden">
+    <section class="home wrap-content on">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 home-box">
+            <%= link_to portals_path, :class => "page-scroll", :data => {'turbolinks':false} do %>
+              <div class="hb">
+                <div class="mask"></div>
+                <p class="title">Portals</p>
+                <span class="fa fa-database"></span>
+              </div>
+            <% end %>
+          </div>
+          <div class="col-sm-4 home-box">
+            <div class="hb">
+              <div class="mask"></div>
+              <p class="title">Box2</p>
+              <span class="fa fa-cube"></span>
+            </div>
+          </div>
+          <div class="col-sm-4 hidden-xs home-box">
+            <div class="hb custom">
+              Custom News
+            </div>
+          </div>
+        </div>
+        <div class="row raise">
+          <div class="col-sm-2 home-box">
+            <div class="hb">
+              <div class="mask"></div>
+              <p class="title">Box Raise1</p>
+              <span class="fa fa-desktop"></span>
+            </div>
+          </div>
+          <div class="col-sm-4 home-box">
+            <div class="hb">
+              <div class="mask"></div>
+              <p class="title">Box Raise2</p>
+              <span class="fa fa-archive"></span>
+            </div>
+          </div>
+          <div class="col-sm-2 home-box">
+            <div class="hb">
+              <div class="mask"></div>
+              <p class="title">Box Raise3</p>
+              <span class="fa fa-code"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
 </section>
 

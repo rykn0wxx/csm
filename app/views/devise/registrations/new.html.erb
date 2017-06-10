@@ -57,8 +57,7 @@
 			</div>
 			<div class="register-form-links animated fadeInRightBig">
 				<h4 class="text-blue">Already have an Account</h4>
-				<%= link_to 'Click here', new_user_session_path, :class => 'navi-link' %>
-				<span> to Login</span>
+				<%= link_to 'Click here to Login', new_user_session_path, :class => 'navi-link', :data => {'turbolinks':false} %>
 			</div>
 		</div>
 
