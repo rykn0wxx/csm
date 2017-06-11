@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require angular
@@ -29,9 +30,15 @@
 //= require highcharts/modules/offline-exporting
 
 //= require chartkick
+//= require turbolinks
 
 //= require app/app
 //= require app/controllers/MudCtrl
 //= require app/services/dataService
 //= require app/directives/aLink.directive
 //= require app/directives/appForm.directive
+
+
+document.addEventListener('turbolinks:click', function (ev, arg) {
+  console.log(ev, arg);
+});

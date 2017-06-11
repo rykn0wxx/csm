@@ -37,7 +37,7 @@ $theme-sub-primary: #F05F40;
 				letter-spacing: 1px;
 				color: lighten($theme-primary, 20%);
 				&:hover, &:focus {
-					background: tint(#4C5C6A, 5%);
+					background: rgba(tint(#4C5C6A, 1%), 0.4);
 					color: lighten($theme-primary, 50%);
 					outline: none;
 				}
@@ -51,10 +51,11 @@ $theme-sub-primary: #F05F40;
 				&.active {
 					border-radius: 0;
 					color: lighten($theme-primary, 30%);
-					background-color: $theme-primary;
+					background-color: rgba(shade(#4C5C6A, 10%), 0.2);
+					border-bottom: 1px solid $theme-sub-primary;
 					&:hover, &:focus {
 						color: white;
-						background-color: darken($theme-primary, 10%);
+						background-color: rgba(shade(#4C5C6A, 10%), 0.5);
 						background-image: none;
 					}
 				}

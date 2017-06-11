@@ -1,6 +1,14 @@
 # == Route Map
 #
 #                         Prefix Verb       URI Pattern                                       Controller#Action
+#                     dashboards GET        /dashboards(.:format)                             dashboards#index
+#                                POST       /dashboards(.:format)                             dashboards#create
+#                  new_dashboard GET        /dashboards/new(.:format)                         dashboards#new
+#                 edit_dashboard GET        /dashboards/:id/edit(.:format)                    dashboards#edit
+#                      dashboard GET        /dashboards/:id(.:format)                         dashboards#show
+#                                PATCH      /dashboards/:id(.:format)                         dashboards#update
+#                                PUT        /dashboards/:id(.:format)                         dashboards#update
+#                                DELETE     /dashboards/:id(.:format)                         dashboards#destroy
 #         new_admin_user_session GET        /admin/login(.:format)                            active_admin/devise/sessions#new
 #             admin_user_session POST       /admin/login(.:format)                            active_admin/devise/sessions#create
 #     destroy_admin_user_session DELETE|GET /admin/logout(.:format)                           active_admin/devise/sessions#destroy
@@ -100,6 +108,10 @@ Rails.application.routes.draw do
 
   resources :portals do
     resources :todo_lists
+  end
+
+  resources :dashboards do
+    resources :pages
   end
 
 	get 'home' => 'home#index', :as => 'home'

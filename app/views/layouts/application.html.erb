@@ -13,10 +13,11 @@
 
     <%= tag :meta, name: :kohana, action: action_name, controller: controller_name %>
 
-    <%= stylesheet_link_tag    'application' %>
-    <%= javascript_include_tag 'application' %>
+    <%= stylesheet_link_tag    'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= csrf_meta_tags %>
 
+    <%= tag :meta, name: "turbolinks-root", content: "/" %>
     <%= yield :head %>
 
   </head>

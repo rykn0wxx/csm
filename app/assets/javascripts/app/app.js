@@ -273,4 +273,7 @@ angular
 			document.addEventListener('DOMContentLoaded', appListeners);
 		}
 
+
+
+
 	}]);

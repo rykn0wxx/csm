@@ -23,10 +23,21 @@
 					</li>
 
 					<li>
-						<%= link_to "Home", root_path, :class => "page-scroll", :data => {'turbolinks':false} %>
+						<%= link_to "Home", root_path, :class => "page-scroll" %>
 					</li>
 					<li>
-						<%= link_to "Portals", portals_path, :class => "page-scroll", :data => {'turbolinks':false} %>
+						<%=
+							link_to_unless_current("Portals", { controller: "portals" }, { :class => "page-scroll hvr-underline-from-center", :data => { "turbolinks-action": "advance" }}) do
+								link_to("Portals", { controller: "portals" }, { class: "page-scroll active hvr-underline-from-center", :data => { "turbolinks-action": "advance" } })
+							end
+						 %>
+					</li>
+					<li>
+						<%=
+							link_to_unless_current("Dashboards", { controller: "dashboards" }, { :class => "page-scroll hvr-underline-from-center", :data => { "turbolinks-action": "advance" } }) do
+								link_to("Dashboards", { controller: "dashboards", action: "index" }, { class: "page-scroll active hvr-underline-from-center", :data => { "turbolinks-action": "advance" } })
+							end
+						 %>
 					</li>
 
 				</ul>

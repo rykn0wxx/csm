@@ -11,6 +11,7 @@
 
 class Client < ApplicationRecord
   has_many :projects
+  has_many :dashboards
 
   validates :name, presence: true
 end

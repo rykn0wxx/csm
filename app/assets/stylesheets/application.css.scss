@@ -4,6 +4,9 @@ $output-bourbon-deprecation-warnings: false;
 @import "bootstrap-sprockets";
 @import "bootswatch/slate/variables";
 @import "mixins/mixins";
+@import "hover/hover";
+
+@import "formtastic-bootstrap";
 
 @import "font-awesome";
 @import "vars";

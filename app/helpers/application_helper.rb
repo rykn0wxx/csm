@@ -15,12 +15,9 @@ module ApplicationHelper
     link_to(name, '#', class: "add_fields btn btn-sm btn-default", data: {id: id, fields: fields.gsub("\n", "")})
   end
 
-  def is_to_link(ctrlname)
-    itl = false;
-    if controller_name == ctrlname
-      itl = true
-    end
-    itl
+  def labeled_form_for(object, options = {}, &block)
+    options[:builder] = LabeledFormBuilder
+    form_for(object, options, &block)
   end
 
 end

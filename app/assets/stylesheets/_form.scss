@@ -99,4 +99,8 @@
       @include linear-gradient(#ef5350, tint(#ef5350, 10%));
     }
   }
+  .form-actions {
+    padding: 10px;
+    @extend .clearfix;
+  }
 }

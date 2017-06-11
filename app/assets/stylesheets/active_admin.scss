@@ -7,7 +7,7 @@ $skinTextActiveColor: #EDEDED;
 $skinTextTable: #5B6667;
 $output-bourbon-deprecation-warnings: false;
 @import "fonts";
-@import "bourbon/bourbon";
+@import "bourbon";
 
 @import "font-awesome";
 @import "active_admin/mixins";

@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: dashboards
+#
+#  id         :integer          not null, primary key
+#  client_id  :integer
+#  subdomain  :string
+#  name       :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+# Indexes
+#
+#  index_dashboards_on_client_id  (client_id)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client: one
+  subdomain: MyString
+  name: MyString
+
+two:
+  client: two
+  subdomain: MyString
+  name: MyString

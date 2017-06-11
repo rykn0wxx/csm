@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170608135721) do
+ActiveRecord::Schema.define(version: 20170610192606) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -50,6 +50,23 @@ ActiveRecord::Schema.define(version: 20170608135721) do
     t.boolean  "is_active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "dashboards", force: :cascade do |t|
+    t.integer  "client_id"
+    t.string   "subdomain"
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["client_id"], name: "index_dashboards_on_client_id"
+  end
+
+  create_table "pages", force: :cascade do |t|
+    t.integer  "dashboard_id"
+    t.string   "name"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["dashboard_id"], name: "index_pages_on_dashboard_id"
   end
 
   create_table "portals", force: :cascade do |t|
