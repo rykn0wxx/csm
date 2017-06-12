@@ -21,7 +21,6 @@
 //= require angular-messages
 //= require angular-material
 
-
 //= require highstock.src
 //= require highcharts/highcharts-more
 //= require highcharts/modules/data
@@ -30,7 +29,6 @@
 //= require highcharts/modules/offline-exporting
 
 //= require chartkick
-//= require turbolinks
 
 //= require app/app
 //= require app/controllers/MudCtrl
@@ -38,6 +36,7 @@
 //= require app/directives/aLink.directive
 //= require app/directives/appForm.directive
 
+//= require turbolinks
 
 document.addEventListener('turbolinks:click', function (ev, arg) {
   console.log(ev, arg);
