@@ -1,14 +1,39 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="rykn0wxx no-js">
   <head>
-    <title>Csm</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="rykn0wxx" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+    <title><%= content_for?(:title) ? yield(:title) + " | rykn0wxx" : "rykn0wxx" %></title>
+
+    <%= javascript_tag do %>
+      document.documentElement.className = 'rykn0wxx js';
+    <% end %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    
+    <%= tag :meta, name: 'turbolinks-root', content: '/' %>
+    <%= tag :meta, name: 'turbolinks-cache-control', content: 'no-cache' %>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+    <%= tag :meta, name: :kohana, action: action_name, controller: controller_name %>
 
-  <body>
-    <%= yield %>
+  </head>
+  <body class="<%= controller_name  %>">
+
+    <div class="wrapper" id="wrapper">
+
+      <div class="container main-container">
+        <%= render "partials/header" if show_header? %>
+        <% flash.each do |name, msg| %>
+          <%= content_tag :div, msg, id: "flash_#{name}" %>
+        <% end %>
+        <%= yield %>
+      </div>
+
+    </div>
+
   </body>
 </html>

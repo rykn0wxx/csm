@@ -12,5 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap-sprockets
+
+//= require highcharts
+//= require chartkick
+
+//= require segmentor/anime
+//= require segmentor/imagesloaded
+//= require segmentor/main
+
+//= require app
+
 //= require turbolinks
-//= require_tree .

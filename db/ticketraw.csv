@@ -1,0 +1,501 @@
+opened_at,resolved_at,location,ticket_service_id,ticket_symptom_id,group_name,ticket_type_id,contact_type_id,region_id,desk_id,client_id
+2017-Apr-30 23:50:55,2017-May-01 18:29:19,NNA/Corp - Atlanta HQ,Software,Active Directory - Account Disabled,IT Active Directory L2,INC,Phone,NA,BS,Novelis
+2017-Apr-30 23:46:40,2017-May-03 08:06:29,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Security L3,INC,Email,NA,BS,Novelis
+2017-Apr-30 22:36:53,2017-Apr-13 13:10:39,NNA/Corp - Atlanta HQ,Software,SAP - All other issues,IT APP Global SAP P2S PE L2,INC,Phone,NA,Other,Novelis
+2017-Apr-30 22:30:38,2017-Apr-30 22:56:38,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-30 22:19:47,2017-Apr-30 22:32:06,NNA/Corp - Atlanta HQ,Software,Technical Support - Technical analysis,IT APP Global SAP BI L2,INC,Phone,NA,Other,Novelis
+2017-Apr-30 22:10:10,2017-Apr-30 22:27:26,NNA/Corp - Atlanta HQ,Software,VPN - Install,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-30 21:37:58,2017-Apr-30 21:46:41,NA - YeongJu,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-30 18:04:55,2017-Apr-30 18:23:22,NSA - Pinda,Software,VPN - Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 17:56:30,2017-Apr-30 18:06:10,NNA - Terre Haute,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-30 17:15:56,2017-May-01 14:44:25,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-30 16:52:32,2017-May-01 12:17:16,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-30 16:40:17,2017-Apr-30 16:45:01,NSA - Pinda,Software,Outlook - Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 16:33:59,2017-Apr-30 20:56:47,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-30 16:22:48,2017-Apr-30 16:24:57,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 14:54:17,2017-Apr-30 17:26:37,NSA - Sao Paulo,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 13:55:41,2017-Apr-30 14:13:43,NNA - Oswego,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-30 13:35:10,2017-May-01 05:17:13,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-30 12:15:21,2017-Apr-30 12:19:25,NNA/Corp - Atlanta HQ,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-30 11:38:58,2017-May-01 14:33:15,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-30 11:38:55,2017-May-01 16:38:24,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-30 10:53:56,2017-Apr-30 11:14:57,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 10:48:44,2017-Apr-30 10:58:41,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 10:32:21,2017-May-01 03:39:57,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-30 10:32:21,2017-May-01 11:53:32,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-30 10:21:30,2017-Apr-30 15:08:22,NSA - Sao Paulo,Software,Software How to,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 09:59:55,2017-May-02 03:32:42,NSA - Pinda,Software,Novelis Specific Software - Software Iss,IT App NNA Cap Forms L2,INC,Phone,SA,Other,Novelis
+2017-Apr-30 09:25:31,2017-May-01 10:08:37,NNA - Kennesaw R&T,Software,Novelis Specific Software - Software Iss,IT Desktop Kennesaw L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-30 09:15:59,2017-Apr-30 09:17:42,NSA - Pinda,Others,Status Check,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 09:07:18,2017-May-08 11:02:50,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-30 09:07:16,,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-30 09:06:41,2017-May-01 04:41:29,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-30 08:46:12,2017-May-02 09:00:25,NSA - Pinda,Software,Oracle - All Other Issues,IT App NSA Order to Cash L2,INC,Phone,SA,Other,Novelis
+2017-Apr-30 08:36:40,2017-May-01 03:35:23,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-30 08:36:40,2017-May-01 11:49:44,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-30 08:17:06,2017-Apr-30 08:27:59,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 08:02:57,2017-Apr-30 09:14:14,NSA - Pinda,Software,VPN - Troubleshoot,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-30 08:01:14,,,Hardware,Network Device Issue,IT Wireless L2,INC,Phone,Other,Other,Novelis
+2017-Apr-30 07:08:30,2017-May-02 03:18:07,NE - Sierre,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-30 07:08:30,2017-May-04 02:58:12,NE - Sierre,Catalog,Employee and Contractor Off Boarding,IT Desktop Sierre L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-30 07:08:30,2017-May-02 18:24:32,NE - Sierre,Catalog,Employee and Contractor Off Boarding,IT FIM AD Request Service Desk L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-30 06:56:04,2017-May-05 04:55:39,NE - Zurich,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-30 06:51:02,,NSA - Pinda,Software,Email - Spam/Phishing Email,IT Security L3,INC,Email,SA,BS,Novelis
+2017-Apr-30 04:55:07,2017-May-03 10:13:14,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NSA Plan to Produce L2,INC,Phone,SA,Other,Novelis
+2017-Apr-30 04:45:57,,NE - Ohle,Catalog,Software Installation,IT Service Desk NNA L1,TASK,Phone,EU,SD,Novelis
+2017-Apr-30 03:24:27,2017-Apr-30 03:28:22,NNA - Kingston,Others,Status Check Incident,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-30 03:02:09,2017-Apr-30 03:43:35,NNA - Kingston,Software,Novelis Specific Software - Software Iss,IT App NNA KIT Shopfloor L2,INC,Phone,NA,Other,Novelis
+2017-Apr-30 03:00:23,2017-Apr-30 03:03:51,NA - Seoul,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-30 01:30:53,2017-Apr-30 02:18:55,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 23:56:58,2017-May-05 11:34:57,NNA/Corp - Atlanta HQ,Catalog,SAP GT Password Reset,IT App SAP GT Password ServiceDesk L1,TASK,Phone,NA,Other,Novelis
+2017-Apr-29 23:50:55,2017-Apr-29 23:52:28,NNA/Corp - Atlanta HQ,Others,Disconnected Call - Hung up before verif,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-29 23:30:46,2017-May-01 11:51:09,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-29 23:22:31,2017-Apr-29 23:46:42,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 23:08:22,2017-May-01 06:29:00,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-29 23:01:44,2017-Apr-29 23:07:17,NNA - Greensboro,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-29 22:46:47,2017-May-04 11:58:50,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-29 22:07:29,2017-Apr-29 22:40:13,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 21:59:43,2017-May-01 11:52:46,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-29 21:42:22,2017-May-03 08:45:53,Foil - Etobicoke (Toronto),Catalog,Employee and Contractor Off Boarding,IT Desktop Kingston L2,TASK,Phone,Other,DS,Novelis
+2017-Apr-29 21:42:21,2017-May-01 03:42:48,Foil - Etobicoke (Toronto),Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,Other,BS,Novelis
+2017-Apr-29 21:41:51,2017-May-01 11:30:58,NNA/Corp - Atlanta HQ,Software,Active Directory - Password Reset,IT Desktop Atlanta L2,INC,Phone,NA,DS,Novelis
+2017-Apr-29 21:33:11,2017-Apr-29 22:04:33,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 21:11:48,2017-Apr-30 07:58:58,,Hardware,Network Device Issue,IT VoIP L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 21:07:34,2017-Apr-29 21:27:11,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 20:53:21,2017-Apr-29 21:13:18,NA - Seoul,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-29 20:38:13,,NE - Nachterstedt,Software,Email - Spam/Phishing Email,IT Security L3,INC,Email,EU,BS,Novelis
+2017-Apr-29 19:35:42,2017-Apr-30 17:24:15,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 19:10:10,2017-May-01 04:44:46,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-29 19:10:10,2017-May-01 03:52:18,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-29 19:10:10,2017-May-01 12:02:54,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-29 19:10:10,2017-May-01 10:26:47,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-29 19:03:39,2017-May-01 03:56:20,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-29 19:03:39,2017-May-02 08:33:52,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Sao Paulo L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-29 19:03:13,2017-May-01 04:11:31,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-29 19:03:13,2017-May-03 11:15:41,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-29 19:03:12,2017-May-01 04:20:09,NE - Voreppe,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-29 19:03:12,2017-May-02 02:53:33,NE - Voreppe,Catalog,Employee and Contractor Off Boarding,IT Desktop Dispatch NE L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-29 19:03:11,2017-May-01 04:15:21,NNA - Kennesaw R&T,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-29 19:03:11,,NNA - Kennesaw R&T,Catalog,Employee and Contractor Off Boarding,IT Desktop Kennesaw L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-29 19:03:10,2017-May-01 04:06:13,NA - Ulsan,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,AS,BS,Novelis
+2017-Apr-29 19:03:10,2017-Apr-29 20:27:24,NA - Ulsan,Catalog,Employee and Contractor Off Boarding,IT Desktop Ulsan L2,TASK,Phone,AS,DS,Novelis
+2017-Apr-29 17:57:38,2017-Apr-30 16:48:04,NSA - Sao Paulo,Catalog,Contractor Information Update,IT FIM AD Request Service Desk L2,TASK,Phone,SA,BS,Novelis
+2017-Apr-29 16:59:12,2017-Apr-30 18:47:30,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 16:58:00,2017-Apr-29 17:06:51,NSA - Pinda,Software,VPN - Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 16:53:59,2017-Apr-29 18:15:35,NSA - Pinda,Software,Active Directory - Account Disabled,IT Messaging L2,INC,Phone,SA,BS,Novelis
+2017-Apr-29 16:15:34,2017-May-01 16:42:42,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-29 15:24:36,2017-May-05 08:50:27,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NSA Design to Deploy L2,INC,Phone,SA,Other,Novelis
+2017-Apr-29 13:13:37,2017-Apr-29 13:17:31,NSA - Pinda,Services,Status Check,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 11:59:02,,,Hardware,Network Device Issue,IT VoIP L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 11:18:18,2017-May-01 16:36:38,NNA - Kingston,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-29 11:16:55,2017-Apr-29 11:39:32,NSA - Pinda,Software,Oracle - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 10:44:32,2017-Apr-29 11:12:09,NSA - Pinda,Software,Active Directory - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 09:41:24,2017-Apr-29 10:28:16,NSA - Pinda,Software,VPN - Add Credentials,IT Service Desk NSA L1,INC,Self-service,SA,SD,Novelis
+2017-Apr-29 09:33:25,2017-Apr-29 09:46:14,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-29 08:45:10,2017-May-09 13:48:34,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-29 08:41:58,2017-Apr-29 08:44:14,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 08:03:10,2017-May-02 14:11:05,NSA - Pinda,Software,Novelis Specific Software - Password Res,IT Infra NSA Account Management L2,INC,Phone,SA,Other,Novelis
+2017-Apr-29 07:54:29,2017-Apr-29 07:59:09,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 07:49:35,2017-Apr-29 07:51:11,NSA - Pinda,Software,Novelis Specific Software - Software Iss,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 07:47:11,2017-May-01 00:10:53,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 07:13:01,2017-Apr-29 07:14:35,NSA - Pinda,Software,Software Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 06:16:15,2017-Apr-29 06:17:54,NSA - Pinda,Software,Novelis Specific Software - How To,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-29 06:11:24,2017-May-01 16:47:55,NSA - Pinda,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,SA,SD,Novelis
+2017-Apr-29 04:35:21,2017-Apr-29 04:43:13,NE - Sierre,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Phone,EU,SD,Novelis
+2017-Apr-29 04:26:23,2017-Apr-29 04:40:34,NE - Sierre,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,EU,SD,Novelis
+2017-Apr-29 02:49:08,2017-Apr-29 02:53:59,NNA - Oswego,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-29 02:16:23,2017-Apr-29 20:39:51,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 02:11:47,2017-Apr-29 02:25:36,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-29 01:23:58,2017-May-01 16:30:50,NA - Ulsan,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,AS,SD,Novelis
+2017-Apr-29 01:08:05,2017-Apr-29 05:32:51,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-29 00:12:17,,NNA - Oswego,Software,Email - Spam/Phishing Email,IT Security L3,INC,Email,NA,BS,Novelis
+2017-Apr-28 23:48:48,2017-May-04 09:40:06,NSA - Utinga,Software,Novelis Specific Software - Data Issue,IT Desktop Utinga L2,INC,Phone,SA,DS,Novelis
+2017-Apr-28 23:24:32,2017-Apr-29 00:06:51,,Hardware,Network Device Issue,IT VoIP L2,INC,Phone,Other,Other,Novelis
+2017-Apr-28 23:23:26,,NSA - Pinda,Software,Email - Spam/Phishing Email,IT Security L3,INC,Email,SA,BS,Novelis
+2017-Apr-28 22:58:43,,NA - Changzhou Site Office,Software,Pending - Response from user,IT APP Global SAP R2R L2,INC,Self-service,AS,Other,Novelis
+2017-Apr-28 22:57:07,2017-May-03 11:19:18,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 22:50:48,2017-Apr-28 22:53:42,NA - Ulsan,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-28 22:40:10,2017-May-02 14:09:14,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT Infra NSA Account Management L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 22:39:39,2017-May-03 11:34:48,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 22:36:58,2017-Apr-28 22:38:23,NSA - Utinga,Software,Software Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 22:04:01,2017-May-10 10:19:22,NE - Ohle,Catalog,Software Installation,IT SCCM Software Distribution Service Desk L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-28 21:52:48,2017-Apr-28 21:55:09,NNA/Corp - Atlanta HQ,Others,Call Disconnected,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 21:50:50,2017-May-02 07:42:42,NNA/Corp - Atlanta HQ,Software,Oracle - All Other Issues,IT Desktop Pinda L2,INC,Phone,NA,DS,Novelis
+2017-Apr-28 21:25:07,,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NNA Cap Package L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 20:59:03,2017-Apr-30 23:58:23,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 20:27:08,2017-Apr-28 20:45:23,NA - Seoul,Software,VPN - Install,IT Service Desk NNA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-28 19:33:29,2017-May-10 07:17:01,NSA - Pinda,Software,Oracle - All Other Issues,IT App NSA Design to Deploy L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 19:22:04,2017-Apr-28 19:51:45,NNA - Berea,Software,VPN - Install,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 19:16:56,,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 19:16:56,2017-May-02 03:16:29,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 19:16:55,2017-May-02 03:09:44,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 19:16:22,2017-Apr-28 19:19:07,NNA/Corp - Atlanta HQ,Others,Status Check,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 19:13:22,2017-May-01 10:15:26,NNA/Corp - Atlanta HQ,Catalog,Customer Pricing,SAP Commercial Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 18:29:58,2017-Apr-28 19:00:04,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - Data Issue,IT App Hyperion - HFP / Essbase L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 18:15:53,2017-Apr-28 18:37:16,NSA - Pinda,Software,Oracle - How to,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 18:00:38,2017-May-02 09:07:21,NSA - Pinda,Software,Oracle - All Other Issues,IT App NSA Design to Deploy L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 17:53:21,2017-May-02 19:27:45,NNA - Kingston,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 17:53:12,2017-May-01 06:10:27,NNA - Oswego,Catalog,Transfer Pricing,SAP Administrative Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 17:43:53,2017-Apr-28 17:47:32,NNA - Oswego,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 17:38:09,2017-May-01 06:26:06,NNA - Oswego,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 17:21:35,2017-May-03 13:17:13,NNA/Corp - Atlanta HQ,Services,Services How to,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 17:15:50,2017-Apr-28 18:20:33,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 17:13:20,2017-Apr-28 17:23:04,NSA - Sao Paulo,Software,Technical Support - Technical analysis,IT App NSA ATG & DBA L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 17:10:18,2017-Apr-28 17:38:35,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 17:10:07,2017-Apr-28 17:22:19,NSA - Sao Paulo,Software,Technical Support - Technical analysis,IT App NSA ATG & DBA L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 16:51:53,2017-May-03 17:02:54,NSA - Sao Paulo,Software,Office 365,IT Messaging L2,INC,Self-service,SA,BS,Novelis
+2017-Apr-28 16:48:15,2017-Apr-28 17:22:10,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk NNA L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 16:38:17,2017-Apr-28 17:55:36,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - Configuration,IT Messaging L2,INC,Self-service,NA,BS,Novelis
+2017-Apr-28 16:34:27,2017-May-01 06:50:44,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Tolling Planner,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 16:30:08,2017-Apr-28 16:50:21,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 16:28:04,2017-Apr-28 16:53:24,NNA/Corp - Atlanta HQ,Hardware,Mobile Devices Replacement,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 16:23:56,2017-Apr-30 17:15:55,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 16:19:32,2017-Apr-28 16:26:33,NSA - Pinda,Software,Oracle - How to,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 16:13:09,2017-Apr-28 16:25:54,NNA - Oswego,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 16:08:47,2017-May-09 13:44:17,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 16:08:41,2017-Apr-28 17:25:49,NNA - Terre Haute,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 16:08:03,,NNA - Fairmont,Catalog,Employee and Contractor Off Boarding,IT Desktop Fairmont L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 16:08:02,2017-May-01 03:58:37,NNA - Fairmont,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 16:03:42,2017-Apr-28 19:27:57,NSA - Utinga,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,SA,SD,Novelis
+2017-Apr-28 16:03:29,2017-Apr-28 17:38:09,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:56:12,2017-Apr-28 16:17:13,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - Access/Permi,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 15:55:33,2017-Apr-28 17:00:58,NNA/Corp - Atlanta HQ,Catalog,Office 365 Distribution List Changes,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 15:55:20,2017-Apr-28 15:55:43,NNA/Corp - Atlanta HQ,Catalog,IT Exception Process,IT Security L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 15:53:23,2017-May-02 12:11:44,NSA - Sao Paulo,Software,VPN - Add Credentials,IT Service Desk NSA L1,INC,Self-service,SA,SD,Novelis
+2017-Apr-28 15:49:48,2017-May-10 16:02:13,NNA - Oswego,Catalog,Webfilter,IT Hosting L2/L3,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:49:23,,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - Data Issue,IT App Oracle Financials L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 15:45:47,2017-May-02 15:16:46,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-28 15:45:28,,NSA - Pinda,Software,Oracle - All Other Issues,IT App NSA Plan to Produce L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 15:41:27,2017-Apr-28 16:34:26,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:39:19,2017-Apr-28 15:44:15,NSA - Pinda,Software,Oracle - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 15:38:44,2017-May-01 05:58:38,NNA - Terre Haute,Software,Novelis Specific Software - Configuration,ServiceNow Admin L3,INC,Phone,NA,Other,Novelis
+2017-Apr-28 15:37:05,2017-May-01 09:58:18,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:33:44,2017-May-03 12:03:11,NE - Zurich,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 15:33:07,2017-Apr-28 17:24:34,NNA - Kennesaw R&T,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 15:31:58,2017-Apr-28 16:04:12,NSA - Pinda,Software,VPN - Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 15:31:42,2017-Apr-28 15:31:42,NSA - Sao Paulo,,Call Disconnected,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 15:30:07,,NNA/Corp - Atlanta HQ,Software,Pending - Response from user,IT APP Global SAP S2P L2,INC,Phone,NA,Other,Novelis
+2017-Apr-28 15:28:57,2017-Apr-28 16:03:29,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:25:49,2017-Apr-28 15:33:15,NSA - Pinda,Software,VPN - Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 15:21:46,2017-May-02 13:19:22,NNA - Kennesaw R&T,Software,Functional Support - Functional analysis,IT APP Global SAP C2C L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 15:18:11,2017-Apr-30 13:35:10,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:16:09,2017-May-01 11:33:48,NNA/Corp - Atlanta HQ,Catalog,ACIS Customer Master Create,ACIS Customer Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:15:09,,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Desktop Atlanta L2,INC,Phone,NA,DS,Novelis
+2017-Apr-28 15:10:43,2017-Apr-28 15:59:37,NNA - Novi,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:07:06,2017-Apr-28 21:33:17,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 15:05:51,2017-May-01 14:59:52,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:02:34,2017-Apr-28 16:08:12,NE - Zurich,Hardware,PC / Laptop Troubleshoot,IT Service Desk NNA L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 15:01:52,2017-Apr-28 15:45:47,NSA - Sao Paulo,Software,VPN - Add Credentials,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 15:01:08,2017-Apr-28 15:37:04,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:00:58,2017-May-04 04:16:13,,Catalog,Application Access Management,IT App Global Cap Package L2,TASK,Phone,Other,Other,Novelis
+2017-Apr-28 15:00:51,2017-Apr-28 15:41:27,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:00:42,2017-May-01 06:57:15,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 15:00:27,2017-Apr-28 16:57:28,NNA - Warren,Services,Configuration Issue,IT Active Directory L2,INC,Self-service,NA,BS,Novelis
+2017-Apr-28 14:56:44,2017-Apr-28 15:27:01,NNA - Oswego,Software,Software How to,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 14:56:21,2017-Apr-28 15:35:40,NNA/Corp - Atlanta HQ,Catalog,Customer Pricing,SAP Commercial Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:55:28,2017-May-04 14:39:25,NNA/Corp - Atlanta HQ,Catalog,Peripherals,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 14:54:25,2017-May-03 10:34:05,NNA - Novi,Catalog,Metal Materials,SAP Kingston Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:49:47,2017-Apr-28 15:18:10,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:49:38,2017-Apr-28 14:54:08,NSA - Sao Paulo,Software,Software Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 14:47:36,2017-Apr-28 15:09:39,NSA - Pinda,Software,Technical Support - Technical analysis,IT App NSA ATG & DBA L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 14:45:57,2017-May-01 04:03:41,NNA/Corp - Atlanta HQ,Others,Status Check,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 14:45:13,2017-May-02 14:22:24,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:38:11,2017-Apr-28 15:08:01,NSA - Pinda,Software,Oracle - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 14:37:30,,NNA - Oswego,Software,Novelis Specific Software - Access/Permi,IT Messaging L2,INC,Self-service,NA,BS,Novelis
+2017-Apr-28 14:36:32,2017-May-01 14:49:09,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:36:22,2017-Apr-28 14:43:27,NSA - Pinda,Software,Novelis Specific Software - Configuration,IT Desktop Pinda L2,INC,Walk-in,SA,DS,Novelis
+2017-Apr-28 14:35:07,2017-Apr-28 14:44:03,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 14:33:56,2017-May-01 04:26:50,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 14:33:56,2017-May-01 04:00:52,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 14:33:56,2017-May-01 12:02:32,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 14:33:56,2017-May-01 12:09:10,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 14:33:56,2017-Apr-28 16:28:48,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT FIM AD Request Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 14:33:56,2017-Apr-28 16:27:03,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT FIM AD Request Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 14:33:42,2017-Apr-28 18:06:27,NSA - Utinga,Software,Novelis Specific Software - How To,IT Service Desk NSA L1,INC,Self-service,SA,SD,Novelis
+2017-Apr-28 14:32:57,2017-May-03 16:37:27,NNA/Corp - Atlanta HQ,Catalog,SMTP Relay White Listing,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 14:32:56,2017-May-03 16:35:56,NNA/Corp - Atlanta HQ,Catalog,SMTP Relay White Listing,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 14:21:48,2017-Apr-28 15:20:13,NNA/Corp - Atlanta HQ,Others,Status Check Incident,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 14:17:23,2017-Apr-28 15:05:51,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:16:44,2017-Apr-28 14:45:12,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:15:51,2017-Apr-28 15:11:17,NSA - Pinda,Software,Software Install,IT Service Desk NSA L1,INC,Chat,SA,SD,Novelis
+2017-Apr-28 14:15:43,2017-May-03 09:33:26,NNA/Corp - Atlanta HQ,Catalog,Customer Master Create ,SAP Commercial Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 14:13:07,2017-May-08 09:24:35,NSA - Utinga,Others,Non IT Questions,IT App NSA Design to Deploy L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 14:11:11,2017-Apr-28 14:20:39,NSA - Pinda,Software,Active Directory - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 14:10:43,2017-Apr-28 14:27:00,NSA - Pinda,Software,Oracle - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 14:02:59,2017-May-03 11:36:46,NSA - Pinda,Software,Windows - All Other Issues,IT Desktop Pinda L2,INC,Phone,SA,DS,Novelis
+2017-Apr-28 14:02:13,,NNA - Warren,Hardware,Printer Troubleshoot,IT Desktop Warren L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 13:58:24,2017-May-03 04:31:31,NSA - Pinda,Software,Novelis Specific Software - Software Iss,IT App NNA Cap Forms L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 13:58:08,2017-May-02 11:43:06,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:57:56,2017-May-10 07:48:12,,Catalog,Application Access Management,IT App SAP-Security L2,TASK,Phone,Other,Other,Novelis
+2017-Apr-28 13:57:05,,NSA - Sao Paulo,Software,Novelis Specific Software - Data Issue,IT Desktop Sao Paulo L3,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 13:56:41,2017-Apr-28 14:01:54,NE - Zurich,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 13:53:37,2017-Apr-28 13:57:04,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - How To,IT Service Desk NSA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 13:51:24,2017-Apr-28 14:51:43,NSA - Pinda,Software,Oracle - All Other Issues,IT App NSA Order to Cash L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 13:50:19,,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - Data Issue,ServiceNow Support L2,INC,Phone,NA,Other,Novelis
+2017-Apr-28 13:49:49,2017-May-02 13:05:33,NSA - Sao Paulo,Software,Oracle - All Other Issues,IT App NSA Order to Cash L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 13:49:29,2017-May-01 17:43:08,NNA/Corp - Atlanta HQ,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:49:26,2017-May-01 09:21:57,NNA/Corp - Atlanta HQ,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:47:52,2017-Apr-28 16:17:57,NNA - Kennesaw R&T,Catalog,VPN Access Request New,IT Security NEW VPN Access Request L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 13:45:43,2017-Apr-28 14:31:03,NNA/Corp - Atlanta HQ,Others,Status Check Incident,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 13:44:13,2017-May-02 15:10:53,NSA - Sao Paulo,Catalog,File Share: Access,IT Active Directory L2,TASK,Phone,SA,BS,Novelis
+2017-Apr-28 13:43:29,2017-May-02 15:20:49,NNA/Corp - Atlanta HQ,Catalog,File Share: Access,IT Active Directory L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 13:43:25,2017-May-02 14:18:40,NNA/Corp - Atlanta HQ,Catalog,File Share: Access,IT Active Directory L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 13:38:50,2017-Apr-28 15:10:43,NNA - Novi,Catalog,Metal Materials,SAP Automotive Product Management,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:35:22,2017-Apr-30 16:52:31,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:34:28,2017-Apr-28 14:33:03,NNA - Oswego,Software,Novelis Specific Software - Password Res,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 13:33:23,,NNA/Corp - Atlanta HQ,Catalog,Software Installation,IT SCCM Software Distribution Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 13:30:51,2017-May-04 22:55:00,NNA - Kingston,Catalog,Software Installation,IT SCCM Software Distribution Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 13:28:19,2017-Apr-28 13:34:18,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 13:28:01,2017-May-03 00:35:21,NNA/Corp - Atlanta HQ,Software,Service Request,IT APP Global SAP BASIS L2,INC,Phone,NA,Other,Novelis
+2017-Apr-28 13:26:39,2017-Apr-28 13:41:02,NNA/Corp - Atlanta HQ,Software,Software How to,IT Service Desk NSA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 13:24:14,2017-Apr-28 13:54:36,NNA - Kennesaw R&T,Software,Software How to,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 13:20:33,2017-May-01 18:03:36,NNA/Corp - Atlanta HQ,Catalog,SAP GT Access Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:15:13,2017-May-01 11:53:52,NNA - Terre Haute,Catalog,Internal Orders - Capital/Statistical/Order Groups ,SAP Administrative Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:09:14,2017-Apr-28 13:24:10,NSA - Pinda,Software,VPN - Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 13:09:12,2017-Apr-28 13:13:44,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - How To,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 13:05:11,2017-May-08 17:38:50,NSA - Pinda,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 13:04:50,2017-May-02 19:25:10,NSA - Pinda,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,SA,BS,Novelis
+2017-Apr-28 13:03:17,2017-May-01 14:55:56,NNA/Corp - Atlanta HQ,Catalog,Customer Master Create ,SAP Credit Department,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:01:52,2017-May-02 10:38:21,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 13:01:51,,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 12:58:47,2017-Apr-28 13:03:16,NNA/Corp - Atlanta HQ,Catalog,Customer Master Create ,SAP Tolling Planner,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 12:57:11,2017-May-01 15:13:37,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 12:53:40,2017-Apr-28 12:56:01,NSA - Pinda,Software,Novelis Specific Software - Software Req,IT App NSA BI & Analytics L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 12:51:47,,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 12:50:56,2017-Apr-28 13:25:14,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NSA Sharepoint L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 12:50:34,2017-Apr-28 13:13:39,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NSA Plan to Produce L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 12:49:36,2017-Apr-28 12:53:24,NSA - Pinda,Software,Novelis Specific Software - Software Req,IT App NSA BI & Analytics L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 12:45:03,2017-Apr-28 12:53:21,NNA/Corp - Atlanta HQ,Others,Status Check Request,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 12:43:01,2017-Apr-28 12:55:14,NNA/Corp - Atlanta HQ,Software,Software Update,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 12:41:51,2017-May-01 14:56:50,NNA - Novi,Catalog,Customer Master Create ,SAP Credit Department,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 12:36:17,2017-Apr-28 12:58:38,NSA - Sao Paulo,Software,Oracle - All Other Issues,IT App NSA ATG & DBA L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 12:32:00,2017-Apr-28 15:48:42,NNA - Kingston,Software,Software Install,IT Desktop Kingston L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 12:30:47,2017-Apr-28 12:42:39,NNA - Greensboro,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 12:29:05,2017-Apr-28 12:41:51,NNA - Novi,Catalog,Customer Master Create ,SAP Tolling Planner,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 12:22:11,2017-Apr-28 13:25:23,NSA - Pinda,Services,Telecoms All Other Issues,IT Infra NSA Telephony L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 12:20:33,2017-Apr-28 14:08:27,NNA - Oswego,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 12:16:36,2017-Apr-28 13:17:52,NSA - Sao Paulo,Others,Non IT Questions,IT App NSA Order to Cash L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 12:15:19,2017-Apr-29 13:47:57,NNA/Corp - Atlanta HQ,Software,Security - Authorization,IT App SAP-Security L2,INC,Phone,NA,Other,Novelis
+2017-Apr-28 12:07:40,,NNA - Novi,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 12:03:40,2017-Apr-28 20:20:58,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk NNA L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 11:57:33,2017-Apr-28 14:17:23,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 11:48:04,2017-Apr-28 14:16:44,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 11:47:02,,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT Desktop Pinda L2,INC,Phone,SA,DS,Novelis
+2017-Apr-28 11:44:12,2017-Apr-28 13:21:47,NNA/Corp - Atlanta HQ,Catalog,Customer Pricing,SAP Commercial Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 11:43:12,,NNA/Corp - Atlanta HQ,Software,Pending - Response from user,IT APP Global SAP TECH L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 11:42:45,2017-Apr-28 11:46:16,NE - Sierre,Software,Novelis Specific Software - Software Iss,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 11:33:22,2017-May-02 14:02:20,NSA - Utinga,Services,Telecoms All Other Issues,IT Infra NSA Telephony L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 11:31:08,2017-May-02 19:24:15,NNA - Oswego,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 11:30:24,2017-Apr-28 11:40:06,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 11:30:15,2017-Apr-28 12:00:29,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 11:23:15,2017-Apr-28 11:59:41,NNA - Kingston,Software,VPN - Troubleshoot,IT Desktop Kingston L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 11:22:54,2017-Apr-28 11:43:25,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 11:21:07,2017-Apr-28 11:42:40,NE - Sierre,Software,Novelis Specific Software - Software Iss,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 11:19:21,2017-Apr-29 20:58:33,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-28 11:14:09,2017-May-02 19:38:48,NE - Goettingen,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,EU,BS,Novelis
+2017-Apr-28 11:13:26,2017-Apr-28 11:22:39,NNA - Oswego,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 11:13:24,2017-Apr-28 11:16:55,NNA - Oswego,Software,SAP - Password Reset (Others),IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 11:12:41,2017-Apr-28 11:25:40,NNA/Corp - Atlanta HQ,Others,Disconnected Call - No Caller,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 11:11:09,2017-Apr-28 11:11:09,NSA - Sao Paulo,Others,Call Disconnected,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 11:08:58,2017-May-03 08:58:23,NSA - Utinga,Software,Windows - All Other Issues,IT Desktop Utinga L2,INC,Phone,SA,DS,Novelis
+2017-Apr-28 11:06:03,2017-Apr-28 11:07:26,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 11:05:50,2017-May-03 05:52:29,NE - Bresso,Catalog,File Share: Access,IT Active Directory L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-28 11:05:14,2017-Apr-28 11:06:03,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 11:03:44,2017-Apr-28 12:59:04,NSA - Pinda,Others,Call Disconnected,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 11:01:31,2017-Apr-28 11:02:55,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:59:31,2017-Apr-28 11:01:30,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:57:14,2017-May-01 10:38:01,NNA/Corp - Atlanta HQ,Software,Security - Authorization,IT App SAP-Security L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 10:50:55,2017-Apr-28 10:54:22,NNA/Corp - Atlanta HQ,Catalog,Software Application Package Creation,IT SCCM L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 10:49:16,2017-Apr-28 10:50:54,NNA/Corp - Atlanta HQ,Catalog,Software Application Package Creation,IT SCCM L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 10:46:00,2017-Apr-28 16:01:19,NNA - Kennesaw R&T,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 10:41:13,2017-Apr-28 10:50:12,NE - Latchford,Catalog,Phone Request,IT Desktop Latchford L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-28 10:39:35,2017-Apr-28 21:14:56,NNA - Novi,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 10:37:42,2017-Apr-28 21:23:03,NNA - Terre Haute,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 10:37:05,2017-Apr-28 10:38:26,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:36:55,2017-Apr-28 12:20:33,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:36:09,2017-Apr-28 10:37:05,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:35:23,2017-Apr-28 10:43:35,NSA - Pinda,Software,Oracle - All Other Issues,IT App NSA ATG & DBA L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 10:35:21,2017-Apr-28 10:48:17,NSA - Utinga,Software,Novelis Specific Software - Software Iss,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 10:35:19,2017-Apr-28 16:23:56,NNA - Oswego,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:34:50,2017-Apr-28 10:39:01,NNA - Oswego,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 10:34:42,2017-Apr-28 10:35:19,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:32:33,2017-Apr-28 10:33:24,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:31:42,2017-Apr-28 10:36:54,NNA - Oswego,Catalog,Metal Materials,SAP Oswego Product Engineers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:31:16,2017-Apr-28 10:32:33,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:27:40,2017-May-05 15:18:09,NNA - Kingston,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 10:27:34,2017-Apr-28 18:19:05,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 10:27:33,2017-Apr-28 14:30:35,NSA - Sao Paulo,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,SA,BS,Novelis
+2017-Apr-28 10:27:33,2017-May-02 13:09:04,NSA - Sao Paulo,Catalog,Employee and Contractor Off Boarding,IT Desktop Sao Paulo L2,TASK,Phone,SA,DS,Novelis
+2017-Apr-28 10:24:24,2017-May-02 08:02:23,NE - Goettingen,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 10:23:53,2017-May-02 05:30:38,NE - Sierre,Software,Outlook - All Other Issues,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 10:23:45,2017-Apr-28 15:01:08,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Automotive Product Management,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:22:26,2017-May-03 09:28:36,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NSA Design to Deploy L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 10:21:09,2017-Apr-28 11:48:04,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:20:00,2017-Apr-28 10:24:18,NNA - Oswego,Software,Windows Configuration,IT Desktop Oswego L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 10:19:53,2017-Apr-28 10:21:09,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Tolling Planner,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:17:43,2017-May-02 02:10:23,NNA - Warren,Software,Maximo,IT App NNA Cap Package L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 10:17:32,2017-May-10 15:45:29,NNA/Corp - Atlanta HQ,Catalog,Office 365 Mail Contact Changes,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 10:15:26,2017-Apr-28 11:57:33,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:14:14,2017-Apr-28 11:33:25,NNA - Oswego,Software,Functional Support - Functional analysis,IT APP Global SAP P2S PE L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 10:13:52,2017-Apr-28 10:28:17,NSA - Pinda,Software,VPN - Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 10:12:46,2017-Apr-28 10:15:26,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Tolling Planner,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 10:12:34,2017-Apr-28 10:34:33,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 10:11:35,2017-Apr-28 10:26:18,NNA - Oswego,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 10:11:20,2017-Apr-28 10:31:05,NNA - Oswego,Others,Non IT Questions,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 10:07:35,2017-May-03 05:35:59,NE - Sierre,Others,Service Request Creation,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 10:07:30,2017-Apr-28 12:09:04,NNA/Corp - Atlanta HQ,Catalog,VPN Access Request New,IT Security NEW VPN Access Request L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 10:07:26,2017-May-04 03:45:08,NNA/Corp - Atlanta HQ,Catalog,Software Installation,IT SCCM Software Distribution Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 10:07:08,2017-May-02 19:30:08,NNA - Kingston,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 10:07:07,2017-May-04 02:04:48,NNA/Corp - Atlanta HQ,Catalog,Software Installation,IT SCCM Software Distribution Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 10:05:13,2017-Apr-28 10:57:30,NSA - Pinda,Software,Windows Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 10:05:00,2017-May-02 19:38:48,NE - Sierre,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 10:04:53,2017-Apr-28 11:04:01,NSA - Sao Paulo,Software,Active Directory - Update Information,IT Infra NSA Datacenter L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 10:04:30,2017-May-01 11:49:29,,Catalog,Application Access Management,ServiceNow Admin L3,TASK,Phone,Other,Other,Novelis
+2017-Apr-28 10:04:27,2017-May-10 05:35:03,NE - Sierre,Others,Service Request Creation,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 10:03:04,,NE - Sierre,Software,Novelis Specific Software - Access/Permi,IT Network L2,INC,Phone,EU,Other,Novelis
+2017-Apr-28 10:00:15,2017-Apr-28 14:17:06,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 09:58:15,2017-May-02 09:59:29,NSA - Pinda,Software,Novelis Specific Software - Software Iss,IT App NSA Design to Deploy L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 09:58:08,2017-Apr-28 09:59:48,NNA/Corp - Atlanta HQ,Others,Call Disconnected,IT Service Desk NE L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 09:54:20,2017-May-02 08:06:28,NE - Bresso,Software,Novelis Specific Software - Software Iss,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 09:50:57,2017-May-02 19:24:00,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,NA,BS,Novelis
+2017-Apr-28 09:50:48,,NE - Goettingen,Software,Outlook - All Other Issues,IT Messaging L2,INC,Phone,EU,BS,Novelis
+2017-Apr-28 09:48:05,2017-Apr-28 12:19:50,NNA/Corp - Atlanta HQ,Hardware,PC / Laptop Peripherals,IT Desktop Atlanta L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 09:44:06,2017-May-02 02:13:16,NE - Goettingen,Catalog,Software Installation,IT SCCM Software Distribution Service Desk L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-28 09:43:31,,NE - Zurich,Catalog,Asset Reclamation,IT Desktop Zurich L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-28 09:41:27,2017-Apr-28 09:48:39,NSA - Pinda,Software,Software Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 09:41:18,2017-Apr-28 12:18:00,NNA - Oswego,Software,Novelis Specific Software - Software Iss,IT App NNA Cap Package L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 09:38:30,2017-Apr-28 09:42:29,NNA/Corp - Atlanta HQ,Others,Disconnected Call - No Caller,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 09:36:27,2017-Apr-28 11:24:31,NNA - Greensboro,Software,SCCM,IT SCCM L2,INC,Self-service,NA,BS,Novelis
+2017-Apr-28 09:34:30,2017-May-02 08:41:43,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT Desktop Pinda L2,INC,Phone,SA,DS,Novelis
+2017-Apr-28 09:34:20,2017-Apr-28 17:27:57,NNA - Kingston,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 09:32:09,2017-May-03 13:01:32,NSA - Sao Paulo,Software,Novelis Specific Software - Data Issue,IT App NSA Design to Deploy L2,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 09:27:57,2017-Apr-28 10:39:33,NNA - Fairmont,Services,Configuration Issue,IT Messaging L2,INC,Self-service,NA,BS,Novelis
+2017-Apr-28 09:24:25,2017-Apr-27 12:50:29,NE - Ohle,Software,VPN - Add Credentials,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 09:22:15,2017-Apr-28 09:45:25,NSA - Utinga,Software,Novelis Specific Software - How To,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 09:18:43,2017-Apr-28 11:48:21,NNA/Corp - Atlanta HQ,Hardware,PC / Laptop Peripherals,IT Desktop Atlanta L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 09:18:28,2017-Apr-28 12:34:08,NSA - Pinda,Software,VPN - Configuration,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 09:16:47,2017-Apr-28 10:38:21,NNA - Kingston,Catalog,Peripherals,IT Desktop Kingston L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 09:10:14,2017-Apr-28 09:10:14,NSA - Sao Paulo,,Call Disconnected,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 09:10:06,2017-Apr-28 09:19:03,NSA - Pinda,Software,Oracle - Password Reset,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 09:08:04,2017-Apr-28 15:10:16,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-28 09:07:58,2017-May-05 12:41:13,NNA/Corp - Atlanta HQ,Catalog,Contractor to Employee Conversion Request,IT FIM L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 09:06:18,2017-Apr-28 10:07:03,NNA - Novi,Software,Novelis Specific Software - Software Iss,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 09:04:13,2017-May-08 06:16:29,NNA - Oswego,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 09:02:30,2017-Apr-28 09:09:25,NSA - Pinda,Software,VPN - Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 09:01:17,2017-Apr-28 09:53:08,NE - Latchford,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 08:59:57,2017-Apr-28 13:49:29,NSA - Pinda,Software,Windows - All Other Issues,IT Desktop Pinda L2,INC,Self-service,SA,DS,Novelis
+2017-Apr-28 08:59:40,2017-Apr-28 10:01:13,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Desktop Kennesaw L2,INC,Walk-in,NA,DS,Novelis
+2017-Apr-28 08:59:02,2017-May-01 14:52:40,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:57:26,2017-May-01 05:40:26,,Software,Service Now - All Other Issues,ServiceNow Admin L3,INC,Phone,Other,Other,Novelis
+2017-Apr-28 08:55:42,2017-May-01 11:43:23,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Desktop Atlanta L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 08:55:42,2017-Apr-29 07:00:45,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT FIM AD Request Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 08:55:41,2017-Apr-28 14:30:37,NNA/Corp - Atlanta HQ,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 08:53:30,,NE - Ohle,Software,Windows Configuration,IT SCCM L2,INC,Phone,EU,BS,Novelis
+2017-Apr-28 08:51:42,2017-May-02 19:38:48,NE - Ohle,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 08:51:15,2017-May-01 00:53:39,NE - Sierre,Catalog,Asset Reclamation,IT Desktop Sierre L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-28 08:49:12,2017-Apr-28 09:17:05,,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,Other,SD,Novelis
+2017-Apr-28 08:47:28,2017-Apr-28 13:58:07,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:44:50,2017-Apr-28 09:09:32,NE - Sierre,Software,VPN - Configuration,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 08:44:30,,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:44:22,2017-May-02 19:38:48,NE - Sierre,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 08:44:18,,NE - Latchford,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 08:44:17,2017-May-02 10:43:58,NNA - Oswego,Catalog,SAP GT Access Assignment Request,IT App SAP-Security L2,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:44:16,2017-Apr-28 15:57:43,NNA - Kingston,Software,Novelis Specific Software - Data Issue,IT App NNA Cap Shopfloor L2,INC,Phone,NA,Other,Novelis
+2017-Apr-28 08:43:25,2017-Apr-28 09:01:34,NSA - Juiz de Fora (Collection Center),Software,VPN - Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 08:42:14,2017-Apr-28 17:52:03,NSA - Utinga,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,SA,SD,Novelis
+2017-Apr-28 08:42:04,2017-May-01 11:55:57,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Kingston Plant Controllers,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:40:00,2017-Apr-28 08:40:00,NSA - Sao Paulo,Others,Call Disconnected,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 08:39:41,2017-Apr-28 09:51:05,NNA - Oswego,Catalog,Employee and Contractor Off Boarding,IT Desktop Oswego L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 08:39:40,2017-May-01 08:45:52,NNA - Oswego,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 08:38:34,2017-Apr-28 10:51:05,NNA - Kingston,Software,Novelis Specific Software - Software Req,IT Desktop Kingston L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 08:37:14,2017-Apr-28 08:40:26,NA - Seoul,Software,VPN - Add Credentials,IT Service Desk NA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-28 08:36:43,2017-Apr-28 08:41:36,NNA - Oswego,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 08:36:23,2017-May-02 14:10:06,NNA - Oswego,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:36:13,2017-Apr-28 17:40:24,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 08:36:11,2017-Apr-28 13:19:56,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:35:58,2017-Apr-28 14:20:26,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:35:46,2017-May-01 17:43:24,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:35:40,2017-Apr-28 13:35:17,NE - Nachterstedt,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,EU,Other,Novelis
+2017-Apr-28 08:35:26,2017-Apr-28 13:52:13,NE - Nachterstedt,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,EU,Other,Novelis
+2017-Apr-28 08:35:15,2017-Apr-28 13:31:37,NNA/Corp - Atlanta HQ,Catalog,Vendor Master Create/Change,SAP Procurement Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:34:53,2017-Apr-28 09:28:34,NE - Sierre,Software,Novelis Specific Software - Access/Permi,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 08:34:38,2017-Apr-28 11:16:26,NNA - Kingston,Software,Novelis Specific Software - Software Req,IT Desktop Kingston L2,INC,Self-service,NA,DS,Novelis
+2017-Apr-28 08:29:19,2017-Apr-28 08:59:44,NSA - Pinda,Software,Software Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 08:28:48,2017-Apr-28 10:23:21,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:28:34,2017-Apr-28 13:53:50,NSA - Pinda,Hardware,Hardware Replacement,IT Desktop Pinda L2,INC,Phone,SA,DS,Novelis
+2017-Apr-28 08:28:06,,NE - Ohle,Software,Windows Configuration,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 08:28:05,2017-May-04 07:20:22,NNA - Oswego,Others,Status Check,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 08:26:35,2017-May-02 12:49:16,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:24:48,2017-Apr-28 08:55:02,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 08:24:32,2017-May-01 15:56:39,NNA - Oswego,Catalog,Notes ID Recertification,IT Desktop Oswego L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 08:24:09,,NSA - Pinda,Services,Telecoms All Other Issues,IT Infra NSA Telephony L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 08:21:31,2017-Apr-28 08:30:20,NSA - Pinda,Software,VPN - Install,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 08:20:36,2017-Apr-28 08:23:43,NNA/Corp - Atlanta HQ,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 08:20:04,,NSA - Pinda,Software,Novelis Specific Software - Data Issue,IT App NNA Cap Package L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 08:17:18,2017-Apr-28 16:34:03,NSA - Sao Paulo,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 08:17:07,2017-Apr-28 10:16:34,NE - Sierre,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-28 08:17:07,2017-May-04 10:24:41,NE - Sierre,Catalog,Employee and Contractor Off Boarding,IT Desktop Sierre L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-28 08:17:07,2017-May-02 18:24:20,NE - Sierre,Catalog,Employee and Contractor Off Boarding,IT FIM AD Request Service Desk L2,TASK,Phone,EU,BS,Novelis
+2017-Apr-28 08:16:58,2017-May-10 10:09:47,NE - Goettingen,Hardware,Telephony Device Issue,IT VoIP L2,INC,Self-service,EU,Other,Novelis
+2017-Apr-28 08:11:56,2017-Apr-28 08:12:53,NNA/Corp - Atlanta HQ,Others,Call Disconnected,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 08:10:48,2017-May-02 12:08:43,NSA - Pinda,Services,Network Service Disruption,IT Infra NSA Network L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 08:10:22,2017-Apr-28 12:46:12,NNA - Kingston,Catalog,IMAC - Move Request,IT Desktop Kingston L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 08:08:09,2017-Apr-28 11:21:24,NNA - Oswego,Software,SAP - All other issues,IT APP Global SAP C2C L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 08:07:35,2017-Apr-28 12:45:53,NNA - Kingston,Catalog,IMAC - Move Request,IT Desktop Kingston L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 08:06:26,,NE - Ohle,Software,Windows Configuration,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 08:05:50,2017-Apr-28 08:31:52,,Hardware,Network Device Issue,IT Network L2,INC,Phone,Other,Other,Novelis
+2017-Apr-28 08:05:25,2017-Apr-28 08:35:47,NSA - Sao Paulo,Software,VPN - Add Credentials,IT Service Desk NSA L1,INC,Chat,SA,SD,Novelis
+2017-Apr-28 08:05:21,2017-Apr-28 08:19:47,NNA/Corp - Atlanta HQ,Others,Non IT Questions,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 08:02:41,2017-Apr-28 10:57:13,NE - Bresso,Software,AS400 - Data Issue,IT App NE Italy AS400 L2,INC,Self-service,EU,Other,Novelis
+2017-Apr-28 08:02:28,2017-Apr-28 08:36:21,NNA - Oswego,Catalog,Transfer Pricing,SAP Administrative Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 08:02:23,2017-Apr-28 08:19:11,NNA/Corp - Atlanta HQ,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 08:02:20,2017-May-02 07:36:21,NSA - Utinga,Others,Service Request Creation,IT Desktop Utinga L3,INC,Self-service,SA,Other,Novelis
+2017-Apr-28 08:00:35,2017-Apr-28 16:59:49,NSA - Sao Paulo,Software,Windows Configuration,IT Infra NSA Datacenter L2,INC,Phone,SA,Other,Novelis
+2017-Apr-28 07:58:39,2017-Apr-28 08:13:34,NNA/Corp - Atlanta HQ,Others,Disconnected Call - Hung up before verif,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 07:57:21,2017-Apr-28 08:01:12,NNA - Oswego,Software,Active Directory - Password Reset,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 07:57:03,2017-Apr-28 08:16:43,NNA/Corp - Atlanta HQ,Software,Active Directory - Update Information,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 07:52:10,2017-Apr-28 08:56:23,NSA - Pinda,Software,VPN - Install,IT Service Desk NSA L1,INC,Self-service,SA,SD,Novelis
+2017-Apr-28 07:52:02,2017-Apr-28 10:31:47,NSA - Sao Paulo,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Chat,SA,SD,Novelis
+2017-Apr-28 07:49:24,2017-Apr-28 07:55:45,NNA/Corp - Atlanta HQ,Others,Non IT Questions,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 07:42:01,2017-Apr-28 13:07:06,NE - Crick,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 07:41:29,,NE - Luedenscheid,Software,Novelis Specific Software - Access/Permi,IT Active Directory L2,INC,Chat,EU,BS,Novelis
+2017-Apr-28 07:41:21,2017-Apr-28 08:09:20,NE - Goettingen,Software,Novelis Specific Software - Access/Permi,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 07:40:18,,NNA - Oswego,Catalog,SAP GT Password Reset,IT App SAP GT Password ServiceDesk L1,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 07:38:58,2017-May-03 11:38:58,NSA - Pinda,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,SA,BS,Novelis
+2017-Apr-28 07:38:58,2017-Apr-28 08:51:38,NSA - Pinda,Catalog,Employee and Contractor Off Boarding,IT Desktop Pinda L2,TASK,Phone,SA,DS,Novelis
+2017-Apr-28 07:38:47,2017-Apr-28 07:46:11,NE - Latchford,Software,Novelis Specific Software - Password Res,IT Service Desk NNA L1,INC,Chat,EU,SD,Novelis
+2017-Apr-28 07:18:22,2017-May-03 01:36:43,NNA - Oswego,Software,SAP - All other issues,IT APP Global SAP P2S PE L2,INC,Self-service,NA,Other,Novelis
+2017-Apr-28 07:12:56,2017-Apr-28 10:50:43,NNA - Oswego,Catalog,Employee and Contractor Off Boarding,IT Desktop Oswego L2,TASK,Phone,NA,DS,Novelis
+2017-Apr-28 07:12:56,2017-Apr-28 08:01:14,NNA - Oswego,Catalog,Employee and Contractor Off Boarding,IT FIM AD Request Service Desk L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 07:12:55,2017-May-01 08:45:45,NNA - Oswego,Catalog,Employee and Contractor Off Boarding,IT Messaging L2,TASK,Phone,NA,BS,Novelis
+2017-Apr-28 07:09:01,2017-Apr-28 08:02:18,NE - Goettingen,Software,Novelis Specific Software - Access/Permi,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 07:06:18,2017-May-09 12:39:24,NE - Ohle,Software,Windows Configuration,IT SCCM L2,INC,Phone,EU,BS,Novelis
+2017-Apr-28 07:05:25,2017-May-02 11:19:06,,Catalog,Application Access Management,IT Active Directory L2,TASK,Phone,Other,BS,Novelis
+2017-Apr-28 07:04:56,2017-May-02 14:30:15,,Catalog,Application Access Management,IT Active Directory L2,TASK,Phone,Other,BS,Novelis
+2017-Apr-28 06:59:18,2017-May-04 06:42:55,NNA/Corp - Atlanta HQ,Services,Network Service Disruption,IT Incident Coordinator NNA L2,INC,Phone,NA,SD,Novelis
+2017-Apr-28 06:57:09,2017-Apr-28 08:28:45,NE - Latchford,Services,Telecoms All Other Issues,IT Service Desk NE L1,INC,Self-service,EU,SD,Novelis
+2017-Apr-28 06:54:57,2017-May-01 12:01:30,NE - Sierre,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 06:54:54,,NSA - Pinda,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,SA,SD,Novelis
+2017-Apr-28 06:52:27,,NE - Ohle,Software,Windows Configuration,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis
+2017-Apr-28 06:45:42,2017-May-02 12:39:42,NNA - Oswego,Software,Novelis Specific Software - Password Res,IT Service Desk NNA L1,INC,Self-service,NA,SD,Novelis
+2017-Apr-28 06:33:55,2017-May-01 16:46:31,NE - Goettingen,Software,Email - Spam/Phishing Email,IT Messaging L2,INC,Email,EU,BS,Novelis
+2017-Apr-28 06:33:25,2017-Apr-28 06:37:07,NNA - Oswego,Software,VPN - Add Credentials,IT Service Desk NNA L1,INC,Phone,NA,SD,Novelis
+2017-Apr-28 06:31:49,2017-Apr-28 06:41:02,NSA - Pinda,Software,Active Directory - Update Information,IT Service Desk NSA L1,INC,Phone,SA,SD,Novelis
+2017-Apr-28 06:24:25,2017-Apr-28 20:15:25,NNA - Terre Haute,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,NA,SD,Novelis
+2017-Apr-28 06:16:40,2017-Apr-28 08:54:29,NNA/Corp - Atlanta HQ,Software,Novelis Specific Software - Password Res,IT App NNA Cap Other L2,INC,Phone,NA,Other,Novelis
+2017-Apr-28 06:11:57,2017-Apr-28 06:26:03,NE - Goettingen,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 06:11:55,2017-May-02 00:53:28,NE - Goettingen,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 06:11:34,2017-Apr-28 06:35:22,NNA - Oswego,Software,VPN - Troubleshoot,IT Service Desk NNA L1,INC,Chat,NA,SD,Novelis
+2017-Apr-28 06:10:58,2017-Apr-28 12:18:27,NNA/Corp - Atlanta HQ,Catalog,Metal Materials,SAP Manufacturing Master Data Team,TASK,Phone,NA,Other,Novelis
+2017-Apr-28 06:08:53,2017-Apr-28 06:39:08,NE - Goettingen,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 06:08:24,2017-May-02 07:30:55,NE - Nachterstedt,Catalog,Laptop / Tablet,IT Desktop Nachterstedt L2,TASK,Phone,EU,DS,Novelis
+2017-Apr-28 06:05:21,2017-Apr-28 06:17:51,NE - Goettingen,Software,Email - Spam/Phishing Email,IT Service Desk PhishMe L1,INC,Email,EU,SD,Novelis
+2017-Apr-28 05:52:37,2017-May-08 23:04:42,NE - Goettingen,Software,Novelis Specific Software - Data Issue,IT Messaging L2,INC,Self-service,EU,BS,Novelis
+2017-Apr-28 05:50:57,2017-Apr-28 05:52:24,NA - Shanghai,Software,VPN - Troubleshoot,IT Service Desk NA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-28 05:50:54,2017-May-01 09:32:37,NE - Goettingen,Catalog,Software Installation,IT Service Desk NE L1,TASK,Phone,EU,SD,Novelis
+2017-Apr-28 05:48:07,2017-Apr-28 05:50:10,NA - Changzhou Site Office,Software,VPN - Troubleshoot,IT Service Desk NA L1,INC,Email,AS,SD,Novelis
+2017-Apr-28 05:44:24,2017-Apr-28 05:46:50,NA - Changzhou Site Office,Software,VPN - Troubleshoot,IT Service Desk NA L1,INC,Email,AS,SD,Novelis
+2017-Apr-28 05:40:47,2017-Apr-28 08:02:14,NA - Changzhou Site Office,Catalog,VPN Access Request New,IT Security NEW VPN Access Request L2,TASK,Phone,AS,BS,Novelis
+2017-Apr-28 05:38:44,2017-Apr-28 05:43:24,NA - Changzhou Site Office,Software,MS Office - All Other Issues,IT Service Desk NA L1,INC,Phone,AS,SD,Novelis
+2017-Apr-28 05:37:48,2017-Apr-28 06:52:20,NE - Nachterstedt,Software,VPN - Install,IT Desktop Nachterstedt L2,INC,Walk-in,EU,DS,Novelis
+2017-Apr-28 05:36:31,2017-Apr-28 05:51:57,NE - Goettingen,Software,Software Install,IT Service Desk NE L1,INC,Phone,EU,SD,Novelis

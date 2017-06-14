@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: regions
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  code       :string
+#  label      :string
+#  is_active  :boolean          default(FALSE)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  code: MyString
+  label: MyString
+  is_active: false
+
+two:
+  name: MyString
+  code: MyString
+  label: MyString
+  is_active: false

@@ -1,0 +1,33 @@
+<header class="main-header">
+
+  <nav class="navbar navbar-custom navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-col-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to 'rykn0wxx', admin_root_path, :class => 'navbar-brand page-scroll', :data => { turbolinks: false } %>
+      </div>
+
+      <div class="collapse navbar-collapse" id="nav-col-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Home", home_path, :class => 'page-scroll hvr-underline-from-center', :data => {'turbolinks-action': 'replace'} %></li>
+          <% %w[dashboard].each do |navigation| %>
+            <li>
+              <%=
+                link_to_unless_current(navigation.capitalize, { controller: navigation }, { :class => "page-scroll hvr-underline-from-center", :data => { "turbolinks-action": "replace" }}) do
+  								link_to(navigation.capitalize, { controller: navigation }, { class: "page-scroll active hvr-underline-from-center", :data => { "turbolinks-action": "replace" } })
+  							end
+               %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<!-- Navigation -->

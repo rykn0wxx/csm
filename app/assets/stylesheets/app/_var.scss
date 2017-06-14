@@ -1,0 +1,53 @@
+$appfont:  'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$gray-base:              #2c313b;
+$gray-darker:            #363d4a; // #222
+$gray-dark:              #4c5667;   // #333
+$gray:                   #545e6f; // #555
+$gray-light:             #5b6576; // #777
+$gray-lighter:           #636d7e; // #eee
+
+$brand-primary:         #ab8ce4; // #337ab7
+$brand-success:         #00c292;
+$brand-info:            #03a9f3;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+
+$navbar-inverse-color:                      #96a2b4;
+$navbar-inverse-bg:                         #3f4755;
+$navbar-inverse-border:                     darken($navbar-inverse-bg, 1%);
+
+$table-border-color:            darken($gray-darker, 1%);
+
+
+$input-bg:                       lighten(#4c5667, 3%);
+$input-bg-disabled:              darken($gray-lighter, 3%);
+
+$input-color:                    rgba(255,255,255,0.75);
+
+$input-border:                   rgba(0,0,0,0);
+
+$input-color-placeholder:        rgba(255,255,255,0.3);
+
+$tooltip-max-width:           200px;
+
+$tooltip-color:               #636c72;
+
+$tooltip-bg:                  darken(#252a32, 3%);
+$tooltip-opacity:             .9;
+
+$tooltip-arrow-width:         5px;
+
+$tooltip-arrow-color:         lighten($tooltip-bg, 1.5%);
+
+$list-group-border:             rgba(0, 0, 0, 0.2);
+
+
+$panel-inner-border:          rgba(0, 0, 0, 0.2);
+$panel-default-border:        rgba(0, 0, 0, 0.2);
+
+$panel-primary-heading-bg:    rgba(171, 140, 228, 0.4);
+$panel-success-heading-bg:    rgba(0, 194, 146, 0.4);
+$panel-info-heading-bg:       rgba(3, 169, 243, 0.4);
+$panel-warning-heading-bg:    rgba(240, 173, 78, 0.4);
+$panel-danger-heading-bg:     rgba(217, 83, 79, 0.4);
+$well-border:                 rgba(0, 0, 0, 0.2);

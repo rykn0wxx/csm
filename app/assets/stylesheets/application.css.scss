@@ -1,0 +1,13 @@
+$output-bourbon-deprecation-warnings: false;
+@import "app/var";
+@import "bourbon";
+@import "bootstrap-sprockets";
+@import "bootswatch/slate/variables";
+@import "font-awesome";
+@import "bootstrap";
+@import "bootswatch/slate/bootswatch";
+
+@import "hover/hover";
+
+@import "main";
+@import "home";

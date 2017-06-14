@@ -1,0 +1,3 @@
+opened_at,resolved_at,location,ticket_service_id,ticket_symptom_id,group_name,ticket_type_id,contact_type_id,region_id,desk_id,client_id
+2017-Apr-30 23:50:55,2017-May-01 18:29:19,NNA/Corp - Atlanta HQ,Software,Active Directory - Account Disabled,IT Active Directory L2,INC,Phone,NA,BS,Novelis
+2017-Apr-30 23:46:40,2017-May-03 08:06:29,NNA/Corp - Atlanta HQ,Software,Email - Spam/Phishing Email,IT Security L3,INC,Email,NA,BS,Novelis

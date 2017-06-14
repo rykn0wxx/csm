@@ -6,20 +6,35 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'rails', '~> 5.0.3'
-gem 'sqlite3'
+gem 'rails', '5.0.2'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.2', '>= 4.2.2'
 gem 'jbuilder', '~> 2.5'
+gem 'turbolinks', '= 5.0.0'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'bourbon', '~> 4.3', '>= 4.3.4'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5'
+gem 'bourbon', '= 2.1.3'
+gem 'bootswatch-rails', '~> 3.3', '>= 3.3.5'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
 
-gem 'angularjs-rails', '~> 1.5', '>= 1.5.8'
+gem 'highcharts-rails', '= 5.0.0'
+gem 'chartkick'
 
+gem 'therubyracer', :platforms => :ruby
+gem 'coffee-script-source', '1.8.0'
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  # gem 'therubyracer'
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -39,7 +54,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jsonapi-resources'
+gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'activeadmin', github: 'activeadmin'
-gem 'wdm'
 gem 'active_admin_flat_skin', '~> 0.1.2'
 gem 'active_admin_import', '~> 3.0'
+gem 'acts_as_list', '~> 0.9.0'
+gem 'wdm'
+gem 'simple_form', '~> 3.3.0'

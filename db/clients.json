@@ -1,0 +1,485 @@
+[{
+    "recid": 1,
+    "name": "3M",
+    "is_active": "TRUE"
+}, {
+    "recid": 2,
+    "name": "ABDI",
+    "is_active": "TRUE"
+}, {
+    "recid": 3,
+    "name": "Acosta",
+    "is_active": "TRUE"
+}, {
+    "recid": 4,
+    "name": "Adasa",
+    "is_active": "TRUE"
+}, {
+    "recid": 5,
+    "name": "Aernnova",
+    "is_active": "TRUE"
+}, {
+    "recid": 6,
+    "name": "AGCO",
+    "is_active": "TRUE"
+}, {
+    "recid": 7,
+    "name": "Alcoa",
+    "is_active": "TRUE"
+}, {
+    "recid": 8,
+    "name": "Alvarez and Marsal",
+    "is_active": "TRUE"
+}, {
+    "recid": 9,
+    "name": "AMBEV",
+    "is_active": "TRUE"
+}, {
+    "recid": 10,
+    "name": "Amcor",
+    "is_active": "TRUE"
+}, {
+    "recid": 11,
+    "name": "Astrazeneca",
+    "is_active": "TRUE"
+}, {
+    "recid": 12,
+    "name": "Banco Fibra",
+    "is_active": "TRUE"
+}, {
+    "recid": 13,
+    "name": "Banco Pan",
+    "is_active": "TRUE"
+}, {
+    "recid": 14,
+    "name": "BCG",
+    "is_active": "TRUE"
+}, {
+    "recid": 15,
+    "name": "BG Group",
+    "is_active": "TRUE"
+}, {
+    "recid": 16,
+    "name": "BH",
+    "is_active": "TRUE"
+}, {
+    "recid": 17,
+    "name": "Bio-Rad",
+    "is_active": "TRUE"
+}, {
+    "recid": 18,
+    "name": "BNB",
+    "is_active": "TRUE"
+}, {
+    "recid": 19,
+    "name": "Brown-Forman",
+    "is_active": "TRUE"
+}, {
+    "recid": 20,
+    "name": "BTG",
+    "is_active": "TRUE"
+}, {
+    "recid": 21,
+    "name": "Burger King",
+    "is_active": "TRUE"
+}, {
+    "recid": 22,
+    "name": "Caixa",
+    "is_active": "TRUE"
+}, {
+    "recid": 23,
+    "name": "CEC",
+    "is_active": "TRUE"
+}, {
+    "recid": 24,
+    "name": "Clariant",
+    "is_active": "TRUE"
+}, {
+    "recid": 25,
+    "name": "CLS",
+    "is_active": "TRUE"
+}, {
+    "recid": 26,
+    "name": "CNH",
+    "is_active": "TRUE"
+}, {
+    "recid": 27,
+    "name": "CNI",
+    "is_active": "TRUE"
+}, {
+    "recid": 28,
+    "name": "Coca",
+    "is_active": "TRUE"
+}, {
+    "recid": 29,
+    "name": "Covance",
+    "is_active": "TRUE"
+}, {
+    "recid": 30,
+    "name": "CPFL",
+    "is_active": "TRUE"
+}, {
+    "recid": 31,
+    "name": "DETRAN-CE",
+    "is_active": "TRUE"
+}, {
+    "recid": 32,
+    "name": "DIRECIONAL",
+    "is_active": "TRUE"
+}, {
+    "recid": 33,
+    "name": "Duke",
+    "is_active": "TRUE"
+}, {
+    "recid": 34,
+    "name": "E&Y",
+    "is_active": "TRUE"
+}, {
+    "recid": 35,
+    "name": "Elebat",
+    "is_active": "TRUE"
+}, {
+    "recid": 36,
+    "name": "Embraer",
+    "is_active": "TRUE"
+}, {
+    "recid": 37,
+    "name": "Emprel",
+    "is_active": "TRUE"
+}, {
+    "recid": 38,
+    "name": "Epsilon",
+    "is_active": "TRUE"
+}, {
+    "recid": 39,
+    "name": "Essilor",
+    "is_active": "TRUE"
+}, {
+    "recid": 40,
+    "name": "Evoqua",
+    "is_active": "TRUE"
+}, {
+    "recid": 41,
+    "name": "Ferro",
+    "is_active": "TRUE"
+}, {
+    "recid": 42,
+    "name": "FGV",
+    "is_active": "TRUE"
+}, {
+    "recid": 43,
+    "name": "Fiat",
+    "is_active": "TRUE"
+}, {
+    "recid": 44,
+    "name": "FIES",
+    "is_active": "TRUE"
+}, {
+    "recid": 45,
+    "name": "Firmenich",
+    "is_active": "TRUE"
+}, {
+    "recid": 46,
+    "name": "FORD",
+    "is_active": "TRUE"
+}, {
+    "recid": 47,
+    "name": "FUNASA",
+    "is_active": "TRUE"
+}, {
+    "recid": 48,
+    "name": "Gerdau",
+    "is_active": "TRUE"
+}, {
+    "recid": 49,
+    "name": "GoodYear",
+    "is_active": "TRUE"
+}, {
+    "recid": 50,
+    "name": "Grand Total",
+    "is_active": "TRUE"
+}, {
+    "recid": 51,
+    "name": "Hanon",
+    "is_active": "TRUE"
+}, {
+    "recid": 52,
+    "name": "HCL",
+    "is_active": "TRUE"
+}, {
+    "recid": 53,
+    "name": "Honda",
+    "is_active": "TRUE"
+}, {
+    "recid": 54,
+    "name": "Huron",
+    "is_active": "TRUE"
+}, {
+    "recid": 55,
+    "name": "IBM",
+    "is_active": "TRUE"
+}, {
+    "recid": 56,
+    "name": "IBRAM",
+    "is_active": "TRUE"
+}, {
+    "recid": 57,
+    "name": "Incra",
+    "is_active": "TRUE"
+}, {
+    "recid": 58,
+    "name": "Infineum",
+    "is_active": "TRUE"
+}, {
+    "recid": 59,
+    "name": "Intercement",
+    "is_active": "TRUE"
+}, {
+    "recid": 60,
+    "name": "Intermedica",
+    "is_active": "TRUE"
+}, {
+    "recid": 61,
+    "name": "John Deere",
+    "is_active": "TRUE"
+}, {
+    "recid": 62,
+    "name": "Joy",
+    "is_active": "TRUE"
+}, {
+    "recid": 63,
+    "name": "Kraft/Heinz",
+    "is_active": "TRUE"
+}, {
+    "recid": 64,
+    "name": "Kuehne",
+    "is_active": "TRUE"
+}, {
+    "recid": 65,
+    "name": "Ledvance",
+    "is_active": "TRUE"
+}, {
+    "recid": 66,
+    "name": "Linde",
+    "is_active": "TRUE"
+}, {
+    "recid": 67,
+    "name": "Louis",
+    "is_active": "TRUE"
+}, {
+    "recid": 68,
+    "name": "M.T.E",
+    "is_active": "TRUE"
+}, {
+    "recid": 69,
+    "name": "Magneti",
+    "is_active": "TRUE"
+}, {
+    "recid": 70,
+    "name": "MAPA",
+    "is_active": "TRUE"
+}, {
+    "recid": 71,
+    "name": "MasterCard",
+    "is_active": "TRUE"
+}, {
+    "recid": 72,
+    "name": "Merck-Serono",
+    "is_active": "TRUE"
+}, {
+    "recid": 73,
+    "name": "MMA",
+    "is_active": "TRUE"
+}, {
+    "recid": 74,
+    "name": "Mongeral",
+    "is_active": "TRUE"
+}, {
+    "recid": 75,
+    "name": "MRS",
+    "is_active": "TRUE"
+}, {
+    "recid": 76,
+    "name": "Multiplus",
+    "is_active": "TRUE"
+}, {
+    "recid": 77,
+    "name": "NBA",
+    "is_active": "TRUE"
+}, {
+    "recid": 78,
+    "name": "Neoenergia",
+    "is_active": "TRUE"
+}, {
+    "recid": 79,
+    "name": "Nestle",
+    "is_active": "TRUE"
+}, {
+    "recid": 80,
+    "name": "Nidera",
+    "is_active": "TRUE"
+}, {
+    "recid": 81,
+    "name": "Novelis",
+    "is_active": "TRUE"
+}, {
+    "recid": 82,
+    "name": "NOVO",
+    "is_active": "TRUE"
+}, {
+    "recid": 83,
+    "name": "Odontoprev",
+    "is_active": "TRUE"
+}, {
+    "recid": 84,
+    "name": "Orbitz",
+    "is_active": "TRUE"
+}, {
+    "recid": 85,
+    "name": "OSRAM",
+    "is_active": "TRUE"
+}, {
+    "recid": 86,
+    "name": "Par Corretora",
+    "is_active": "TRUE"
+}, {
+    "recid": 87,
+    "name": "Paranapanema",
+    "is_active": "TRUE"
+}, {
+    "recid": 88,
+    "name": "PMI",
+    "is_active": "TRUE"
+}, {
+    "recid": 89,
+    "name": "Porto",
+    "is_active": "TRUE"
+}, {
+    "recid": 90,
+    "name": "PPG",
+    "is_active": "TRUE"
+}, {
+    "recid": 91,
+    "name": "RA",
+    "is_active": "TRUE"
+}, {
+    "recid": 92,
+    "name": "Route",
+    "is_active": "TRUE"
+}, {
+    "recid": 93,
+    "name": "Samarco",
+    "is_active": "TRUE"
+}, {
+    "recid": 94,
+    "name": "SAPA",
+    "is_active": "TRUE"
+}, {
+    "recid": 95,
+    "name": "Sebrae",
+    "is_active": "TRUE"
+}, {
+    "recid": 96,
+    "name": "SEE-SD",
+    "is_active": "TRUE"
+}, {
+    "recid": 97,
+    "name": "SERPRODF",
+    "is_active": "TRUE"
+}, {
+    "recid": 98,
+    "name": "SFB",
+    "is_active": "TRUE"
+}, {
+    "recid": 99,
+    "name": "Sicredi",
+    "is_active": "TRUE"
+}, {
+    "recid": 100,
+    "name": "Software",
+    "is_active": "TRUE"
+}, {
+    "recid": 101,
+    "name": "Souza",
+    "is_active": "TRUE"
+}, {
+    "recid": 102,
+    "name": "Sulzer",
+    "is_active": "TRUE"
+}, {
+    "recid": 103,
+    "name": "Swagelok",
+    "is_active": "TRUE"
+}, {
+    "recid": 104,
+    "name": "TE/Tyco",
+    "is_active": "TRUE"
+}, {
+    "recid": 105,
+    "name": "Terra Networks",
+    "is_active": "TRUE"
+}, {
+    "recid": 106,
+    "name": "ThyssenKrupp",
+    "is_active": "TRUE"
+}, {
+    "recid": 107,
+    "name": "TIM",
+    "is_active": "TRUE"
+}, {
+    "recid": 108,
+    "name": "TJMG",
+    "is_active": "TRUE"
+}, {
+    "recid": 109,
+    "name": "TJ-RJ",
+    "is_active": "TRUE"
+}, {
+    "recid": 110,
+    "name": "TJRN",
+    "is_active": "TRUE"
+}, {
+    "recid": 111,
+    "name": "TRF",
+    "is_active": "TRUE"
+}, {
+    "recid": 112,
+    "name": "TRT",
+    "is_active": "TRUE"
+}, {
+    "recid": 113,
+    "name": "TRW",
+    "is_active": "TRUE"
+}, {
+    "recid": 114,
+    "name": "TSI",
+    "is_active": "TRUE"
+}, {
+    "recid": 115,
+    "name": "TST",
+    "is_active": "TRUE"
+}, {
+    "recid": 116,
+    "name": "Unimed/RJ",
+    "is_active": "TRUE"
+}, {
+    "recid": 117,
+    "name": "UNITEC",
+    "is_active": "TRUE"
+}, {
+    "recid": 118,
+    "name": "Valeo",
+    "is_active": "TRUE"
+}, {
+    "recid": 119,
+    "name": "Vallourec",
+    "is_active": "TRUE"
+}, {
+    "recid": 120,
+    "name": "Visteon",
+    "is_active": "TRUE"
+}, {
+    "recid": 121,
+    "name": "WestRock",
+    "is_active": "TRUE"
+}]
