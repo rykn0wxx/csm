@@ -8,3 +8,63 @@
     clear: both;
   }
 }
+
+@mixin z-border-radius ($radii) {
+  @include prefixer(border-radius, $radii, webkit, not moz);
+}
+
+@mixin z-border-top-left-radius($radii) {
+  @include prefixer(border-top-left-radius, $radii, webkit, not moz);
+}
+
+@mixin z-border-top-right-radius($radii) {
+  @include prefixer(border-top-right-radius, $radii, webkit, not moz);
+}
+
+@mixin z-border-bottom-left-radius($radii) {
+  @include prefixer(border-bottom-left-radius, $radii, webkit, not moz);
+}
+
+@mixin z-border-bottom-right-radius($radii) {
+  @include prefixer(border-bottom-right-radius, $radii, webkit, not moz);
+}
+
+@mixin z-border-top-radius($radii) {
+  @include z-border-top-left-radius($radii);
+  @include z-border-top-right-radius($radii);
+}
+
+@mixin z-border-right-radius($radii) {
+  @include z-border-top-right-radius($radii);
+  @include z-border-bottom-right-radius($radii);
+}
+
+@mixin z-border-bottom-radius($radii) {
+  @include z-border-bottom-left-radius($radii);
+  @include z-border-bottom-right-radius($radii);
+}
+
+@mixin z-border-left-radius($radii) {
+  @include z-border-top-left-radius($radii);
+  @include z-border-bottom-left-radius($radii);
+}
+
+@mixin z-border-radius-all($topl:0, $topr:0, $botr:0, $botl:0) {
+  @include z-border-bottom-left-radius($botl);
+  @include z-border-bottom-right-radius($botr);
+  @include z-border-top-right-radius($topr);
+  @include z-border-top-left-radius($topl);
+}
+
+//Box solid color variation creator
+@mixin box-variant($color: rgba(0,0,0,0), $text-color: rgba(255,255,255,0.8)) {
+  border-top: 3px solid darken($color, 5%);
+  > .box-header {
+    color: $text-color;
+    background: rgba($color, 0.7);
+    background-color: rgba($color,0.7);
+    a, .btn {
+      color: $text-color;
+    }
+  }
+}

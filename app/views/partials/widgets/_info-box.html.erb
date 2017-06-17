@@ -1,0 +1,13 @@
+<% text = text || "..." %>
+<% icon = icon || nil %>
+<% model = model || "..." %>
+
+<div class="info-box">
+  <span class="info-box-icon">
+    <%= show_icon(icon) %>
+  </span>
+  <div class="info-box-content">
+    <span class="info-box-text"><%= text %></span>
+    <%= box_info_number(model) %>
+  </div>
+</div>

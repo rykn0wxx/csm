@@ -1,0 +1,17 @@
+<% title = title || "..." %>
+<% box_variant = box_variant || "" %>
+<% body = body || "..." %>
+<%  %>
+<div class="box collapsed-box <%= box_variant %>">
+  <div class="box-header">
+    <h3 class="box-title"><%= title %></h3>
+    <div class="box-tools pull-right">
+      <buttton class="btn btn-box-tool" data-widget="collapse">
+        <i class="fa fa-plus"></i>
+      </buttton>
+    </div>
+  </div>
+  <div class="box-body">
+    <%= body %>
+  </div>
+</div>

@@ -194,7 +194,7 @@
         overflow: hidden;
         opacity: .9;
         border: 1px solid rgba(255, 255, 255, 0.1);
-        @include border-radius(3px);
+        @include z-border-radius(3px);
         @include box-shadow(inset 0px 0px 10px 0px rgba(255, 255, 255, 0.1));
         &:hover {
           background-image: none;

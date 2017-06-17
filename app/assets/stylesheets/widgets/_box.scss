@@ -1,0 +1,136 @@
+/*
+ * Component: Box
+ * --------------
+ */
+
+ $box-red: #D1534F;
+ $box-orange: #F08264;
+ $box-green: #519C90;
+ $box-blue: #4181A1;
+ $box-default: darken($gray, 3%);
+
+.rykn0wxx {
+  .box {
+    position: relative;
+    @include z-border-radius(2px);
+    background: $gray-lighter;
+    border-top: 3px solid $gray-light;
+    margin-bottom: 15px;
+    width: 100%;
+    @include box-shadow($whiteframe-shadow-2dp);
+    &.collapsed-box {
+      .box-body, .box-footer {
+        display: none;
+      }
+      .box-header {
+        border-bottom: none;
+      }
+    }
+    > .box-header {
+      .btn.btn-default {
+        background: transparent;
+      }
+      .btn, a {
+        &:hover {
+          background: rgba(0, 0, 0, 0.1);
+        }
+      }
+      > .box-tools .btn {
+        border: 0;
+        box-shadow: none;
+      }
+    }
+    &[class*='bg'] {
+      > .box-header {
+        color: rgba(255,255,255,0.7);
+      }
+    }
+    .box-header {
+      color: rgba(255,255,255,0.7);
+      display: block;
+      padding: 10px;;
+      position: relative;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      > .fa, .box-title {
+        display: inline-block;
+        font-size: 18px;
+        margin: 0;
+        line-height: 1;
+      }
+      > .fa {
+        margin-right: 5px;
+      }
+      > .box-title {
+        letter-spacing: 1px;
+      }
+      > .box-tools {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        [data-toggle="tooltip"] {
+          position: relative;
+        }
+
+        &.pull-right {
+          .dropdown-menu {
+            right: 0;
+            left: auto;
+          }
+        }
+      }
+    }
+    //Box Tools Buttons
+    .btn-box-tool {
+      padding: 5px;
+      font-size: 12px;
+      background: transparent;
+      color: darken($gray-light, 20%);
+      @include transition(all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94));
+      .open &,
+      &:hover {
+        color: darken($gray-light, 40%);
+      }
+      &.btn:active {
+        box-shadow: none;
+      }
+    }
+    //Box Body
+    .box-body {
+      color: rgba(255,255,255,0.9);
+      @include z-border-radius-all(0,0,2px,2px);
+      padding: 10px;
+      .no-header & {
+        @include z-border-top-radius(2px);
+      }
+      // Tables within the box body
+      > .table {
+        margin-bottom: 0;
+      }
+    }
+    //Box footer
+    .box-footer {
+      @include z-border-radius-all(0,0,2px,2px);
+      border-top: 1px solid rgba(0,0,0,0.1);
+      padding: 10px;
+      background-color: rgba(#eee, 0.1);
+    }
+
+    &.box-red {
+      @include box-variant($box-red);
+    }
+    &.box-orange {
+      @include box-variant($box-orange);
+    }
+    &.box-green {
+      @include box-variant($box-green);
+    }
+    &.box-blue {
+      @include box-variant($box-blue);
+    }
+    @include box-variant($box-default);
+  }
+}
+
+.box-header, .box-body, .box-footer {
+  @extend .clearfix;
+}

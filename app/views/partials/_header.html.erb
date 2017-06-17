@@ -18,8 +18,8 @@
           <% %w[dashboard].each do |navigation| %>
             <li>
               <%=
-                link_to_unless_current(navigation.capitalize, { controller: navigation }, { :class => "page-scroll hvr-underline-from-center", :data => { "turbolinks-action": "replace" }}) do
-  								link_to(navigation.capitalize, { controller: navigation }, { class: "page-scroll active hvr-underline-from-center", :data => { "turbolinks-action": "replace" } })
+                link_to_unless_current(navigation.capitalize, { controller: navigation }, { :class => "page-scroll hvr-underline-from-center" }) do
+  								link_to(navigation.capitalize, { controller: navigation }, { class: "page-scroll active hvr-underline-from-center" })
   							end
                %>
             </li>

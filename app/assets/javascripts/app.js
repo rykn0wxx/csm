@@ -10,7 +10,18 @@
     actionName: null,
     controllerName: null,
     headline: null,
-    segmenter: null
+    segmenter: null,
+    animationSpeed: 300,
+    enableBoxWidget: true,
+    boxWidgetOptions: {
+      boxWidgetIcons: {
+        collapse: 'fa-minus',
+        open: 'fa-plus'
+      },
+      boxWidgetSelectors: {
+        collapse: '[data-widget="collapse"]'
+      }
+    }
   };
 
   function _init () {
@@ -24,7 +35,6 @@
 
     $.csmApp.segmentEffect = {
       initialize: function () {
-        console.log('asdad');
         o.headline = $('.trigger-headline');
         o.segmenter = new Segmenter(document.querySelector('.segmenter'), {
           onReady: function () {
@@ -241,6 +251,43 @@
       Highcharts.setOptions(Highcharts.theme);
     }
 
+    $.csmApp.boxWidget = {
+      selectors: o.boxWidgetOptions.boxWidgetSelectors,
+      icons: o.boxWidgetOptions.boxWidgetIcons,
+      animationSpeed: o.animationSpeed,
+      activate:  function (_box) {
+        console.log('asdasdas');
+        var _this = this;
+        if (!_box) {
+          _box = document;
+        }
+        $(_box).on('click', _this.selectors.collapse, function (e) {
+          e.preventDefault();
+          _this.collapse($(this));
+        });
+      },
+      collapse: function (element) {
+        var _this = this;
+        var box = element.parents('.box').first();
+        var box_content = box.find('> .box-body, > .box-footer, > form  >.box-body, > form > .box-footer');
+        if (!box.hasClass('collapsed-box')) {
+          element.children(':first')
+            .removeClass(_this.icons.collapse)
+            .addClass(_this.icons.open);
+          box_content.slideUp(_this.animationSpeed, function () {
+            box.addClass('collapsed-box');
+          });
+        } else {
+          element.children(':first')
+              .removeClass(_this.icons.open)
+              .addClass(_this.icons.collapse);
+          //Show the content
+          box_content.slideDown(_this.animationSpeed, function () {
+            box.removeClass('collapsed-box');
+          });
+        }
+      }
+    };
   }
 
   $.csmApp.init = function () {
@@ -249,12 +296,12 @@
     if ($.csmApp.options.controllerName === 'home') {
       $.csmApp.segmentEffect.initialize();
     }
+    $.csmApp.boxWidget.activate();
   };
 
 })(window, document);
 
 document.addEventListener('turbolinks:load', function() {
-  console.log('turbolinks:load');
   setTimeout(function () {
     $.csmApp.init();
   }, 50);
