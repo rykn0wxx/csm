@@ -15,12 +15,12 @@ class DashboardsController < ApplicationController
   # GET /projects/new
   def new
     @dashboard = Dashboard.new
-    @dashboard.pages.build
+    @dashboard.sections.build
   end
 
   # GET /projects/1/edit
   def edit
-    @dashboard.pages.build
+    @dashboard.sections.build
   end
 
   # POST /projects
@@ -71,7 +71,7 @@ class DashboardsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def dashboard_params
-      params.require(:dashboard).permit(:client_id, :name, :published, Page.attribute_names.map(&:to_sym).push(:_destroy))
+      params.require(:dashboard).permit(:client_id, :name, :published, :sections_attributes => Section.attribute_names.map(&:to_sym).push(:_destroy, :parent_id))
     end
 
 end

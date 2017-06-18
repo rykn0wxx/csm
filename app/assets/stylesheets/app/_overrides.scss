@@ -23,19 +23,19 @@
   .show-link {
     @extend .transition;
     &:hover {
-      color: #009688;
+      color: #7fffd4;
     }
   }
   .edit-link {
     @extend .transition;
     &:hover {
-      color: #2196F3;
+      color: #e0ffff;
     }
   }
   .destroy-link {
     @extend .transition;
     &:hover {
-      color: #f44336;
+      color: #550000;
     }
   }
 }

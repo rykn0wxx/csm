@@ -37,6 +37,9 @@
     }
     .info-box-text {
       text-transform: uppercase;
+      font-size: 1.3em;
+      letter-spacing: 0.09em;
+      font-weight: 500;
     }
     .info-box-footer {
       height: 30px;
@@ -47,16 +50,17 @@
       align-content: center;
       justify-content: space-around;
       a {
+        opacity: 0.7;
         padding: 3px 12px;
         &:hover {
-          background-color: rgba(158,158,158,0.2);
+          background-color: rgba(10,10,10,0.3);
         }
       }
     }
     .info-box-icon {
       @for $i from 1 through length($clist) {
         &:nth-child(#{$i}) {
-          background-color: nth($clist, $i);
+          background-color: mix($gray-lighter, nth($clist, $i), 40%);
         }
       }
     }

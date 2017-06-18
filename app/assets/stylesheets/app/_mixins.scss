@@ -81,3 +81,14 @@
   @if $o      {      -o-#{$property}: #{$value}; }
   @if $spec   {         #{$property}: #{$value}; }
 }
+
+@mixin form-btn-variant($bg: rgba(0,0,0,0), $txt: #f2f1ef) {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  background-color: $bg;
+  color: $txt;
+  &:hover {
+    @include box-shadow($whiteframe-shadow-2dp);
+    background-color: darken($bg, 3%);
+    color: lighten($txt, 10%);
+  }
+}

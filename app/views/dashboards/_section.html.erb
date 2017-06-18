@@ -8,7 +8,5 @@
     </div>
   </td>
   <td><%= f.input :name, label: false, placeholder: 'Name' %></td>
-  <td><%= f.input :position, label: false, placeholder: 'Position' %></td>
-  <td><%= f.input :published %></td>
-  <td><%= f.input :parent_id, label: false, collection: Page.order(:name)  %></td>
+  <td><%= f.input :parent_id, label: false, collection: Section.order(:name)  %></td>
 </tr>

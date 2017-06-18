@@ -60,4 +60,31 @@ html, body {
 		overflow-x: auto;
 		overflow-y: visible;
 	}
+
+	.content-header {
+		position: relative;
+		padding: 15px 15px 0 15px;
+		> h1 {
+			margin: 0;
+			font-size: 24px;
+			letter-spacing: 0.01em;
+			> small {
+				color: $text-color;
+				font-size: 15px;
+				display: inline-block;
+				padding-left: 4px;
+				font-weight: 300;
+				opacity: 0.7;
+			}
+		}
+	}
+
+	.section-content {
+		min-height: 250px;
+		padding: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }

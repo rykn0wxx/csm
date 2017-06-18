@@ -1,6 +1,13 @@
-<h1>Editing Dashboard</h1>
+<% title 'Edit ' + @dashboard.name %>
 
-<%= render 'form', dashboard: @dashboard %>
+<%= render 'partials/section-header', content_header: { title: 'Editing Dashboard' } %>
 
-<%= link_to 'Show', @dashboard %> |
-<%= link_to 'Back', dashboards_path %>
+<section class="section-content">
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <%= render 'form', dashboard: @dashboard, nav_btn: { :back => dashboards_path, :show => @dashboard } %>
+    </div>
+  </div>
+
+</section>

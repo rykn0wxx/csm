@@ -1,26 +1,38 @@
-<%= simple_form_for(dashboard, :html => { :class => 'form-inline'}) do |f| %>
-  <%= f.error_notification %>
-
-  <table class="table table-condensed table-hover table-striped">
-    <thead>
-      <tr>
-        <th class="table-id">#</th>
-        <th>Name</th>
-        <th>Position</th>
-        <th>Published</th>
-        <th>Rand</th>
-      </tr>
-    </thead>
-    <tbody class="form-inputs">
-      <%= f.simple_fields_for :pages do |builder| %>
-        <%= render 'page', f: builder %>
-      <% end %>
-    </tbody>
-  </table>
-
-  <div class="form-actions">
-    <%= f.button :submit, :class => 'btn btn-default btn-sm' %>
-    <%= link_to_add_fields "Add Field", f, :pages %>
+<div class="form-panel">
+  <div class="form-panel-header">
+    <h3 class="form-panel-title">New Dashboard</h3>
   </div>
+  <div class="form-panel-body">
+    <%= simple_form_for(dashboard, :wrapper => :horizontal_form) do |f| %>
+      <%= f.error_notification %>
 
-<% end %>
+      <div class="form-inputs">
+        <%= f.association :client %>
+        <%= f.input :name %>
+        <%= f.input :published, :wrapper => :horizontal_boolean %>
+      </div>
+
+      <table class="table table-condensed table-hover table-striped">
+        <thead>
+          <tr>
+            <th class="table-id">#</th>
+            <th>Name</th>
+            <th>Rand</th>
+          </tr>
+        </thead>
+        <tbody class="form-inputs table-inputs">
+          <%= f.simple_fields_for :sections do |builder| %>
+            <%= render 'section', f: builder %>
+          <% end %>
+        </tbody>
+      </table>
+
+      <div class="form-actions">
+        <div class="col-sm-offset-3 col-sm-9">
+          <%= f.button :submit, :class => 'btn btn-default btn-sm' %>
+          <%= link_to_add_fields "Add Field", f, :sections %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

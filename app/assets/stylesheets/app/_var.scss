@@ -8,7 +8,7 @@ $gray:                   #545e6f; // #555
 $gray-light:             #5b6576; // #777
 $gray-lighter:           #636d7e; // #eee
 
-$brand-primary:         #ab8ce4; // #337ab7
+$brand-primary:         #5c6473; //#ab8ce4; // #337ab7
 $brand-success:         #00c292;
 $brand-info:            #03a9f3;
 $brand-warning:         #f0ad4e;
@@ -47,11 +47,11 @@ $list-group-border:             rgba(0, 0, 0, 0.2);
 $panel-inner-border:          rgba(0, 0, 0, 0.2);
 $panel-default-border:        rgba(0, 0, 0, 0.2);
 
-$panel-primary-heading-bg:    rgba(171, 140, 228, 0.4);
-$panel-success-heading-bg:    rgba(0, 194, 146, 0.4);
-$panel-info-heading-bg:       rgba(3, 169, 243, 0.4);
-$panel-warning-heading-bg:    rgba(240, 173, 78, 0.4);
-$panel-danger-heading-bg:     rgba(217, 83, 79, 0.4);
+$panel-primary-heading-bg:    rgba($brand-primary, 0.4);
+$panel-success-heading-bg:    rgba($brand-success, 0.4);
+$panel-info-heading-bg:       rgba($brand-info, 0.4);
+$panel-warning-heading-bg:    rgba($brand-warning, 0.4);
+$panel-danger-heading-bg:     rgba($brand-danger, 0.4);
 $well-border:                 rgba(0, 0, 0, 0.2);
 
 

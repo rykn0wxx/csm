@@ -290,11 +290,13 @@
 
     $.csmApp.nestedAttrHelper = {
       activate: function () {
-        $(document).on('click', '.nested-form form .add_field', function (event) {
+        $(document).on('click', '.form-panel-body form .add_field', function (event) {
           var time = new Date().getTime();
           var regexp = new RegExp($(this).data('id'), 'g');
           var newElem = $($(this).data('fields').replace(regexp, time));
-          $('form .form-inputs').append(newElem);
+          console.log($(this).data('fields').replace(regexp, time));
+          console.log('newElem', newElem.html());
+          $('form .table-inputs').append($(this).data('fields').replace(regexp, time));
           event.preventDefault();
           return false;
         });

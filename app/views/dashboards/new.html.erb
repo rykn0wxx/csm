@@ -1,5 +1,13 @@
 <% title 'New Dashboard' %>
 
-<%= render 'form', dashboard: @dashboard %>
+<%= render 'partials/section-header', content_header: { title: 'Create New Dashboard' } %>
 
-<%= link_to 'Back', dashboards_path %>
+<section class="section-content">
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <%= render 'form', dashboard: @dashboard, nav_btn: { :back => dashboards_path }  %>
+    </div>
+  </div>
+
+</section>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170617204252) do
+ActiveRecord::Schema.define(version: 20170618013559) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -108,6 +108,16 @@ ActiveRecord::Schema.define(version: 20170617204252) do
   create_table "regions_ticket_raws", id: false, force: :cascade do |t|
     t.integer "region_id",     null: false
     t.integer "ticket_raw_id", null: false
+  end
+
+  create_table "sections", force: :cascade do |t|
+    t.integer  "dashboard_id"
+    t.string   "name"
+    t.string   "ancestry"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["ancestry"], name: "index_sections_on_ancestry"
+    t.index ["dashboard_id"], name: "index_sections_on_dashboard_id"
   end
 
   create_table "ticket_raws", force: :cascade do |t|

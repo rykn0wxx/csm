@@ -80,34 +80,6 @@
           }
         }
       }
-      .form-actions {
-        .btn {
-          font-size: 14px;
-          letter-spacing: 0.01em;
-          font-weight: 500;
-          text-transform: uppercase;
-          text-shadow: none !important;
-          background: transparent;
-          border: 0;
-          line-height: 36px;
-        	min-height: 36px;
-        	padding-bottom: 0;
-        	padding-top: 0;
-        	vertical-align: middle;
-        	align-items: center;
-        	display: inline-block;
-          &.btn-default {
-            box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-            background-color: $form-panel-btn-default-bg;
-            color: $form-panel-btn-default-color;
-            &:hover {
-              @include box-shadow(0 3px 6px -1px rgba(0, 0, 0, 0.3));
-              background-color: darken($form-panel-btn-default-bg, 3%);
-              color: #fff;
-            }
-          }
-        }
-      }
     }
   }
   .form-inputs {
@@ -118,6 +90,49 @@
         &.remove_field {
           color: $box-red;
         }
+      }
+    }
+  }
+  .form-actions {
+    .btn {
+      font-size: 14px;
+      letter-spacing: 0.01em;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-shadow: none !important;
+      background: transparent;
+      border: 0;
+      line-height: 36px;
+      min-height: 36px;
+      padding-bottom: 0;
+      padding-top: 0;
+      vertical-align: middle;
+      align-items: center;
+      display: inline-block;
+      &.btn-sm {
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+        min-height: 0;
+      }
+      &.btn-default {
+        @include form-btn-variant($form-panel-btn-default-bg, $form-panel-btn-default-color);
+      }
+      &.btn-primary {
+        @include form-btn-variant($brand-primary, #f2f1ef);
+      }
+      &.btn-success {
+        @include form-btn-variant($brand-success, #f2f1ef);
+      }
+      &.btn-info {
+        @include form-btn-variant($brand-info, #f2f1ef);
+      }
+      &.btn-danger {
+        @include form-btn-variant($brand-danger, #f2f1ef);
+      }
+      &.btn-warning {
+        @include form-btn-variant($brand-warning, #f2f1ef);
       }
     }
   }
