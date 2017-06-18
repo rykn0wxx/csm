@@ -12,5 +12,5 @@
 class Client < ApplicationRecord
   has_many :projects
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: true
 end

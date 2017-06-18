@@ -1,0 +1,24 @@
+<% title "Dashboard" %>
+
+<section class="section-content">
+  <div class="row">
+    <% @dashboards.each do |dashboard| %>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <%= render 'partials/widgets/info-box', model: {text:dashboard.name, show: dashboard_path(dashboard), edit: edit_dashboard_path(dashboard)} %>
+      </div>
+    <% end %>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+
+    </div>
+  </div>
+  <div class="row">
+    <% if !@dashboard.present? %>
+      <%= link_to new_dashboard_path, :class => 'btn btn-sm btn-default btn-icon' do %>
+        <i class="fa fa-list"></i>
+        New Dashboard
+      <% end %>
+    <% end %>
+  </div>
+</section>

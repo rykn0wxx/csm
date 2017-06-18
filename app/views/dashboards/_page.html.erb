@@ -1,0 +1,14 @@
+<tr class="partial-row animatrix fadeIn">
+  <td>
+    <div class="form-group-icon">
+      <%= f.hidden_field :_destroy %>
+      <%= link_to "#", class: "remove_field" do %>
+        <i class="fa fa-times"></i>
+      <% end %>
+    </div>
+  </td>
+  <td><%= f.input :name, label: false, placeholder: 'Name' %></td>
+  <td><%= f.input :position, label: false, placeholder: 'Position' %></td>
+  <td><%= f.input :published %></td>
+  <td><%= f.input :parent_id, label: false, collection: Page.order(:name)  %></td>
+</tr>

@@ -1,0 +1,26 @@
+<%= simple_form_for(dashboard, :html => { :class => 'form-inline'}) do |f| %>
+  <%= f.error_notification %>
+
+  <table class="table table-condensed table-hover table-striped">
+    <thead>
+      <tr>
+        <th class="table-id">#</th>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Published</th>
+        <th>Rand</th>
+      </tr>
+    </thead>
+    <tbody class="form-inputs">
+      <%= f.simple_fields_for :pages do |builder| %>
+        <%= render 'page', f: builder %>
+      <% end %>
+    </tbody>
+  </table>
+
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn btn-default btn-sm' %>
+    <%= link_to_add_fields "Add Field", f, :pages %>
+  </div>
+
+<% end %>

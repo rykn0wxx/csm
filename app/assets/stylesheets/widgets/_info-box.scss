@@ -2,7 +2,7 @@
  * Widgets: Info Box
  * -------------------
  */
- 
+
 .rykn0wxx {
   .info-box {
     margin: 0 0 1em;
@@ -15,7 +15,7 @@
     @include z-border-radius(2px);
     margin-bottom: 10px;
     .info-box-icon {
-      @include z-border-radius-all(2px,0,2px,0);
+      @include z-border-radius-all(2px,0,0,2px);
       display: block;
       float: left;
       height: 90px;
@@ -28,6 +28,7 @@
     .info-box-content {
       padding: 5px 10px;
       margin-left: 90px;
+      height: calc(90px - 30px);
     }
     .info-box-number {
       display: block;
@@ -36,6 +37,28 @@
     }
     .info-box-text {
       text-transform: uppercase;
+    }
+    .info-box-footer {
+      height: 30px;
+      font-size: 12px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: space-around;
+      a {
+        padding: 3px 12px;
+        &:hover {
+          background-color: rgba(158,158,158,0.2);
+        }
+      }
+    }
+    .info-box-icon {
+      @for $i from 1 through length($clist) {
+        &:nth-child(#{$i}) {
+          background-color: nth($clist, $i);
+        }
+      }
     }
   }
 }

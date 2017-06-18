@@ -1,13 +1,20 @@
-<% text = text || "..." %>
-<% icon = icon || nil %>
 <% model = model || "..." %>
 
 <div class="info-box">
   <span class="info-box-icon">
-    <%= show_icon(icon) %>
+    <%= show_icon(model[:icon]) %>
   </span>
   <div class="info-box-content">
-    <span class="info-box-text"><%= text %></span>
-    <%= box_info_number(model) %>
+    <span class="info-box-text"><%= model[:text] %></span>
+    <% if model[:number].present? %>
+      <span class="info-box-number"><%= model[:number] %></span>
+    <% else %>
+      <%= box_info_number(model) if model[:m].present? %>
+    <% end %>
+  </div>
+  <div class="info-box-footer">
+    <%= link_to 'Show', model[:show], :class => 'show-link' %>
+    <%= link_to 'Edit', model[:edit], :class => 'edit-link' %>
+    <%= link_to 'Destroy', model[:show], :class => 'destroy-link', method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
 </div>

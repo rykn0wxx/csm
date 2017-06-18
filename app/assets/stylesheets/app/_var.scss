@@ -1,3 +1,5 @@
+$clist: #f0c5d6,#d1534f,#913737,#f7e3de,#f8c4a1,#f08264,#806648,#e8e5da,#fff3c8,#fee0a1,#a4b593,#dee6c3,#c5db91,#6cb77e,#3f4c3b,#add1c3,#76a693,#377a71,#294743,#d1eff0,#a4dcde,#519c90,#23313d,#daeefa,#86c1e0,#4181a1,#18292d,#d4d4e4,#7c83a8,#1f274d,#10131f,#f0e7ef,#af8bb7,#554475,#645b75,#d6c6b6,#b29e8a,#847364,#464543,#d0d2d9,#9fa1a8,#62636b,#1a1a1a;
+
 $appfont:  'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $gray-base:              #2c313b;
 $gray-darker:            #363d4a; // #222
@@ -81,3 +83,19 @@ $whiteframe-shadow-21dp: 0px 10px 13px -6px rgba(0, 0, 0, $shadow-key-umbra-opac
 $whiteframe-shadow-22dp: 0px 10px 14px -6px rgba(0, 0, 0, $shadow-key-umbra-opacity), 0px 22px 35px 3px rgba(0, 0, 0, $shadow-key-penumbra-opacity), 0px 8px 42px 7px rgba(0, 0, 0, $shadow-ambient-shadow-opacity) !default;
 $whiteframe-shadow-23dp: 0px 11px 14px -7px rgba(0, 0, 0, $shadow-key-umbra-opacity), 0px 23px 36px 3px rgba(0, 0, 0, $shadow-key-penumbra-opacity), 0px 9px 44px 8px rgba(0, 0, 0, $shadow-ambient-shadow-opacity) !default;
 $whiteframe-shadow-24dp: 0px 11px 15px -7px rgba(0, 0, 0, $shadow-key-umbra-opacity), 0px 24px 38px 3px rgba(0, 0, 0, $shadow-key-penumbra-opacity), 0px 9px 46px 8px rgba(0, 0, 0, $shadow-ambient-shadow-opacity) !default;
+
+$panel-title-height: 30px;
+$panel-heading-font-size: 14px;
+
+$border-light: $gray-lighter;
+
+$box-frame-shadow: $whiteframe-shadow-2dp;
+$form-panel-shadow: $whiteframe-shadow-4dp;
+$form-panel-btn-default-bg: #3f4755;
+$form-panel-btn-default-color: rgba(255,255,255,0.8);
+
+$box-red: #D1534F;
+$box-orange: #F08264;
+$box-green: #519C90;
+$box-blue: #4181A1;
+$box-default: darken($gray, 3%);

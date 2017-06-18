@@ -256,7 +256,6 @@
       icons: o.boxWidgetOptions.boxWidgetIcons,
       animationSpeed: o.animationSpeed,
       activate:  function (_box) {
-        console.log('asdasdas');
         var _this = this;
         if (!_box) {
           _box = document;
@@ -288,6 +287,24 @@
         }
       }
     };
+
+    $.csmApp.nestedAttrHelper = {
+      activate: function () {
+        $(document).on('click', '.nested-form form .add_field', function (event) {
+          var time = new Date().getTime();
+          var regexp = new RegExp($(this).data('id'), 'g');
+          var newElem = $($(this).data('fields').replace(regexp, time));
+          $('form .form-inputs').append(newElem);
+          event.preventDefault();
+          return false;
+        });
+        $(document).on('click', '.nested-form form .remove_field', function (event) {
+          $(this).prev('input[type=hidden]').val('1');
+          $(this).closest('tr.partial-row').hide('linear');
+          event.preventDefault()
+        });
+      }
+    }
   }
 
   $.csmApp.init = function () {
@@ -297,6 +314,7 @@
       $.csmApp.segmentEffect.initialize();
     }
     $.csmApp.boxWidget.activate();
+    $.csmApp.nestedAttrHelper.activate();
   };
 
 })(window, document);

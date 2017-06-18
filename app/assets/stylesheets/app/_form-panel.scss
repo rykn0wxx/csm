@@ -1,0 +1,124 @@
+.rykn0wxx {
+  .form-panel {
+    background-color: rgba(0,0,0,.2);
+    border: none;
+    position: relative;
+    margin-bottom: 18px;
+    @include z-border-radius(5px);
+    @include box-shadow($form-panel-shadow);
+    > .form-panel-header {
+      color: rgba(255,255,255,0.7);
+      @include z-border-bottom-radius(0);
+      @extend .clearfix;
+    }
+    .form-panel-footer, .form-panel-header {
+      border-bottom: 1px solid rgba(0,0,0,0.12);
+      height: 44px;
+      font-size: 16px;
+      padding: 14px 22px;
+      @include box-shadow(0 1px 0 0 rgba(255,255,255,.12));
+    }
+    .form-panel-header {
+      @include z-border-top-radius(3px);
+    }
+    .form-panel-title {
+      font-weight: 400;
+      opacity: .9;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom:0;
+    	font-size: 16px;
+    }
+    .form-panel-body {
+      height: calc(100% - 44px);
+      overflow-y: auto;
+    }
+    > .form-panel-body {
+      padding: 15px 22px;
+      @extend .clearfix;
+      .form-inputs {
+        .form-group {
+          .form-control {
+            background: 0 0;
+            border: 0;
+            border-bottom: 1px solid #327ad5;
+            border-radius: 0;
+            box-shadow: none;
+            padding-left: 0;
+            padding-right: 0;
+            outline: 0 !important;
+            &.select {
+              &:focus {
+                background-color: $input-bg;
+              }
+            }
+          }
+          .form-control~.form-control-focus {
+            width: auto;
+            left: 15px;
+            right: 15px;
+            position: absolute;
+            bottom: 0;
+            pointer-events: none;
+            &:after {
+              content: '';
+              position: absolute;
+              z-index: 5;
+              bottom: 0;
+              left: 50%;
+              height: 2px;
+              width: 0;
+              visibility: hidden;
+              transition: .2s ease all;
+            }
+          }
+          .form-control:focus:not([readonly])~.form-control-focus:after {
+            visibility: visible;
+            left: 0;
+            width: 100%;
+            background: #2098D1;
+          }
+        }
+      }
+      .form-actions {
+        .btn {
+          font-size: 14px;
+          letter-spacing: 0.01em;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-shadow: none !important;
+          background: transparent;
+          border: 0;
+          line-height: 36px;
+        	min-height: 36px;
+        	padding-bottom: 0;
+        	padding-top: 0;
+        	vertical-align: middle;
+        	align-items: center;
+        	display: inline-block;
+          &.btn-default {
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+            background-color: $form-panel-btn-default-bg;
+            color: $form-panel-btn-default-color;
+            &:hover {
+              @include box-shadow(0 3px 6px -1px rgba(0, 0, 0, 0.3));
+              background-color: darken($form-panel-btn-default-bg, 3%);
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .form-inputs {
+    .form-group-icon {
+      height: 30px;
+      a {
+        line-height: 30px;
+        &.remove_field {
+          color: $box-red;
+        }
+      }
+    }
+  }
+}

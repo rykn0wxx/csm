@@ -1,0 +1,12 @@
+.animatrix {
+  @include animation-fill-mode(both);
+  @include animation-duration(1s);
+}
+
+.fadeIn {
+  @include animation-name(fadeIn);
+}
+@include keyframes(fadeIn) {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

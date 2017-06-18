@@ -55,4 +55,9 @@ html, body {
 		padding-top: 60px;
   	@extend .clearfix;
   }
+
+	.horizontal-scroll {
+		overflow-x: auto;
+		overflow-y: visible;
+	}
 }

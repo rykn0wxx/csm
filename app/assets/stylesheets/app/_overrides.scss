@@ -1,0 +1,79 @@
+.transition {
+  @include transition(all 0.2s ease-in-out);
+}
+.btn {
+  border-color: rgba(0,0,0,0);
+  text-shadow: none;
+  @include transition(all 0.15s ease-in-out);
+  &:focus, :active {
+    outline: none;
+    border-color: rgba(0,0,0,0);
+  }
+  &:hover {
+    border-color: rgba(0,0,0,0);
+  }
+  &.btn-icon {
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.rykn0wxx {
+  .show-link {
+    @extend .transition;
+    &:hover {
+      color: #009688;
+    }
+  }
+  .edit-link {
+    @extend .transition;
+    &:hover {
+      color: #2196F3;
+    }
+  }
+  .destroy-link {
+    @extend .transition;
+    &:hover {
+      color: #f44336;
+    }
+  }
+}
+
+
+// Panel
+
+.panel {
+  color: $input-color;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 24px;
+  box-shadow: $form-panel-shadow;
+  > .panel-body {
+    padding: 15px 22px;
+    height: 100%;
+  }
+  > .panel-heading {
+    color: $input-color;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  > .panel-footer {
+    color: $input-color;
+  }
+  .panel-heading, .panel-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+    height: $panel-title-height;
+    font-size: $panel-heading-font-size;
+    $vertical-padding: ($panel-title-height - $panel-heading-font-size) / 2;
+    padding: $vertical-padding 22px;
+  }
+  .panel-title {
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+}

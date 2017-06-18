@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170612094332) do
+ActiveRecord::Schema.define(version: 20170617204252) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -59,11 +59,30 @@ ActiveRecord::Schema.define(version: 20170612094332) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "dashboards", force: :cascade do |t|
+    t.integer  "client_id"
+    t.string   "name",       default: "",    null: false
+    t.boolean  "published",  default: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+    t.index ["client_id"], name: "index_dashboards_on_client_id"
+  end
+
   create_table "desks", force: :cascade do |t|
     t.string   "name"
     t.string   "code"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "pages", force: :cascade do |t|
+    t.string   "name",       default: "",    null: false
+    t.integer  "position",                   null: false
+    t.boolean  "published",  default: false
+    t.string   "ancestry"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+    t.index ["ancestry"], name: "index_pages_on_ancestry"
   end
 
   create_table "projects", force: :cascade do |t|

@@ -20,5 +20,5 @@ class Project < ApplicationRecord
   belongs_to :region
   belongs_to :client
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: true
 end

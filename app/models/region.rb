@@ -15,5 +15,7 @@ class Region < ApplicationRecord
   has_and_belongs_to_many :ticket_raws
   has_many :projects
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: true
+  validates :label, presence: true, uniqueness: true
+  validates :code, presence: true, uniqueness: true
 end
